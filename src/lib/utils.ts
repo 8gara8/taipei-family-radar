@@ -4,6 +4,7 @@ import { tz } from "@date-fns/tz";
 import {
   differenceInCalendarDays,
   format,
+  getDay,
   nextWednesday,
   parseISO,
 } from "date-fns";
@@ -55,4 +56,33 @@ export function daysSince(iso: string, now: Date = new Date()): number {
  */
 export function formatNextUpdate(now: Date = new Date()): string {
   return format(nextWednesday(now, { in: tz(TAIPEI) }), "yyyy年M月d日", inTaipei);
+}
+
+/** startDate 是否落在週末（週六或週日）。供「只看週末」篩選用。 */
+export function isWeekend(iso: string): boolean {
+  const day = getDay(parseISO(iso));
+  return day === 0 || day === 6;
+}
+
+export type CityKey = "taipei" | "newTaipei";
+
+/** 城市代碼 → 顯示名稱與 area 前綴。 */
+export const CITY_META: Record<CityKey, { label: string; prefix: string }> = {
+  taipei: { label: "台北市", prefix: "台北市" },
+  newTaipei: { label: "新北市", prefix: "新北市" },
+};
+
+/** 由 area（如「台北市大安區」）拆出城市代碼與行政區（如「大安區」）。 */
+export function parseArea(
+  area?: string,
+): { city?: CityKey; district?: string } {
+  if (!area) return {};
+  for (const key of Object.keys(CITY_META) as CityKey[]) {
+    const { prefix } = CITY_META[key];
+    if (area.startsWith(prefix)) {
+      const district = area.slice(prefix.length).trim();
+      return { city: key, district: district || undefined };
+    }
+  }
+  return {};
 }
