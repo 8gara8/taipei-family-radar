@@ -31,9 +31,19 @@ jobs:
       - name: Run weekly scan
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        # No git tools: the agent only edits the working tree. Committing,
+        # validating, and pushing are done by the controlled steps below, so
+        # the agent cannot push (or commit non-data files) ahead of validation.
         run: |
           claude -p "$(cat prompts/weekly-scan.md)" \
-            --allowedTools "Bash(git*),Bash(pnpm*),Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
+            --allowedTools "Bash(pnpm validate),Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
+
+      - name: Restrict changes to data/
+        # The weekly scan must only touch data/. Discard any other edits the
+        # agent may have made (tracked or untracked) before we validate & push.
+        run: |
+          git checkout -- . ':(exclude)data' 2>/dev/null || true
+          git clean -fd -e data 2>/dev/null || true
 
       - name: Validate data
         run: pnpm validate
@@ -43,5 +53,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
+          # Fail loudly if anything outside data/ somehow got staged.
+          outside=$(git diff --staged --name-only | grep -v '^data/' || true)
+          if [ -n "$outside" ]; then
+            echo "Refusing to push: staged changes outside data/:" >&2
+            echo "$outside" >&2
+            exit 1
+          fi
           git diff --staged --quiet || git commit -m "weekly-scan: $(date +%Y-%m-%d)"
           git push
