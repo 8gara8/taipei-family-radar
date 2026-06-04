@@ -1,6 +1,7 @@
 import { CalendarHeart, Clock, MapPin } from "lucide-react";
 import type { WeeklyDigest } from "@/lib/types";
 import { daysSince, formatFullDate } from "@/lib/utils";
+import { StaleDataBanner } from "@/components/layout/StaleDataBanner";
 
 interface WeekDigestHeaderProps {
   digest?: WeeklyDigest;
@@ -27,18 +28,7 @@ export function WeekDigestHeader({
 
   return (
     <header className="mb-8">
-      {isStale && (
-        <div
-          className="mb-4 rounded-[10px] border px-4 py-2 text-sm"
-          style={{
-            backgroundColor: "color-mix(in srgb, var(--color-warning) 12%, white)",
-            borderColor: "color-mix(in srgb, var(--color-warning) 35%, white)",
-            color: "var(--color-primary-dark)",
-          }}
-        >
-          資料可能未更新（上次更新 {staleDays} 天前）。
-        </div>
-      )}
+      {isStale && <StaleDataBanner days={staleDays!} className="mb-4" />}
 
       <p className="mb-1 text-sm font-semibold text-[var(--color-primary)]">
         本週精選

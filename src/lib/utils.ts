@@ -1,7 +1,12 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 import { tz } from "@date-fns/tz";
-import { differenceInCalendarDays, format, parseISO } from "date-fns";
+import {
+  differenceInCalendarDays,
+  format,
+  nextWednesday,
+  parseISO,
+} from "date-fns";
 import { zhTW } from "date-fns/locale";
 
 // 站點與來源時間皆以台灣為準；在 UTC 伺服器（Vercel）上仍以台北時區呈現，
@@ -32,7 +37,20 @@ export function formatFullDate(iso: string): string {
   return format(parseISO(iso), "yyyy年M月d日", inTaipei);
 }
 
+/** 今天的 "yyyy-MM-dd"（台北時區）。供月曆等以確定值渲染、避免水合不一致。 */
+export function todayISO(now: Date = new Date()): string {
+  return format(now, "yyyy-MM-dd", { in: tz(TAIPEI) });
+}
+
 /** 距今天的天數（以台北時區的日曆日計）。 */
 export function daysSince(iso: string, now: Date = new Date()): number {
   return differenceInCalendarDays(now, parseISO(iso), { in: tz(TAIPEI) });
+}
+
+/**
+ * 下次內容更新日（代理人每週三掃描）。
+ * 若今天就是週三，視為「下週三」，給空狀態一個明確的回訪日期。
+ */
+export function formatNextUpdate(now: Date = new Date()): string {
+  return formatFullDate(format(nextWednesday(now), "yyyy-MM-dd"));
 }
