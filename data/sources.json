@@ -1,0 +1,155 @@
+[
+  {
+    "id": "mofa-offices",
+    "name": "外交部 駐台外國機構名錄",
+    "type": "gov-calendar",
+    "stream": "cultural",
+    "url": "https://www.mofa.gov.tw/OfficesInROC.aspx",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "goethe-taipei",
+    "name": "歌德學院（台北）德國文化中心",
+    "type": "cultural-institute",
+    "stream": "cultural",
+    "url": "https://www.goethe.de/ins/tw/",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "france-taipei",
+    "name": "法國在台協會 / Alliance Française",
+    "type": "cultural-institute",
+    "stream": "cultural",
+    "url": "https://france-taipei.org/",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "ait",
+    "name": "美國在台協會 AIT",
+    "type": "cultural-institute",
+    "stream": "cultural",
+    "url": "https://www.ait.org.tw/",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "partial"
+  },
+  {
+    "id": "japan-exchange",
+    "name": "日本台灣交流協會",
+    "type": "cultural-institute",
+    "stream": "cultural",
+    "url": "https://www.koryu.or.jp/taipei/",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "cksmh",
+    "name": "國立中正紀念堂（表演/其他活動）",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://www.cksmh.gov.tw/",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "culture-event",
+    "name": "全國藝文活動資訊系統",
+    "type": "gov-calendar",
+    "stream": "both",
+    "url": "https://event.culture.tw/",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "yii-cksmh",
+    "name": "小藝行事曆（中正紀念堂）",
+    "type": "aggregator",
+    "stream": "outdoor",
+    "url": "https://yii.tw/taipei/calendar?place=cksmh",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "daan-foundation",
+    "name": "大安森林公園之友基金會（公園好活動）",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://www.daanforestpark.org.tw/",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "tpbusker",
+    "name": "臺北市街頭藝人展演申請平台",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://tpbusker.gov.taipei/",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "opentix",
+    "name": "OPENTIX 兩廳院文化生活（藝文廣場）",
+    "type": "aggregator",
+    "stream": "outdoor",
+    "url": "https://www.opentix.life/",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "huashan",
+    "name": "華山 1914 文創園區",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://www.huashan1914.com/",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "songshan",
+    "name": "松山文創園區",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://www.songshanculturalpark.org/",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "majorevent-taipei",
+    "name": "臺北市大型群聚活動行事曆（市民廣場等）",
+    "type": "gov-calendar",
+    "stream": "both",
+    "url": "https://majorevent.gov.taipei/",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "travel-taipei",
+    "name": "台北旅遊網 活動",
+    "type": "gov-calendar",
+    "stream": "both",
+    "url": "https://www.travel.taipei/zh-tw/event/calendar",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "ntpc-culture",
+    "name": "新北市政府文化局 / 新北旅客活動",
+    "type": "gov-calendar",
+    "stream": "both",
+    "url": "https://www.tourism.ntpc.gov.tw/",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "accupass",
+    "name": "Accupass（親子/戶外）",
+    "type": "aggregator",
+    "stream": "both",
+    "url": "https://www.accupass.com/",
+    "lastScannedAt": "2026-06-04T20:00:00+08:00",
+    "lastStatus": "partial"
+  }
+]
