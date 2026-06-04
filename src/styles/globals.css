@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens（見 SPEC Appendix）。
+ * 透過 Tailwind v4 @theme 定義：既輸出為 :root CSS 變數（可 var() 使用），
+ * 也產生對應 utility（如 bg-surface、text-primary、border-border、rounded-card）。
+ */
+@theme {
+  /* Colors */
+  --color-primary: #1f8a70;
+  --color-primary-dark: #156a55;
+  --color-accent: #f2994a;
+  --color-bg: #fbfaf7;
+  --color-surface: #ffffff;
+  --color-border: #e7e3db;
+  --color-text: #1f2421;
+  --color-text-secondary: #5e6b64;
+  --color-success: #2f9e7e;
+  --color-warning: #e0a100;
+  --color-error: #d1495b;
+  --color-stream-cultural: #3d7dd6; /* 利基 A 文化機構 */
+  --color-stream-outdoor: #e07a5f; /* 利基 B 戶外表演 */
+  --color-agefit-great: #2f9e7e;
+  --color-agefit-ok: #e0a100;
+  --color-agefit-older: #94a39b;
+
+  /* Radius */
+  --radius-card: 12px;
+  --radius-pill: 999px;
+
+  /* Fonts：Latin/數字優先 Inter，中文 fallback 到 Noto Sans TC（由 next/font 注入變數） */
+  --font-sans:
+    var(--font-inter), var(--font-noto-sans-tc), ui-sans-serif, system-ui,
+    -apple-system, "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+
+/*
+ * SPEC 別名（供元件直接以 var(--token) 使用）與間距 token。
+ * 間距 4/8/12/16/24/32 與 Tailwind 預設 spacing 1/2/3/4/6/8 對齊。
+ */
+:root {
+  --stream-cultural: var(--color-stream-cultural);
+  --stream-outdoor: var(--color-stream-outdoor);
+  --agefit-great: var(--color-agefit-great);
+  --agefit-ok: var(--color-agefit-ok);
+  --agefit-older: var(--color-agefit-older);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3 {
+    line-height: 1.3;
+    color: var(--color-text);
+    text-wrap: balance;
+  }
+
+  a {
+    color: inherit;
+  }
+}
