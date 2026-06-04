@@ -1,4 +1,5 @@
 // ISO 週次 (YYYY-Www) 工具與「本週」判定。
+import { tz } from "@date-fns/tz";
 import {
   endOfISOWeek,
   getISOWeek,
@@ -9,10 +10,14 @@ import {
   startOfISOWeek,
 } from "date-fns";
 
-/** Date → "2026-W23"（ISO-8601 週次）。 */
+// 週次以台北時區計算：UTC 伺服器上，台北週一凌晨仍是 UTC 週日，
+// 否則 weekFound 與「本週」判定會差一週。
+const TAIPEI = "Asia/Taipei";
+
+/** Date → "2026-W23"（台北時區的 ISO-8601 週次）。 */
 export function toISOWeek(date: Date): string {
-  const year = getISOWeekYear(date);
-  const week = getISOWeek(date);
+  const year = getISOWeekYear(date, { in: tz(TAIPEI) });
+  const week = getISOWeek(date, { in: tz(TAIPEI) });
   return `${year}-W${String(week).padStart(2, "0")}`;
 }
 
