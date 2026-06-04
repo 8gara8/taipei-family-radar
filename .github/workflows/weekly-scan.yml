@@ -1,0 +1,64 @@
+name: Weekly Scan
+
+on:
+  schedule:
+    - cron: '0 12 * * 3'   # 每週三 12:00 UTC = 台北 20:00
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run weekly scan
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        # No git tools: the agent only edits the working tree. Committing,
+        # validating, and pushing are done by the controlled steps below, so
+        # the agent cannot push (or commit non-data files) ahead of validation.
+        run: |
+          claude -p "$(cat prompts/weekly-scan.md)" \
+            --allowedTools "Bash(pnpm validate),Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
+
+      - name: Restrict changes to data/
+        # The weekly scan must only touch data/. Discard any other edits the
+        # agent may have made (tracked or untracked) before we validate & push.
+        run: |
+          git checkout -- . ':(exclude)data' 2>/dev/null || true
+          git clean -fd -e data 2>/dev/null || true
+
+      - name: Validate data
+        run: pnpm validate
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          # Fail loudly if anything outside data/ somehow got staged.
+          outside=$(git diff --staged --name-only | grep -v '^data/' || true)
+          if [ -n "$outside" ]; then
+            echo "Refusing to push: staged changes outside data/:" >&2
+            echo "$outside" >&2
+            exit 1
+          fi
+          git diff --staged --quiet || git commit -m "weekly-scan: $(date +%Y-%m-%d)"
+          git push
