@@ -1,5 +1,6 @@
 // 讀取 repo 內 data/*.json、計算衍生欄位（status、過期過濾）、提供查詢 helper。
 // 純讀取，build 時靜態載入；無 DB、無 runtime fetch。
+import { tz } from "@date-fns/tz";
 import { differenceInCalendarDays, parseISO } from "date-fns";
 import eventsJson from "../../data/events.json";
 import sourcesJson from "../../data/sources.json";
@@ -14,6 +15,9 @@ const DIGESTS = digestsJson as unknown as WeeklyDigest[];
 // 渲染端保險：逾期超過此天數的活動不顯示（保留月曆回顧 4 週）。
 const STALE_AFTER_DAYS = 28;
 
+// 以台北時區的日曆日判定 upcoming/past 與過期界線（站點為台灣面向、伺服器為 UTC）。
+const TAIPEI = "Asia/Taipei";
+
 const NOW = new Date();
 
 /** 活動的「實際結束日」：endDate 若無則用 startDate。 */
@@ -21,10 +25,16 @@ function effectiveEnd(event: Event): string {
   return event.endDate ?? event.startDate;
 }
 
+/** (endDate ?? startDate) 距今天的台北日曆日數（負值＝未來、0＝今天、正值＝已過）。 */
+function daysPast(event: Event, now: Date = NOW): number {
+  return differenceInCalendarDays(now, parseISO(effectiveEnd(event)), {
+    in: tz(TAIPEI),
+  });
+}
+
 /** 依今日與 (endDate ?? startDate) 計算 status。 */
 function computeStatus(event: Event, now: Date = NOW): EventStatus {
-  const end = parseISO(effectiveEnd(event));
-  return differenceInCalendarDays(now, end) <= 0 ? "upcoming" : "past";
+  return daysPast(event, now) <= 0 ? "upcoming" : "past";
 }
 
 function byStartDateAsc(a: Event, b: Event): number {
@@ -39,10 +49,7 @@ function byStartDateAsc(a: Event, b: Event): number {
  */
 export function getAllEvents(): Event[] {
   return RAW_EVENTS.map((event) => ({ ...event, status: computeStatus(event) }))
-    .filter((event) => {
-      const end = parseISO(effectiveEnd(event));
-      return differenceInCalendarDays(NOW, end) <= STALE_AFTER_DAYS;
-    })
+    .filter((event) => daysPast(event) <= STALE_AFTER_DAYS)
     .sort(byStartDateAsc);
 }
 
@@ -80,7 +87,10 @@ export function getDigestHighlights(digest?: WeeklyDigest): Event[] {
   if (!digest) return [];
   return digest.highlightEventIds
     .map((id) => getEventById(id))
-    .filter((event): event is Event => Boolean(event));
+    .filter(
+      (event): event is Event =>
+        Boolean(event) && event!.status === "upcoming",
+    );
 }
 
 /**
@@ -95,7 +105,12 @@ export function getLastUpdated(): string | undefined {
     ...RAW_EVENTS.map((e) => e.discoveredAt),
   ];
   if (candidates.length === 0) return undefined;
-  return candidates.reduce((max, cur) => (cur > max ? cur : max));
+  // 比較解析後的瞬間，而非字串：來源時間戳可能混用不同 UTC 偏移。
+  const instant = (s: string): number => {
+    const n = Date.parse(s);
+    return Number.isNaN(n) ? -Infinity : n;
+  };
+  return candidates.reduce((max, cur) => (instant(cur) > instant(max) ? cur : max));
 }
 
 export { toISOWeek };

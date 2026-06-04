@@ -21,10 +21,29 @@ export const ageFitSchema = z.enum(["great", "ok", "older"]);
 
 export const eventStatusSchema = z.enum(["upcoming", "past"]);
 
+/**
+ * 確認字串為真實存在的日曆日。
+ * Date.parse 會把 2026-02-31 這類不可能的日期正規化成 3 月而非回傳 NaN，
+ * 因此改以 year/month/day 來回比對，攔掉代理人寫入的錯誤日期。
+ */
+function isRealCalendarDate(s: string): boolean {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s);
+  if (!m) return false;
+  const year = Number(m[1]);
+  const month = Number(m[2]);
+  const day = Number(m[3]);
+  const d = new Date(Date.UTC(year, month - 1, day));
+  return (
+    d.getUTCFullYear() === year &&
+    d.getUTCMonth() === month - 1 &&
+    d.getUTCDate() === day
+  );
+}
+
 const isoDate = z
   .string()
   .regex(/^\d{4}-\d{2}-\d{2}$/, "日期須為 YYYY-MM-DD")
-  .refine((s) => !Number.isNaN(Date.parse(s)), "須為合法日期");
+  .refine(isRealCalendarDate, "須為合法日曆日期（如 2026-02-31 不存在）");
 
 export const eventSchema = z
   .object({
