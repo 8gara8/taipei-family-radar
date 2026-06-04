@@ -13,8 +13,12 @@ export default function CalendarPage() {
   // 預設月份：今天所在月；若當月沒有活動，跳到最近一筆即將到來活動的月份。
   const upcoming = getUpcomingEvents();
   const currentMonth = today.slice(0, 7);
-  const hasEventsThisMonth = events.some((e) =>
-    e.startDate.startsWith(currentMonth),
+  // 跨月活動也算「本月有活動」：start 月 ≤ 本月 ≤ end 月
+  // （CalendarMonth 會在活動橫跨的每一天渲染，含從上個月延續進來的）。
+  const hasEventsThisMonth = events.some(
+    (e) =>
+      e.startDate.slice(0, 7) <= currentMonth &&
+      (e.endDate ?? e.startDate).slice(0, 7) >= currentMonth,
   );
   const initialMonth =
     hasEventsThisMonth || upcoming.length === 0
