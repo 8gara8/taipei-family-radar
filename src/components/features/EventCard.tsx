@@ -26,7 +26,7 @@ const CATEGORY_EMOJI: Record<Category, string> = {
 };
 
 function Thumbnail({ event, size }: { event: Event; size: "sm" | "md" }) {
-  const dim = size === "md" ? "h-20 w-20" : "h-12 w-12";
+  const dim = size === "md" ? "h-16 w-16 sm:h-20 sm:w-20" : "h-12 w-12";
   if (event.imageUrl) {
     return (
       // 來源圖網域不一，避免 next/image remotePatterns 設定，v1 直接用 img。
@@ -92,7 +92,7 @@ export function EventCard({
     <Link href={`/events/${event.id}`} className="group block">
       <article
         className={cn(
-          "relative flex gap-4 overflow-hidden rounded-[var(--radius-card)] border border-[var(--color-border)] bg-[var(--color-surface)] p-4 shadow-sm transition",
+          "relative flex gap-3 overflow-hidden rounded-[var(--radius-card)] border border-[var(--color-border)] bg-[var(--color-surface)] p-3 shadow-sm transition sm:gap-4 sm:p-4",
           "hover:-translate-y-0.5 hover:border-[var(--color-primary)] hover:shadow-md",
           variant === "highlight" && "pl-5",
           className,
