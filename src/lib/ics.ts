@@ -156,17 +156,3 @@ export function generateIcs(params: IcsEventParams): string {
 
   return lines.map(foldLine).join("\r\n");
 }
-
-/** 產生 Blob 並觸發下載；iOS Safari → 行事曆、Android Chrome → Google 日曆。 */
-export function downloadIcs(params: IcsEventParams, filename: string): void {
-  const icsContent = generateIcs(params);
-  const blob = new Blob([icsContent], { type: "text/calendar;charset=utf-8" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = filename;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-}
