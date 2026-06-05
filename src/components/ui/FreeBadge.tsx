@@ -10,10 +10,8 @@ export function FreeBadge({ isFree, priceNote }: FreeBadgeProps) {
   if (isFree) {
     return (
       <Pill
-        style={{
-          backgroundColor: "color-mix(in srgb, var(--color-success) 14%, white)",
-          color: "var(--color-success)",
-        }}
+        className="font-bold"
+        style={{ backgroundColor: "#e6f4ef", color: "var(--color-primary-dark)" }}
       >
         免費
       </Pill>

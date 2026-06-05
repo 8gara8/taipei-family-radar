@@ -3,17 +3,16 @@ import { Skeleton } from "@/components/ui/Skeleton";
 /** 月曆載入骨架。 */
 export default function CalendarLoading() {
   return (
-    <div>
-      <div className="mb-6 space-y-3">
-        <Skeleton className="h-4 w-20" />
-        <Skeleton className="h-9 w-40" />
-        <Skeleton className="h-4 w-full max-w-2xl" />
-      </div>
-      <div className="mb-3 flex items-center justify-between">
+    <div className="px-4 pt-2">
+      <div className="mb-3.5 flex items-center justify-between px-1">
         <Skeleton className="h-7 w-32" />
-        <Skeleton className="h-9 w-24" />
+        <div className="flex gap-2">
+          <Skeleton className="h-8 w-8 rounded-[10px]" />
+          <Skeleton className="h-8 w-8 rounded-[10px]" />
+        </div>
       </div>
-      <Skeleton className="h-[520px] w-full rounded-[var(--radius-card)]" />
+      <Skeleton className="mb-1.5 h-4 w-full" />
+      <Skeleton className="h-[340px] w-full rounded-[12px]" />
     </div>
   );
 }

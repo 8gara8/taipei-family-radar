@@ -26,17 +26,7 @@ export default function CalendarPage() {
       : upcoming[0].startDate.slice(0, 7);
 
   return (
-    <div>
-      <header className="mb-6">
-        <p className="mb-1 text-sm font-semibold text-[var(--color-primary)]">
-          互動月曆
-        </p>
-        <h1 className="text-3xl font-bold sm:text-[32px]">活動月曆</h1>
-        <p className="mt-2 max-w-2xl text-[var(--color-text-secondary)]">
-          所有上雷達的活動依日期分佈，點選有圓點的日期即可查看當天清單。
-        </p>
-      </header>
-
+    <div className="px-4 pt-2">
       {events.length > 0 ? (
         <CalendarMonth
           events={events}
@@ -48,7 +38,7 @@ export default function CalendarPage() {
           title="目前沒有上雷達的活動"
           description="代理人每週更新內容，過幾天再回來看看月曆吧。"
           nextUpdate={formatNextUpdate()}
-          action={{ href: "/", label: "回本週精選" }}
+          action={{ href: "/", label: "回今天" }}
         />
       )}
     </div>

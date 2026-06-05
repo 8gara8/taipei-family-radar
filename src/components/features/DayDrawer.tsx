@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect } from "react";
-import { X } from "lucide-react";
 import type { Event } from "@/lib/types";
 import { formatDate } from "@/lib/utils";
 import { EventCard } from "./EventCard";
@@ -14,10 +13,8 @@ interface DayDrawerProps {
 }
 
 /**
- * 當日活動清單面板。
- * - 桌機：置中對話框。
- * - 手機：底部 drawer（由下滑入）。
- * Esc 或點背景關閉。
+ * 當日活動清單：錨定在手機視窗底部的底部彈出面板（bottom sheet）。
+ * 抓握條 + 日期標題 + 活動數 + 當天活動卡。Esc 或點背景關閉。
  */
 export function DayDrawer({ day, events, onClose }: DayDrawerProps) {
   useEffect(() => {
@@ -39,7 +36,7 @@ export function DayDrawer({ day, events, onClose }: DayDrawerProps) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-end justify-center sm:items-center"
+      className="fixed inset-0 z-50 flex flex-col items-center justify-end"
       role="dialog"
       aria-modal="true"
       aria-label={`${formatDate(day)} 的活動`}
@@ -48,35 +45,33 @@ export function DayDrawer({ day, events, onClose }: DayDrawerProps) {
         type="button"
         aria-label="關閉"
         onClick={onClose}
-        className="absolute inset-0 bg-black/40 backdrop-blur-[1px]"
+        className="animate-fade-in absolute inset-0"
+        style={{ background: "rgba(31,36,33,0.28)" }}
       />
-      <div className="relative flex max-h-[80dvh] w-full flex-col rounded-t-2xl bg-[var(--color-bg)] shadow-xl sm:max-w-lg sm:rounded-2xl">
-        <div className="flex items-center justify-between gap-3 border-b border-[var(--color-border)] px-5 py-3">
-          <div>
-            <p className="text-xs font-semibold text-[var(--color-primary)]">
-              當天活動
-            </p>
-            <h2 className="text-lg font-bold">{formatDate(day)}</h2>
-          </div>
-          <button
-            type="button"
-            onClick={onClose}
-            aria-label="關閉"
-            className="flex h-9 w-9 items-center justify-center rounded-full text-[var(--color-text-secondary)] transition hover:bg-[var(--color-border)]/50 hover:text-[var(--color-text)]"
-          >
-            <X className="h-5 w-5" aria-hidden />
-          </button>
+      <div
+        className="animate-sheet-up relative flex max-h-[78dvh] w-full max-w-[480px] flex-col overflow-hidden rounded-t-[22px] bg-[var(--color-bg)] shadow-[0_-8px_30px_rgba(0,0,0,0.16)]"
+      >
+        <div className="px-[18px] pt-2.5">
+          <div
+            aria-hidden
+            className="mx-auto mb-3.5 h-[5px] w-10 rounded-full bg-[var(--color-border)]"
+          />
+          <h2 className="text-[17px] font-black">{formatDate(day)}</h2>
+          <p className="mt-0.5 mb-3.5 text-[13px] text-[var(--color-text-secondary)]">
+            {events.length} 個活動
+          </p>
         </div>
 
-        <div className="flex-1 overflow-y-auto px-5 py-4">
+        <div
+          className="flex-1 overflow-y-auto px-[18px]"
+          style={{ paddingBottom: "calc(24px + env(safe-area-inset-bottom))" }}
+        >
           {events.length > 0 ? (
-            <ul className="grid gap-2">
+            <div className="grid gap-2.5">
               {events.map((event) => (
-                <li key={event.id}>
-                  <EventCard event={event} variant="compact" />
-                </li>
+                <EventCard key={event.id} event={event} />
               ))}
-            </ul>
+            </div>
           ) : (
             <p className="py-6 text-center text-sm text-[var(--color-text-secondary)]">
               這天沒有上雷達的活動。

@@ -15,6 +15,7 @@
   --color-border: #e7e3db;
   --color-text: #1f2421;
   --color-text-secondary: #5e6b64;
+  --color-soft: #f3efe7; /* 柔色底（tag pill 等） */
   --color-success: #2f9e7e;
   --color-warning: #e0a100;
   --color-error: #d1495b;
@@ -26,6 +27,7 @@
 
   /* Radius */
   --radius-card: 12px;
+  --radius-card-lg: 18px; /* 改版卡片／摘要卡採較柔的 18px 圓角 */
   --radius-pill: 999px;
 
   /* Fonts：Latin/數字優先 Inter，中文 fallback 到 Noto Sans TC（由 next/font 注入變數） */
@@ -77,5 +79,67 @@
 
   a {
     color: inherit;
+  }
+}
+
+/*
+ * 行動優先的 App 外殼與覆蓋層工具。
+ * - .pb-nav：頁面底部留白，避開固定底部導覽（含 iOS 安全區）。
+ * - 底部彈出面板（DayDrawer／FilterSheet）與活動詳情的進場動畫。
+ */
+@layer utilities {
+  .pb-nav {
+    padding-bottom: calc(76px + env(safe-area-inset-bottom));
+  }
+
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .animate-sheet-up {
+    animation: tfr-sheet-up 0.28s cubic-bezier(0.2, 0.7, 0.3, 1);
+  }
+
+  .animate-fade-in {
+    animation: tfr-fade-in 0.2s ease-out;
+  }
+
+  .animate-push-in {
+    animation: tfr-push-in 0.26s cubic-bezier(0.2, 0.7, 0.3, 1);
+  }
+}
+
+@keyframes tfr-sheet-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes tfr-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes tfr-push-in {
+  from {
+    transform: translateX(16px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-sheet-up,
+  .animate-fade-in,
+  .animate-push-in {
+    animation: none;
   }
 }
