@@ -5,7 +5,7 @@
     "type": "gov-calendar",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC.aspx",
-    "lastScannedAt": "2026-06-05T13:30:00+08:00",
+    "lastScannedAt": "2026-06-05T15:55:40+08:00",
     "lastStatus": "partial"
   },
   {
@@ -14,8 +14,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.goethe.de/ins/tw/",
-    "lastScannedAt": "2026-06-05T13:30:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-06-05T15:55:40+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "france-taipei",
@@ -23,7 +23,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://france-taipei.org/",
-    "lastScannedAt": "2026-06-05T13:30:00+08:00",
+    "lastScannedAt": "2026-06-05T15:55:40+08:00",
     "lastStatus": "ok"
   },
   {
@@ -32,7 +32,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.ait.org.tw/",
-    "lastScannedAt": "2026-06-05T13:30:00+08:00",
+    "lastScannedAt": "2026-06-05T15:55:40+08:00",
     "lastStatus": "partial"
   },
   {
@@ -41,8 +41,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.koryu.or.jp/taipei/",
-    "lastScannedAt": "2026-06-05T13:30:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-06-05T15:55:40+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "cksmh",
@@ -167,7 +167,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.canchamtw.com/",
-    "lastScannedAt": "2026-06-05T09:16:47+08:00",
+    "lastScannedAt": "2026-06-05T15:55:40+08:00",
     "lastStatus": "ok"
   },
   {
@@ -212,7 +212,7 @@
     "type": "gov-calendar",
     "stream": "cultural",
     "url": "https://klpas.klcg.gov.tw/",
-    "lastScannedAt": "2026-06-05T13:30:00+08:00",
+    "lastScannedAt": "2026-06-05T15:55:40+08:00",
     "lastStatus": "ok"
   }
 ]
