@@ -97,7 +97,7 @@ function FieldGroup({
 
 /**
  * 全部活動篩選：以「篩選」按鈕（帶啟用數徽章）開啟底部彈出面板。
- * 條件：利基、類型（多選）、適合度、只看免費／週末、城市＋行政區，皆即時套用。
+ * 條件：主題、類型（多選）、適合度、只看免費／週末、城市＋行政區，皆即時套用。
  * 城市與行政區選項由現有事件的 area 動態產生。
  */
 export function FilterBar({
@@ -232,7 +232,7 @@ export function FilterBar({
 
             {/* scrollable groups */}
             <div className="flex-1 space-y-[18px] overflow-y-auto px-5 py-3">
-              <FieldGroup label="利基">
+              <FieldGroup label="主題">
                 <TogglePill
                   active={!value.stream}
                   onClick={() => set({ stream: undefined })}

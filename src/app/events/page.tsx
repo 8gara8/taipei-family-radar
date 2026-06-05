@@ -7,7 +7,7 @@ import { formatNextUpdate } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "全部活動",
   description:
-    "依利基、類型、免費、週末、適合度與行政區，篩選大台北所有上雷達的親子活動。",
+    "依主題、類型、免費、週末、適合度與行政區，篩選台北、新北、基隆所有上雷達的親子活動。",
 };
 
 export default function EventsPage() {
@@ -28,8 +28,8 @@ export default function EventsPage() {
           title="目前沒有即將到來的活動"
           description={
             events.length > 0
-              ? "近期的活動都結束了。代理人每週更新內容，過幾天再回來看看，或到月曆回顧最近的活動。"
-              : "代理人每週更新內容，過幾天再回來看看吧。"
+              ? "近期的活動都結束了。每週自動更新內容，過幾天再回來看看，或到月曆回顧最近的活動。"
+              : "每週自動更新內容，過幾天再回來看看吧。"
           }
           nextUpdate={formatNextUpdate()}
           action={{ href: "/calendar", label: "看月曆" }}

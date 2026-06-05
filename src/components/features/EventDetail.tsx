@@ -119,7 +119,7 @@ export function EventDetail({ event }: EventDetailProps) {
 
           {/* 適合度提醒 */}
           <div className="rounded-[14px] border border-[#f6e2c5] bg-[#fff7ec] p-[13px] text-[13.5px] leading-[1.6] text-[#8a5a1c]">
-            <b>適合 4 歲與 2 歲？</b>
+            <b>帶小小孩適合嗎？</b>
             {event.ageFitReason}
           </div>
 

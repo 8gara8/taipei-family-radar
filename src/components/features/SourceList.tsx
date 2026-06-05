@@ -7,10 +7,10 @@ interface SourceListProps {
 }
 
 const TYPE_LABEL: Record<SourceType, string> = {
-  "gov-calendar": "政府行事曆",
-  "cultural-institute": "文化機構",
-  aggregator: "活動匯整",
-  venue: "場館",
+  "gov-calendar": "政府網站",
+  "cultural-institute": "駐台文化機構",
+  aggregator: "活動平台",
+  venue: "場地",
 };
 
 const STATUS_COLOR: Record<NonNullable<Source["lastStatus"]>, string> = {
@@ -21,17 +21,17 @@ const STATUS_COLOR: Record<NonNullable<Source["lastStatus"]>, string> = {
 
 const STATUS_LABEL: Record<NonNullable<Source["lastStatus"]>, string> = {
   ok: "正常",
-  partial: "部分",
+  partial: "部分資料",
   failed: "失敗",
 };
 
 function streamLabel(stream: Source["stream"]): string {
-  return stream === "both" ? "文化＋戶外" : STREAM_META[stream].short;
+  return stream === "both" ? "綜合" : STREAM_META[stream].short;
 }
 
 /**
  * 掃描來源清單（About 頁）：白底卡片內以分隔線排列各來源。
- * 每列＝狀態色點 ＋ 名稱 ＋「來源類型 · 利基」副標 ＋ 連到原站的 ↗。
+ * 每列＝狀態色點 ＋ 名稱 ＋「來源類型 · 主題」副標 ＋ 連到原站的 ↗。
  */
 export function SourceList({ sources }: SourceListProps) {
   return (
