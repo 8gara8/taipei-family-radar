@@ -1,5 +1,5 @@
 import { CalendarDays, Clock, ExternalLink, MapPin } from "lucide-react";
-import type { Event } from "@/lib/types";
+import type { AgeFit, Event } from "@/lib/types";
 import { formatDateRange } from "@/lib/utils";
 import { AgeFitBadge } from "@/components/ui/AgeFitBadge";
 import { CategoryTag } from "@/components/ui/CategoryTag";
@@ -9,6 +9,13 @@ import { StreamChip } from "@/components/ui/StreamChip";
 interface EventDetailProps {
   event: Event;
 }
+
+/** 適合度對應的主色 CSS 變數（與 AgeFitBadge 一致）：great→綠、ok→琥珀、older→灰。 */
+const AGEFIT_VAR: Record<AgeFit, string> = {
+  great: "var(--agefit-great)",
+  ok: "var(--agefit-ok)",
+  older: "var(--agefit-older)",
+};
 
 /** 由 lat/lng 或地址產生「在 Google 地圖開啟」連結（v1 不嵌入互動地圖）。 */
 function mapsUrl(event: Event): string {
@@ -29,7 +36,6 @@ export function EventDetail({ event }: EventDetailProps) {
       <div className="flex flex-wrap items-center gap-1.5">
         <StreamChip stream={event.stream} />
         <CategoryTag category={event.category} />
-        <AgeFitBadge fit={event.ageFit} reason={event.ageFitReason} />
         <FreeBadge isFree={event.isFree} priceNote={event.priceNote} />
       </div>
 
@@ -39,6 +45,20 @@ export function EventDetail({ event }: EventDetailProps) {
           {event.titleOriginal}
         </p>
       )}
+
+      {/* 親子適合度：標題下方的醒目色塊，徽章＋一句理由。 */}
+      <div
+        className="mt-4 flex items-start gap-3 rounded-[var(--radius-card)] border p-4"
+        style={{
+          backgroundColor: `color-mix(in srgb, ${AGEFIT_VAR[event.ageFit]} 12%, var(--color-surface))`,
+          borderColor: `color-mix(in srgb, ${AGEFIT_VAR[event.ageFit]} 35%, var(--color-border))`,
+        }}
+      >
+        <AgeFitBadge fit={event.ageFit} />
+        <p className="text-sm leading-relaxed text-[var(--color-text)]">
+          {event.ageFitReason}
+        </p>
+      </div>
 
       <dl className="mt-5 grid gap-2 text-[var(--color-text)]">
         <div className="flex items-start gap-2">
@@ -72,17 +92,6 @@ export function EventDetail({ event }: EventDetailProps) {
           </div>
         )}
       </dl>
-
-      <div
-        className="mt-5 rounded-[var(--radius-card)] border p-4 text-sm"
-        style={{
-          backgroundColor:
-            "color-mix(in srgb, var(--color-primary) 6%, var(--color-surface))",
-          borderColor: "var(--color-border)",
-        }}
-      >
-        <p className="font-semibold">親子適合度：{event.ageFitReason}</p>
-      </div>
 
       <p className="mt-5 leading-[1.9] whitespace-pre-line text-[var(--color-text)]">
         {event.summary}

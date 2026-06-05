@@ -19,7 +19,7 @@ const notoSansTC = Noto_Sans_TC({
 
 const SITE_NAME = "台北親子活動雷達";
 const SITE_DESCRIPTION =
-  "為帶 4 歲與 2 歲幼兒的台北家長，每週精選大台北的戶外表演與各國文化機構親子活動。";
+  "台北・新北・基隆的免費親子活動：戶外表演、各國文化節慶、街舞賽事、音樂會、市集";
 
 export const metadata: Metadata = {
   title: {

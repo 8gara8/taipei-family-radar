@@ -64,12 +64,13 @@ export function isWeekend(iso: string): boolean {
   return day === 0 || day === 6;
 }
 
-export type CityKey = "taipei" | "newTaipei";
+export type CityKey = "taipei" | "newTaipei" | "keelung";
 
 /** 城市代碼 → 顯示名稱與 area 前綴。 */
 export const CITY_META: Record<CityKey, { label: string; prefix: string }> = {
   taipei: { label: "台北市", prefix: "台北市" },
   newTaipei: { label: "新北市", prefix: "新北市" },
+  keelung: { label: "基隆市", prefix: "基隆市" },
 };
 
 /** 由 area（如「台北市大安區」）拆出城市代碼與行政區（如「大安區」）。 */

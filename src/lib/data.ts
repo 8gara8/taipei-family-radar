@@ -1,7 +1,13 @@
 // 讀取 repo 內 data/*.json、計算衍生欄位（status、過期過濾）、提供查詢 helper。
 // 純讀取，build 時靜態載入；無 DB、無 runtime fetch。
 import { tz } from "@date-fns/tz";
-import { differenceInCalendarDays, parseISO } from "date-fns";
+import {
+  differenceInCalendarDays,
+  endOfISOWeek,
+  format,
+  parseISO,
+  startOfISOWeek,
+} from "date-fns";
 import eventsJson from "../../data/events.json";
 import sourcesJson from "../../data/sources.json";
 import digestsJson from "../../data/digests.json";
@@ -56,6 +62,27 @@ export function getAllEvents(): Event[] {
 /** 即將到來（含今天與未來）的活動。 */
 export function getUpcomingEvents(): Event[] {
   return getAllEvents().filter((event) => event.status === "upcoming");
+}
+
+/**
+ * 本週（依活動實際日期）正在發生的即將到來活動：
+ * startDate..(endDate ?? startDate) 與本 ISO 週（台北時區，週一～週日）有交集者。
+ * 用於首頁「本週 n 個」計數，方便家長規劃週末。
+ *
+ * 週界以台北時區計算後格式化為 yyyy-MM-dd，再與活動的日期字串比較；
+ * 避免在 UTC 伺服器上以 differenceInCalendarDays 計算造成「週日 23:59 UTC
+ * 已是台北週一」而多算一天。
+ */
+export function getUpcomingEventsThisWeek(now: Date = NOW): Event[] {
+  const weekStart = format(startOfISOWeek(now, { in: tz(TAIPEI) }), "yyyy-MM-dd", {
+    in: tz(TAIPEI),
+  });
+  const weekEnd = format(endOfISOWeek(now, { in: tz(TAIPEI) }), "yyyy-MM-dd", {
+    in: tz(TAIPEI),
+  });
+  return getUpcomingEvents().filter(
+    (event) => effectiveEnd(event) >= weekStart && event.startDate <= weekEnd,
+  );
 }
 
 /** 本週（依 weekFound）新研究到的活動。 */

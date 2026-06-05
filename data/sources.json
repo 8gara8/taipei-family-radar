@@ -180,24 +180,6 @@
     "lastStatus": "ok"
   },
   {
-    "id": "heo-taipei",
-    "name": "臺北市政府工務局水利工程處（河濱戲水區）",
-    "type": "gov-calendar",
-    "stream": "outdoor",
-    "url": "https://heo.gov.taipei/",
-    "lastScannedAt": "2026-06-05T03:27:00+08:00",
-    "lastStatus": "ok"
-  },
-  {
-    "id": "play4u-taipei",
-    "name": "臺北市共融式遊戲場 play4u",
-    "type": "gov-calendar",
-    "stream": "outdoor",
-    "url": "https://play4u.gov.taipei/",
-    "lastScannedAt": "2026-06-05T03:27:00+08:00",
-    "lastStatus": "ok"
-  },
-  {
     "id": "npac-ntch",
     "name": "國家兩廳院（夏日爵士/藝文廣場）",
     "type": "venue",
@@ -231,24 +213,6 @@
     "stream": "cultural",
     "url": "https://klpas.klcg.gov.tw/",
     "lastScannedAt": "2026-06-05T13:30:00+08:00",
-    "lastStatus": "ok"
-  },
-  {
-    "id": "chaojingbay",
-    "name": "基隆潮境海灣節",
-    "type": "gov-calendar",
-    "stream": "outdoor",
-    "url": "https://www.chaojingbay.com.tw/",
-    "lastScannedAt": "2026-06-05T10:02:01+08:00",
-    "lastStatus": "ok"
-  },
-  {
-    "id": "ntpc-dragonboat",
-    "name": "新北市議長盃龍舟錦標賽",
-    "type": "gov-calendar",
-    "stream": "outdoor",
-    "url": "https://www.ntpc-dragonboat.com.tw/",
-    "lastScannedAt": "2026-06-05T10:02:01+08:00",
     "lastStatus": "ok"
   }
 ]
