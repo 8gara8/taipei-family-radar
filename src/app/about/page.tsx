@@ -29,7 +29,7 @@ export default function AboutPage() {
           幼兒的台北家長，每週精選大台北（含新北、基隆）適合幼兒的免費活動。
         </p>
         <p className="mt-2.5 text-[13px] leading-[1.8] text-[var(--color-text-secondary)]">
-          內容由每週執行的研究代理人篩選並更新，每週三晚間重新掃描。
+          內容由 AI 代理人每週自動掃描兩次：週二晚間掃描各國文化機構活動，週四晚間掃描戶外表演與賽事。
         </p>
       </div>
 
@@ -58,8 +58,27 @@ export default function AboutPage() {
             <b className="text-[15px]">利基 B · 戶外表演</b>
           </div>
           <p className="mt-2 text-[13px] leading-[1.7] text-[var(--color-text-secondary)]">
-            中正紀念堂、大安森林公園露天音樂台、兩廳院藝文廣場、華山、松菸、市民廣場等戶外場域。
+            戶外表演、街舞賽事、音樂會、市集、節慶、兒童劇場免費場次。場地涵蓋兩廳院、中正紀念堂、大安公園、華山、河濱公園、基隆潮境等。
           </p>
+        </div>
+      </div>
+
+      {/* 適合度說明 */}
+      <div className="mt-4">
+        <h2 className="text-[18px] font-black mb-2.5">適合度徽章</h2>
+        <div className="grid gap-2">
+          <div className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)] p-3 flex items-start gap-3">
+            <span className="shrink-0 rounded-full px-2.5 py-0.5 text-xs font-bold" style={{backgroundColor:'#e6f4ef',color:'#2f9e7e'}}>👶 很適合</span>
+            <p className="text-[13px] text-[var(--color-text-secondary)]">戶外開放空間、免費、可隨進隨出、幼兒走動吵鬧沒關係、推車友善</p>
+          </div>
+          <div className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)] p-3 flex items-start gap-3">
+            <span className="shrink-0 rounded-full px-2.5 py-0.5 text-xs font-bold" style={{backgroundColor:'#fbf1d8',color:'#b5810a'}}>可考慮</span>
+            <p className="text-[13px] text-[var(--color-text-secondary)]">免費但室內或稍有形式、時間不長、家長陪同下 2-4 歲可參加</p>
+          </div>
+          <div className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)] p-3 flex items-start gap-3">
+            <span className="shrink-0 rounded-full px-2.5 py-0.5 text-xs font-bold" style={{backgroundColor:'#eef0ee',color:'#6f7d75'}}>大小孩</span>
+            <p className="text-[13px] text-[var(--color-text-secondary)]">免費但需久坐安靜、對象學齡以上</p>
+          </div>
         </div>
       </div>
 
