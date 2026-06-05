@@ -3,10 +3,10 @@ import { WeekDigestHeader } from "@/components/features/WeekDigestHeader";
 import { EmptyState } from "@/components/layout/EmptyState";
 import {
   getDigestHighlights,
-  getEventsFoundThisWeek,
   getLastUpdated,
   getLatestDigest,
   getUpcomingEvents,
+  getUpcomingEventsThisWeek,
 } from "@/lib/data";
 import { formatNextUpdate } from "@/lib/utils";
 
@@ -23,7 +23,8 @@ export default function HomePage() {
     <div>
       <WeekDigestHeader
         digest={digest}
-        total={getEventsFoundThisWeek().length}
+        thisWeek={getUpcomingEventsThisWeek().length}
+        total={upcoming.length}
         lastUpdated={lastUpdated}
       />
 

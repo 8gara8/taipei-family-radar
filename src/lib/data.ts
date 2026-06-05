@@ -6,7 +6,7 @@ import eventsJson from "../../data/events.json";
 import sourcesJson from "../../data/sources.json";
 import digestsJson from "../../data/digests.json";
 import type { Event, EventStatus, Source, WeeklyDigest } from "./types";
-import { currentISOWeek, toISOWeek } from "./week";
+import { currentISOWeek, toISOWeek, weekRange } from "./week";
 
 const RAW_EVENTS = eventsJson as unknown as Event[];
 const SOURCES = sourcesJson as unknown as Source[];
@@ -56,6 +56,23 @@ export function getAllEvents(): Event[] {
 /** 即將到來（含今天與未來）的活動。 */
 export function getUpcomingEvents(): Event[] {
   return getAllEvents().filter((event) => event.status === "upcoming");
+}
+
+/**
+ * 本週（依活動實際日期）正在發生的即將到來活動：
+ * startDate..(endDate ?? startDate) 與本 ISO 週（週一～週日）有交集者。
+ * 用於首頁「本週 n 個」計數，方便家長規劃週末。
+ */
+export function getUpcomingEventsThisWeek(now: Date = NOW): Event[] {
+  const { start, end } = weekRange(currentISOWeek(now));
+  const weekStart = differenceInCalendarDays(start, now, { in: tz(TAIPEI) });
+  const weekEnd = differenceInCalendarDays(end, now, { in: tz(TAIPEI) });
+  return getUpcomingEvents().filter((event) => {
+    // 以「距今天數」比較：活動起日（負值=未來）落在本週區間，或活動跨入本週。
+    const startOffset = -daysPast({ ...event, endDate: undefined }, now);
+    const endOffset = -daysPast(event, now);
+    return endOffset >= weekStart && startOffset <= weekEnd;
+  });
 }
 
 /** 本週（依 weekFound）新研究到的活動。 */

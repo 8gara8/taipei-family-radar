@@ -32,11 +32,11 @@ export default async function EventDetailPage({
   return (
     <article className="mx-auto max-w-3xl">
       <Link
-        href="/"
+        href="/events"
         className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--color-primary)] hover:underline"
       >
         <ArrowLeft className="h-4 w-4" aria-hidden />
-        回本週精選
+        返回活動列表
       </Link>
 
       <div className="mt-4">

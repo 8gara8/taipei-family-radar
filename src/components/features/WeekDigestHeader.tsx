@@ -5,6 +5,9 @@ import { StaleDataBanner } from "@/components/layout/StaleDataBanner";
 
 interface WeekDigestHeaderProps {
   digest?: WeeklyDigest;
+  /** 本週（依日期）正在發生的活動數。 */
+  thisWeek: number;
+  /** 所有即將到來的活動數。 */
   total: number;
   lastUpdated?: string;
 }
@@ -15,6 +18,7 @@ interface WeekDigestHeaderProps {
  */
 export function WeekDigestHeader({
   digest,
+  thisWeek,
   total,
   lastUpdated,
 }: WeekDigestHeaderProps) {
@@ -47,13 +51,14 @@ export function WeekDigestHeader({
         <div className="flex items-center gap-1.5">
           <MapPin className="h-4 w-4" aria-hidden />
           <dt className="sr-only">地理範圍</dt>
-          <dd>大台北（台北市・新北市）</dd>
+          <dd>台北・新北・基隆</dd>
         </div>
         <div className="flex items-center gap-1.5">
           <CalendarHeart className="h-4 w-4" aria-hidden />
-          <dt className="sr-only">本週活動數</dt>
+          <dt className="sr-only">活動數</dt>
           <dd>
-            本週 <span className="font-semibold text-[var(--color-text)]">{total}</span> 個適合活動
+            本週 <span className="font-semibold text-[var(--color-text)]">{thisWeek}</span> 個
+            ／共 <span className="font-semibold text-[var(--color-text)]">{total}</span> 個活動
           </dd>
         </div>
         {lastUpdated && (
