@@ -59,7 +59,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://event.culture.tw/",
-    "lastScannedAt": "2026-06-05T03:27:00+08:00",
+    "lastScannedAt": "2026-06-05T09:28:44+08:00",
     "lastStatus": "partial"
   },
   {
@@ -131,7 +131,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.travel.taipei/zh-tw/event/calendar",
-    "lastScannedAt": "2026-06-05T09:16:47+08:00",
+    "lastScannedAt": "2026-06-05T09:28:44+08:00",
     "lastStatus": "ok"
   },
   {
@@ -149,8 +149,8 @@
     "type": "aggregator",
     "stream": "both",
     "url": "https://www.accupass.com/",
-    "lastScannedAt": "2026-06-05T03:27:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-06-05T09:28:44+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "tpac",
@@ -158,8 +158,8 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://tpac.org.taipei/festival-tcaf",
-    "lastScannedAt": "2026-06-05T08:20:15+08:00",
-    "lastStatus": "partial"
+    "lastScannedAt": "2026-06-05T09:28:44+08:00",
+    "lastStatus": "ok"
   },
   {
     "id": "ccct-canada",
@@ -176,7 +176,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.taiwan.net.tw/",
-    "lastScannedAt": "2026-06-05T08:20:15+08:00",
+    "lastScannedAt": "2026-06-05T09:28:44+08:00",
     "lastStatus": "ok"
   },
   {
@@ -203,7 +203,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://npac-ntch.org/",
-    "lastScannedAt": "2026-06-05T08:20:15+08:00",
+    "lastScannedAt": "2026-06-05T09:28:44+08:00",
     "lastStatus": "ok"
   },
   {
@@ -214,5 +214,14 @@
     "url": "https://cultureexpress.taipei/",
     "lastScannedAt": "2026-06-05T08:20:15+08:00",
     "lastStatus": "partial"
+  },
+  {
+    "id": "ntpc-youth",
+    "name": "新北市政府青年局",
+    "type": "gov-calendar",
+    "stream": "outdoor",
+    "url": "https://www.youth.ntpc.gov.tw/",
+    "lastScannedAt": "2026-06-05T09:28:44+08:00",
+    "lastStatus": "ok"
   }
 ]
