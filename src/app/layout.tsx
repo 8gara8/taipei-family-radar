@@ -21,7 +21,7 @@ const notoSansTC = Noto_Sans_TC({
 
 const SITE_NAME = "台北親子活動雷達";
 const SITE_DESCRIPTION =
-  "台北・新北・基隆的免費親子活動：戶外表演、各國文化節慶、街舞賽事、音樂會、市集";
+  "台北・新北・基隆的免費親子活動：音樂會、表演、市集、文化節慶、生態導覽，每週自動更新。";
 
 export const metadata: Metadata = {
   title: {

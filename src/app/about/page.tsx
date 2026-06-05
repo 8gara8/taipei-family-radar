@@ -8,7 +8,7 @@ import { daysSince, formatFullDate } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "關於與來源",
   description:
-    "台北親子活動雷達如何運作：每週由 AI 代理人掃描台北、新北、基隆的各國文化機構與戶外表演場地，篩出免費且適合幼兒的活動。附掃描來源清單與最後更新狀態。",
+    "台北親子活動雷達的資料來源與更新方式。AI 每週掃描 25+ 個來源，篩出適合帶幼兒參加的免費活動。",
 };
 
 export default function AboutPage() {
@@ -24,16 +24,14 @@ export default function AboutPage() {
       {/* 介紹卡 */}
       <div className="rounded-[var(--radius-card-lg)] border border-[var(--color-border)] bg-[linear-gradient(180deg,#ffffff,#fdfbf6)] p-4">
         <p className="text-sm leading-[1.8] text-[var(--color-text)]">
-          一個自動更新的「台北親子活動雷達」，為帶{" "}
-          <b>4 歲與 2 歲</b>
-          幼兒的台北家長，每週精選大台北（含新北、基隆）適合幼兒的免費活動。
+          自動更新的免費親子活動指南，為帶幼兒的台北家庭，每週精選台北、新北、基隆適合小小孩的免費活動。
         </p>
         <p className="mt-2.5 text-[13px] leading-[1.8] text-[var(--color-text-secondary)]">
-          內容由 AI 代理人每週自動掃描兩次：週二晚間掃描各國文化機構活動，週四晚間掃描戶外表演與賽事。
+          AI 每週自動掃描兩次：週二查各國文化機構活動，週四查戶外表演與賽事。
         </p>
       </div>
 
-      {/* 兩條利基 */}
+      {/* 兩條主題 */}
       <div className="mt-4 grid gap-2.5">
         <div className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)] p-4">
           <div className="flex items-center gap-2">
@@ -42,7 +40,7 @@ export default function AboutPage() {
               className="h-2.5 w-2.5 rounded-full"
               style={{ backgroundColor: STREAM_META.cultural.color }}
             />
-            <b className="text-[15px]">利基 A · 文化機構</b>
+            <b className="text-[15px]">文化機構活動</b>
           </div>
           <p className="mt-2 text-[13px] leading-[1.7] text-[var(--color-text-secondary)]">
             各國駐台文化／代表機構的節慶與文化活動（歌德學院、法國在台協會、加拿大商會…）。
@@ -55,10 +53,10 @@ export default function AboutPage() {
               className="h-2.5 w-2.5 rounded-full"
               style={{ backgroundColor: STREAM_META.outdoor.color }}
             />
-            <b className="text-[15px]">利基 B · 戶外表演</b>
+            <b className="text-[15px]">戶外表演與體驗</b>
           </div>
           <p className="mt-2 text-[13px] leading-[1.7] text-[var(--color-text-secondary)]">
-            戶外表演、街舞賽事、音樂會、市集、節慶、兒童劇場免費場次。場地涵蓋兩廳院、中正紀念堂、大安公園、華山、河濱公園、基隆潮境等。
+            戶外表演、音樂會、街舞賽、市集、兒童劇場、生態導覽等。場地涵蓋兩廳院、大安公園、華山、河濱公園、基隆潮境等。
           </p>
         </div>
       </div>
@@ -84,7 +82,7 @@ export default function AboutPage() {
 
       {/* 掃描來源 */}
       <div className="mt-6 mb-3 flex items-center">
-        <h2 className="text-[18px] font-black">每週掃描來源</h2>
+        <h2 className="text-[18px] font-black">資料來源</h2>
         <span className="ml-auto text-[12.5px] font-bold text-[var(--color-text-secondary)]">
           {sources.length} 個來源
         </span>
@@ -99,7 +97,7 @@ export default function AboutPage() {
         {lastUpdated && (
           <>
             <br />
-            最後更新 {formatFullDate(lastUpdated)}
+            資料更新 {formatFullDate(lastUpdated)}
           </>
         )}
       </p>

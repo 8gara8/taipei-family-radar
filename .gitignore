@@ -4,6 +4,10 @@
 .pnp.*
 .yarn/*
 
+# non-pnpm lockfiles (this repo uses pnpm)
+package-lock.json
+yarn.lock
+
 # testing
 /coverage
 

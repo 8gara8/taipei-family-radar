@@ -36,7 +36,7 @@ export default function CalendarPage() {
       ) : (
         <EmptyState
           title="目前沒有上雷達的活動"
-          description="代理人每週更新內容，過幾天再回來看看月曆吧。"
+          description="每週自動更新內容，過幾天再回來看看月曆吧。"
           nextUpdate={formatNextUpdate()}
           action={{ href: "/", label: "回今天" }}
         />

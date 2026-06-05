@@ -1,11 +1,9 @@
 import type { WeeklyDigest } from "@/lib/types";
-import { daysSince } from "@/lib/utils";
+import { daysSince, formatFullDate } from "@/lib/utils";
 import { StaleDataBanner } from "@/components/layout/StaleDataBanner";
 
 interface WeekDigestHeaderProps {
   digest?: WeeklyDigest;
-  /** 本週（依日期）正在發生的活動數。 */
-  thisWeek: number;
   /** 所有即將到來的活動數。 */
   total: number;
   lastUpdated?: string;
@@ -18,12 +16,11 @@ function weekNumber(weekOf?: string): number | null {
 }
 
 /**
- * 「今天 / 本週精選」頁首：眉標（本週精選 · 第 N 週）＋大標題＋柔色漸層摘要卡，
- * 卡內為本週 intro 與地點／活動數的統計列。資料過期（>8 天）時於上方掛提示條。
+ * 首頁頁首：眉標（近期推薦 · 第 N 週）＋大標題＋柔色漸層摘要卡，
+ * 卡內為本週 intro 與地點／活動數／資料更新的統計列。資料過期（>8 天）時於上方掛提示條。
  */
 export function WeekDigestHeader({
   digest,
-  thisWeek,
   total,
   lastUpdated,
 }: WeekDigestHeaderProps) {
@@ -41,7 +38,7 @@ export function WeekDigestHeader({
       {isStale && <StaleDataBanner days={staleDays!} className="mb-3" />}
 
       <p className="text-[13px] font-extrabold tracking-[0.3px] text-[var(--color-primary)]">
-        本週精選{weekNo !== null ? ` · 第 ${weekNo} 週` : ""}
+        近期推薦{weekNo !== null ? ` · 第 ${weekNo} 週` : ""}
       </p>
       <h1 className="mt-1 text-[27px] leading-[1.18] font-black tracking-[-0.5px]">
         台北親子活動雷達
@@ -56,18 +53,18 @@ export function WeekDigestHeader({
           </div>
         ) : (
           <p className="text-[13.5px] leading-[1.75] text-[var(--color-text-secondary)]">
-            本週精選正在整理中，過幾天再回來看看吧。
+            近期推薦正在整理中，過幾天再回來看看吧。
           </p>
         )}
 
         <div className="mt-3 flex flex-wrap items-center gap-x-3.5 gap-y-1.5 text-[12.5px] font-semibold text-[var(--color-text-secondary)]">
           <span>📍 台北・新北・基隆</span>
           <span>
-            🗓️ 本週{" "}
-            <b className="font-extrabold text-[var(--color-text)]">{thisWeek}</b>{" "}
-            ／ 共{" "}
-            <b className="font-extrabold text-[var(--color-text)]">{total}</b> 個
+            🗓️ 共{" "}
+            <b className="font-extrabold text-[var(--color-text)]">{total}</b>{" "}
+            個免費活動
           </span>
+          {lastUpdated && <span>🔄 {formatFullDate(lastUpdated)} 更新</span>}
         </div>
       </div>
     </header>

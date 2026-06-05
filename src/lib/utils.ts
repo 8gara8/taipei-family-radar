@@ -5,7 +5,8 @@ import {
   differenceInCalendarDays,
   format,
   getDay,
-  nextWednesday,
+  nextThursday,
+  nextTuesday,
   parseISO,
 } from "date-fns";
 import { zhTW } from "date-fns/locale";
@@ -49,13 +50,15 @@ export function daysSince(iso: string, now: Date = new Date()): number {
 }
 
 /**
- * 下次內容更新日（代理人每週三掃描）。
- * 若今天就是週三，視為「下週三」，給空狀態一個明確的回訪日期。
- * 以台北時區判定星期：UTC 伺服器在「台北已週三、UTC 仍週二」的時段，
- * 才不會把今天誤算成下次更新日。
+ * 下次內容更新日（每週二、四自動掃描）。
+ * 取下個週二與下個週四中較早者；若今天就是週二或週四，各自視為「下一個」，
+ * 給空狀態一個明確的回訪日期。以台北時區判定星期，避免 UTC 伺服器在跨日時段誤算。
  */
 export function formatNextUpdate(now: Date = new Date()): string {
-  return format(nextWednesday(now, { in: tz(TAIPEI) }), "yyyy年M月d日", inTaipei);
+  const tuesday = nextTuesday(now, { in: tz(TAIPEI) });
+  const thursday = nextThursday(now, { in: tz(TAIPEI) });
+  const next = tuesday < thursday ? tuesday : thursday;
+  return format(next, "yyyy年M月d日", inTaipei);
 }
 
 /** startDate 是否落在週末（週六或週日）。供「只看週末」篩選用。 */

@@ -6,7 +6,6 @@ import {
   getLastUpdated,
   getLatestDigest,
   getUpcomingEvents,
-  getUpcomingEventsThisWeek,
 } from "@/lib/data";
 import { formatNextUpdate } from "@/lib/utils";
 
@@ -23,7 +22,6 @@ export default function HomePage() {
     <div className="px-[18px] pt-2">
       <WeekDigestHeader
         digest={digest}
-        thisWeek={getUpcomingEventsThisWeek().length}
         total={upcoming.length}
         lastUpdated={lastUpdated}
       />
@@ -32,7 +30,7 @@ export default function HomePage() {
         <EmptyState
           className="mt-6"
           title="目前沒有即將到來的活動"
-          description="本週暫時沒有掃描到適合幼兒的活動。代理人每週更新內容，過幾天再回來看看吧。"
+          description="目前暫時沒有掃描到適合幼兒的活動。每週自動更新內容，過幾天再回來看看吧。"
           nextUpdate={formatNextUpdate()}
           action={{ href: "/calendar", label: "看月曆" }}
         />
@@ -40,7 +38,7 @@ export default function HomePage() {
         <>
           {highlights.length > 0 && (
             <section className="mt-6">
-              <h2 className="mb-3 text-[18px] font-black">⭐ 本週首推</h2>
+              <h2 className="mb-3 text-[18px] font-black">⭐ 近期推薦</h2>
               <div className="grid gap-2.5">
                 {highlights.map((event) => (
                   <EventCard key={event.id} event={event} variant="highlight" />
@@ -51,7 +49,7 @@ export default function HomePage() {
 
           <section className="mt-7">
             <h2 className="mb-3 text-[18px] font-black">
-              {highlights.length > 0 ? "其他即將到來" : "即將到來"}
+              {highlights.length > 0 ? "更多好活動" : "即將到來"}
             </h2>
             {rest.length > 0 ? (
               <div className="grid gap-2.5">
@@ -61,12 +59,16 @@ export default function HomePage() {
               </div>
             ) : (
               <p className="rounded-[var(--radius-card-lg)] border border-dashed border-[var(--color-border)] bg-[var(--color-surface)] p-6 text-center text-sm text-[var(--color-text-secondary)]">
-                本週暫無其他適合的活動，過幾天再回來看看吧。
+                目前暫無其他適合的活動，過幾天再回來看看吧。
               </p>
             )}
           </section>
         </>
       )}
+
+      <p className="mt-8 text-center text-[11.5px] leading-[1.7] text-[var(--color-text-secondary)]">
+        親子活動雷達 · 每週二、四自動更新 · 以主辦單位公告為準
+      </p>
     </div>
   );
 }
