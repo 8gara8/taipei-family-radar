@@ -5,6 +5,7 @@ import { formatDateRange } from "@/lib/utils";
 import { AgeFitBadge } from "@/components/ui/AgeFitBadge";
 import { FreeBadge } from "@/components/ui/FreeBadge";
 import { StreamDot } from "@/components/ui/StreamDot";
+import { AddToCalendarButton } from "@/components/ui/AddToCalendarButton";
 import { BackButton } from "./BackButton";
 
 interface EventDetailProps {
@@ -111,6 +112,10 @@ export function EventDetail({ event }: EventDetailProps) {
               </dd>
             </div>
           </dl>
+
+          <div className="mb-4">
+            <AddToCalendarButton event={event} />
+          </div>
 
           {/* 適合度提醒 */}
           <div className="rounded-[14px] border border-[#f6e2c5] bg-[#fff7ec] p-[13px] text-[13.5px] leading-[1.6] text-[#8a5a1c]">
