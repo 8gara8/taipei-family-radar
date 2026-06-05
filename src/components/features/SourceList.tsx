@@ -1,96 +1,78 @@
-import { CheckCircle2, CircleSlash, ExternalLink, MinusCircle } from "lucide-react";
 import type { Source, SourceType } from "@/lib/types";
-import { Pill } from "@/components/ui/Pill";
-import { formatFullDate } from "@/lib/utils";
+import { STREAM_META } from "@/lib/stream";
+import { cn } from "@/lib/utils";
 
 interface SourceListProps {
   sources: Source[];
 }
 
 const TYPE_LABEL: Record<SourceType, string> = {
-  "gov-calendar": "官方行事曆",
-  "cultural-institute": "文化／代表機構",
-  aggregator: "活動匯整平台",
-  venue: "場館／場地",
+  "gov-calendar": "政府行事曆",
+  "cultural-institute": "文化機構",
+  aggregator: "活動匯整",
+  venue: "場館",
 };
 
-const STREAM_LABEL: Record<Source["stream"], string> = {
-  cultural: "文化機構",
-  outdoor: "戶外表演",
-  both: "文化＋戶外",
+const STATUS_COLOR: Record<NonNullable<Source["lastStatus"]>, string> = {
+  ok: "var(--color-success)",
+  partial: "var(--color-warning)",
+  failed: "var(--color-error)",
 };
 
-const STATUS_META: Record<
-  NonNullable<Source["lastStatus"]>,
-  { label: string; color: string; Icon: typeof CheckCircle2 }
-> = {
-  ok: { label: "正常", color: "var(--color-success)", Icon: CheckCircle2 },
-  partial: { label: "部分", color: "var(--color-warning)", Icon: MinusCircle },
-  failed: { label: "失敗", color: "var(--color-error)", Icon: CircleSlash },
+const STATUS_LABEL: Record<NonNullable<Source["lastStatus"]>, string> = {
+  ok: "正常",
+  partial: "部分",
+  failed: "失敗",
 };
 
-function StatusBadge({ status }: { status?: Source["lastStatus"] }) {
-  if (!status) {
-    return (
-      <span className="text-xs text-[var(--color-text-secondary)]">尚未掃描</span>
-    );
-  }
-  const { label, color, Icon } = STATUS_META[status];
-  return (
-    <span
-      className="inline-flex items-center gap-1 text-xs font-medium"
-      style={{ color }}
-    >
-      <Icon className="h-3.5 w-3.5" aria-hidden />
-      {label}
-    </span>
-  );
+function streamLabel(stream: Source["stream"]): string {
+  return stream === "both" ? "文化＋戶外" : STREAM_META[stream].short;
 }
 
 /**
- * 掃描來源清單（About 頁）。
- * 列出每筆來源的名稱、類型、利基、最後掃描時間與狀態，名稱連到原始網站。
+ * 掃描來源清單（About 頁）：白底卡片內以分隔線排列各來源。
+ * 每列＝狀態色點 ＋ 名稱 ＋「來源類型 · 利基」副標 ＋ 連到原站的 ↗。
  */
 export function SourceList({ sources }: SourceListProps) {
   return (
-    <ul className="grid gap-3 sm:grid-cols-2">
-      {sources.map((source) => (
-        <li
+    <div className="overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)]">
+      {sources.map((source, i) => (
+        <a
           key={source.id}
-          className="flex flex-col gap-2 rounded-[var(--radius-card)] border border-[var(--color-border)] bg-[var(--color-surface)] p-4"
+          href={source.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={cn(
+            "group flex items-center gap-3 px-3.5 py-3 transition hover:bg-[color-mix(in_srgb,var(--color-primary)_5%,transparent)]",
+            i > 0 && "border-t border-[var(--color-border)]",
+          )}
         >
-          <div className="flex items-start justify-between gap-2">
-            <a
-              href={source.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-start gap-1 font-semibold transition-colors hover:text-[var(--color-primary)]"
-            >
-              <span>{source.name}</span>
-              <ExternalLink
-                className="mt-1 h-3.5 w-3.5 shrink-0 text-[var(--color-text-secondary)] transition-colors group-hover:text-[var(--color-primary)]"
-                aria-hidden
-              />
-            </a>
-            <StatusBadge status={source.lastStatus} />
+          <span
+            aria-hidden
+            title={source.lastStatus ? STATUS_LABEL[source.lastStatus] : "尚未掃描"}
+            className="h-2 w-2 shrink-0 rounded-full"
+            style={{
+              backgroundColor: source.lastStatus
+                ? STATUS_COLOR[source.lastStatus]
+                : "#c7c1b6",
+            }}
+          />
+          <div className="min-w-0 flex-1">
+            <p className="truncate text-[13.5px] font-bold text-[var(--color-text)]">
+              {source.name}
+            </p>
+            <p className="mt-0.5 text-[11.5px] text-[var(--color-text-secondary)]">
+              {TYPE_LABEL[source.type]} · {streamLabel(source.stream)}
+            </p>
           </div>
-
-          <div className="flex flex-wrap items-center gap-1.5">
-            <Pill className="bg-[color-mix(in_srgb,var(--color-border)_45%,white)] text-[var(--color-text-secondary)]">
-              {TYPE_LABEL[source.type]}
-            </Pill>
-            <Pill className="bg-[color-mix(in_srgb,var(--color-border)_45%,white)] text-[var(--color-text-secondary)]">
-              {STREAM_LABEL[source.stream]}
-            </Pill>
-          </div>
-
-          <p className="text-xs text-[var(--color-text-secondary)]">
-            {source.lastScannedAt
-              ? `最後掃描：${formatFullDate(source.lastScannedAt)}`
-              : "尚未掃描"}
-          </p>
-        </li>
+          <span
+            aria-hidden
+            className="text-base text-[#c7c1b6] transition-colors group-hover:text-[var(--color-primary)]"
+          >
+            ↗
+          </span>
+        </a>
       ))}
-    </ul>
+    </div>
   );
 }

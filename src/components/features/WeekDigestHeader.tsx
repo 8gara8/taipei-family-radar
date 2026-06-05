@@ -1,6 +1,5 @@
-import { CalendarHeart, Clock, MapPin } from "lucide-react";
 import type { WeeklyDigest } from "@/lib/types";
-import { daysSince, formatFullDate } from "@/lib/utils";
+import { daysSince } from "@/lib/utils";
 import { StaleDataBanner } from "@/components/layout/StaleDataBanner";
 
 interface WeekDigestHeaderProps {
@@ -12,9 +11,15 @@ interface WeekDigestHeaderProps {
   lastUpdated?: string;
 }
 
+/** 由 "2026-W23" 取出週序數（23）。 */
+function weekNumber(weekOf?: string): number | null {
+  const m = weekOf?.match(/W(\d{1,2})/);
+  return m ? Number(m[1]) : null;
+}
+
 /**
- * 「本週精選」頁首：本週摘要 intro、活動數、最後更新時間。
- * lastUpdated 距今 > 8 天時於上方掛淡琥珀提示條（StaleDataBanner 完整版見 Phase 2）。
+ * 「今天 / 本週精選」頁首：眉標（本週精選 · 第 N 週）＋大標題＋柔色漸層摘要卡，
+ * 卡內為本週 intro 與地點／活動數的統計列。資料過期（>8 天）時於上方掛提示條。
  */
 export function WeekDigestHeader({
   digest,
@@ -24,6 +29,7 @@ export function WeekDigestHeader({
 }: WeekDigestHeaderProps) {
   const staleDays = lastUpdated ? daysSince(lastUpdated) : null;
   const isStale = staleDays !== null && staleDays > 8;
+  const weekNo = weekNumber(digest?.weekOf);
 
   // intro 為 Markdown，v1 以段落簡單呈現。
   const paragraphs = digest?.intro
@@ -31,44 +37,39 @@ export function WeekDigestHeader({
     : [];
 
   return (
-    <header className="mb-8">
-      {isStale && <StaleDataBanner days={staleDays!} className="mb-4" />}
+    <header>
+      {isStale && <StaleDataBanner days={staleDays!} className="mb-3" />}
 
-      <p className="mb-1 text-sm font-semibold text-[var(--color-primary)]">
-        本週精選
+      <p className="text-[13px] font-extrabold tracking-[0.3px] text-[var(--color-primary)]">
+        本週精選{weekNo !== null ? ` · 第 ${weekNo} 週` : ""}
       </p>
-      <h1 className="text-3xl font-bold sm:text-[32px]">台北親子活動雷達</h1>
+      <h1 className="mt-1 text-[27px] leading-[1.18] font-black tracking-[-0.5px]">
+        台北親子活動雷達
+      </h1>
 
-      {paragraphs.length > 0 && (
-        <div className="mt-3 max-w-3xl space-y-2 text-[var(--color-text-secondary)]">
-          {paragraphs.map((p, i) => (
-            <p key={i}>{p}</p>
-          ))}
-        </div>
-      )}
-
-      <dl className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-[var(--color-text-secondary)]">
-        <div className="flex items-center gap-1.5">
-          <MapPin className="h-4 w-4" aria-hidden />
-          <dt className="sr-only">地理範圍</dt>
-          <dd>台北・新北・基隆</dd>
-        </div>
-        <div className="flex items-center gap-1.5">
-          <CalendarHeart className="h-4 w-4" aria-hidden />
-          <dt className="sr-only">活動數</dt>
-          <dd>
-            本週 <span className="font-semibold text-[var(--color-text)]">{thisWeek}</span> 個
-            ／共 <span className="font-semibold text-[var(--color-text)]">{total}</span> 個活動
-          </dd>
-        </div>
-        {lastUpdated && (
-          <div className="flex items-center gap-1.5">
-            <Clock className="h-4 w-4" aria-hidden />
-            <dt className="sr-only">最後更新</dt>
-            <dd>最後更新 {formatFullDate(lastUpdated)}</dd>
+      <div className="mt-3 rounded-[var(--radius-card-lg)] border border-[var(--color-border)] bg-[linear-gradient(180deg,#ffffff,#fdfbf6)] p-[15px]">
+        {paragraphs.length > 0 ? (
+          <div className="space-y-2 text-[13.5px] leading-[1.75] text-[var(--color-text-secondary)]">
+            {paragraphs.map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
           </div>
+        ) : (
+          <p className="text-[13.5px] leading-[1.75] text-[var(--color-text-secondary)]">
+            本週精選正在整理中，過幾天再回來看看吧。
+          </p>
         )}
-      </dl>
+
+        <div className="mt-3 flex flex-wrap items-center gap-x-3.5 gap-y-1.5 text-[12.5px] font-semibold text-[var(--color-text-secondary)]">
+          <span>📍 台北・新北・基隆</span>
+          <span>
+            🗓️ 本週{" "}
+            <b className="font-extrabold text-[var(--color-text)]">{thisWeek}</b>{" "}
+            ／ 共{" "}
+            <b className="font-extrabold text-[var(--color-text)]">{total}</b> 個
+          </span>
+        </div>
+      </div>
     </header>
   );
 }

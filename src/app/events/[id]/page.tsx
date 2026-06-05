@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
 import { EventDetail } from "@/components/features/EventDetail";
 import { getAllEvents, getEventById } from "@/lib/data";
 
@@ -29,19 +27,5 @@ export default async function EventDetailPage({
   const event = getEventById(id);
   if (!event) notFound();
 
-  return (
-    <article className="mx-auto max-w-3xl">
-      <Link
-        href="/events"
-        className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--color-primary)] hover:underline"
-      >
-        <ArrowLeft className="h-4 w-4" aria-hidden />
-        返回活動列表
-      </Link>
-
-      <div className="mt-4">
-        <EventDetail event={event} />
-      </div>
-    </article>
-  );
+  return <EventDetail event={event} />;
 }

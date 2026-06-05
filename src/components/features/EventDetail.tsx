@@ -1,21 +1,15 @@
-import { CalendarDays, Clock, ExternalLink, MapPin } from "lucide-react";
-import type { AgeFit, Event } from "@/lib/types";
+import { ExternalLink } from "lucide-react";
+import type { Event } from "@/lib/types";
+import { CATEGORY_META } from "@/lib/category";
 import { formatDateRange } from "@/lib/utils";
 import { AgeFitBadge } from "@/components/ui/AgeFitBadge";
-import { CategoryTag } from "@/components/ui/CategoryTag";
 import { FreeBadge } from "@/components/ui/FreeBadge";
-import { StreamChip } from "@/components/ui/StreamChip";
+import { StreamDot } from "@/components/ui/StreamDot";
+import { BackButton } from "./BackButton";
 
 interface EventDetailProps {
   event: Event;
 }
-
-/** 適合度對應的主色 CSS 變數（與 AgeFitBadge 一致）：great→綠、ok→琥珀、older→灰。 */
-const AGEFIT_VAR: Record<AgeFit, string> = {
-  great: "var(--agefit-great)",
-  ok: "var(--agefit-ok)",
-  older: "var(--agefit-older)",
-};
 
 /** 由 lat/lng 或地址產生「在 Google 地圖開啟」連結（v1 不嵌入互動地圖）。 */
 function mapsUrl(event: Event): string {
@@ -27,106 +21,133 @@ function mapsUrl(event: Event): string {
 }
 
 /**
- * 活動詳情主體：標籤列、標題、場地/日期/時間、適合度理由、
- * summary、tags 與來源／報名／地圖連結。
+ * 活動詳情：全螢幕推入視圖。
+ * 類型色頁頭（emoji 佔位／來源圖）＋返回鈕、徽章列、資訊格、適合度提醒、
+ * 簡介、標籤，底部固定「查看原始出處」CTA（有報名連結則加次要按鈕）。
  */
 export function EventDetail({ event }: EventDetailProps) {
+  const { tint, emoji } = CATEGORY_META[event.category];
+
   return (
-    <>
-      <div className="flex flex-wrap items-center gap-1.5">
-        <StreamChip stream={event.stream} />
-        <CategoryTag category={event.category} />
-        <FreeBadge isFree={event.isFree} priceNote={event.priceNote} />
-      </div>
-
-      <h1 className="mt-3 text-3xl font-bold">{event.title}</h1>
-      {event.titleOriginal && (
-        <p className="mt-1 text-[var(--color-text-secondary)] italic">
-          {event.titleOriginal}
-        </p>
-      )}
-
-      {/* 親子適合度：標題下方的醒目色塊，徽章＋一句理由。 */}
-      <div
-        className="mt-4 flex items-start gap-3 rounded-[var(--radius-card)] border p-4"
-        style={{
-          backgroundColor: `color-mix(in srgb, ${AGEFIT_VAR[event.ageFit]} 12%, var(--color-surface))`,
-          borderColor: `color-mix(in srgb, ${AGEFIT_VAR[event.ageFit]} 35%, var(--color-border))`,
-        }}
-      >
-        <AgeFitBadge fit={event.ageFit} />
-        <p className="text-sm leading-relaxed text-[var(--color-text)]">
-          {event.ageFitReason}
-        </p>
-      </div>
-
-      <dl className="mt-5 grid gap-2 text-[var(--color-text)]">
-        <div className="flex items-start gap-2">
-          <MapPin
-            className="mt-0.5 h-4 w-4 shrink-0 text-[var(--color-text-secondary)]"
-            aria-hidden
-          />
-          <dd>
-            <span className="font-medium">{event.venue}</span>
-            {event.address && (
-              <span className="text-[var(--color-text-secondary)]">
-                　{event.address}
-              </span>
-            )}
-          </dd>
-        </div>
-        <div className="flex items-center gap-2">
-          <CalendarDays
-            className="h-4 w-4 shrink-0 text-[var(--color-text-secondary)]"
-            aria-hidden
-          />
-          <dd>{formatDateRange(event.startDate, event.endDate)}</dd>
-        </div>
-        {event.startTime && (
-          <div className="flex items-center gap-2">
-            <Clock
-              className="h-4 w-4 shrink-0 text-[var(--color-text-secondary)]"
-              aria-hidden
-            />
-            <dd>{event.startTime}</dd>
-          </div>
-        )}
-      </dl>
-
-      <p className="mt-5 leading-[1.9] whitespace-pre-line text-[var(--color-text)]">
-        {event.summary}
-      </p>
-
-      {event.tags && event.tags.length > 0 && (
-        <ul className="mt-4 flex flex-wrap gap-2">
-          {event.tags.map((tag) => (
-            <li
-              key={tag}
-              className="rounded-[var(--radius-pill)] bg-[color-mix(in_srgb,var(--color-border)_45%,white)] px-2.5 py-0.5 text-xs text-[var(--color-text-secondary)]"
-            >
-              #{tag}
-            </li>
-          ))}
-        </ul>
-      )}
-
-      <div className="mt-6 flex flex-wrap gap-3">
-        <a
-          href={mapsUrl(event)}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 rounded-[10px] border border-[var(--color-border)] bg-[var(--color-surface)] px-4 py-2 text-sm font-medium transition hover:border-[var(--color-primary)]"
+    <article className="animate-push-in fixed inset-0 z-50 mx-auto flex max-w-[480px] flex-col bg-[var(--color-bg)]">
+      <div className="flex-1 overflow-y-auto">
+        {/* 類型色頁頭 */}
+        <div
+          className="relative flex h-[190px] items-center justify-center"
+          style={{ background: tint }}
         >
-          <MapPin className="h-4 w-4" aria-hidden />
-          在 Google 地圖開啟
-        </a>
+          <BackButton />
+          {event.imageUrl ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={event.imageUrl}
+              alt=""
+              className="h-full w-full object-cover"
+            />
+          ) : (
+            <>
+              <span aria-hidden className="text-[76px]">
+                {emoji}
+              </span>
+              <span className="absolute right-3.5 bottom-3 font-mono text-[11px] text-[rgba(31,36,33,0.45)]">
+                category placeholder
+              </span>
+            </>
+          )}
+        </div>
+
+        {/* 內文 */}
+        <div className="px-5 pt-4 pb-7">
+          <div className="flex flex-wrap items-center gap-2">
+            <StreamDot stream={event.stream} />
+            <AgeFitBadge fit={event.ageFit} />
+            <FreeBadge isFree={event.isFree} priceNote={event.priceNote} />
+          </div>
+
+          <h1 className="mt-2.5 text-[22px] leading-[1.3] font-black">
+            {event.title}
+          </h1>
+          {event.titleOriginal && (
+            <p className="mt-0.5 text-[13px] text-[var(--color-text-secondary)] italic">
+              {event.titleOriginal}
+            </p>
+          )}
+
+          <dl className="my-4 grid gap-2.5 text-sm text-[var(--color-text)]">
+            <div className="flex gap-2.5">
+              <span aria-hidden>📍</span>
+              <dd className="min-w-0">
+                <a
+                  href={mapsUrl(event)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold underline-offset-2 transition-colors hover:text-[var(--color-primary)] hover:underline"
+                >
+                  {event.venue}
+                </a>
+                {event.area && (
+                  <span className="ml-1.5 text-[var(--color-text-secondary)]">
+                    {event.area}
+                  </span>
+                )}
+                {event.address && (
+                  <span className="mt-0.5 block text-[13px] font-normal text-[var(--color-text-secondary)]">
+                    {event.address}
+                  </span>
+                )}
+              </dd>
+            </div>
+            <div className="flex gap-2.5">
+              <span aria-hidden>🗓️</span>
+              <dd className="font-bold">
+                {formatDateRange(event.startDate, event.endDate)}
+                {event.startTime ? ` · ${event.startTime}` : ""}
+              </dd>
+            </div>
+            <div className="flex gap-2.5">
+              <span aria-hidden>🎟️</span>
+              <dd className="font-bold">
+                {event.isFree ? "免費" : (event.priceNote ?? "需購票")}
+              </dd>
+            </div>
+          </dl>
+
+          {/* 適合度提醒 */}
+          <div className="rounded-[14px] border border-[#f6e2c5] bg-[#fff7ec] p-[13px] text-[13.5px] leading-[1.6] text-[#8a5a1c]">
+            <b>適合 4 歲與 2 歲？</b>
+            {event.ageFitReason}
+          </div>
+
+          <p className="mt-4 text-[14.5px] leading-[1.85] whitespace-pre-line text-[var(--color-text)]">
+            {event.summary}
+          </p>
+
+          {event.tags && event.tags.length > 0 && (
+            <ul className="mt-3.5 flex flex-wrap gap-[7px]">
+              {event.tags.map((tag) => (
+                <li
+                  key={tag}
+                  className="rounded-[var(--radius-pill)] bg-[var(--color-soft)] px-2.5 py-1 text-xs text-[var(--color-text-secondary)]"
+                >
+                  #{tag}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </div>
+
+      {/* 固定底部 CTA */}
+      <div
+        className="shrink-0 space-y-2.5 border-t border-[var(--color-border)] bg-[color-mix(in_srgb,var(--color-surface)_92%,transparent)] px-5 pt-3 backdrop-blur"
+        style={{ paddingBottom: "calc(20px + env(safe-area-inset-bottom))" }}
+      >
         {event.registrationUrl && (
           <a
             href={event.registrationUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 rounded-[10px] px-4 py-2 text-sm font-medium text-white transition"
-            style={{ backgroundColor: "var(--color-primary)" }}
+            className="flex w-full items-center justify-center gap-1.5 rounded-[14px] border border-[var(--color-border)] bg-[var(--color-surface)] py-3.5 text-[15px] font-extrabold text-[var(--color-text)] transition hover:border-[var(--color-primary)]"
           >
             前往報名
             <ExternalLink className="h-4 w-4" aria-hidden />
@@ -136,12 +157,13 @@ export function EventDetail({ event }: EventDetailProps) {
           href={event.sourceUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 px-1 py-2 text-sm font-medium text-[var(--color-primary)] hover:underline"
+          className="flex w-full items-center justify-center gap-1.5 rounded-[14px] py-3.5 text-[15.5px] font-extrabold text-white"
+          style={{ backgroundColor: "var(--color-primary)" }}
         >
-          來源：{event.sourceName}
+          查看原始出處
           <ExternalLink className="h-4 w-4" aria-hidden />
         </a>
       </div>
-    </>
+    </article>
   );
 }
