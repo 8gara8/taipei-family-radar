@@ -2,19 +2,17 @@
 
 import { useRouter } from "next/navigation";
 import { ChevronLeft } from "lucide-react";
+import { canGoBackInApp } from "@/lib/nav-history";
 
 /**
- * 活動詳情頭部的返回鈕（左上圓形）。有瀏覽歷史時返回上一頁，
- * 否則（深連結／直接開啟）回到全部活動列表。
+ * 活動詳情頭部的返回鈕（左上圓形）。發生過站內導覽時返回上一頁，
+ * 否則（深連結／外部開啟／直接輸入網址）回到全部活動列表，避免離開 App。
  */
 export function BackButton() {
   const router = useRouter();
   const onClick = () => {
-    if (typeof window !== "undefined" && window.history.length > 1) {
-      router.back();
-    } else {
-      router.push("/events");
-    }
+    if (canGoBackInApp()) router.back();
+    else router.push("/events");
   };
   return (
     <button

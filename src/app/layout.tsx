@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Noto_Sans_TC } from "next/font/google";
 import { AppHeader } from "@/components/layout/AppHeader";
 import { BottomNav } from "@/components/layout/BottomNav";
+import { NavHistoryTracker } from "@/components/layout/NavHistoryTracker";
 import "@/styles/globals.css";
 
 // Latin/數字用 Inter；中文用 Noto Sans TC（CJK 字檔大，preload 關閉、不需指定 subset）。
@@ -59,6 +60,7 @@ export default function RootLayout({
       className={`${inter.variable} ${notoSansTC.variable}`}
     >
       <body className="min-h-dvh">
+        <NavHistoryTracker />
         {/* 行動優先的 App 外殼：置中的手機寬欄，桌機以左右細線界定。 */}
         <div className="relative mx-auto flex min-h-dvh max-w-[480px] flex-col bg-[var(--color-bg)] sm:border-x sm:border-[var(--color-border)]">
           <AppHeader />

@@ -11,6 +11,15 @@ interface EventDetailProps {
   event: Event;
 }
 
+/** 由 lat/lng 或地址產生「在 Google 地圖開啟」連結（v1 不嵌入互動地圖）。 */
+function mapsUrl(event: Event): string {
+  const query =
+    event.lat != null && event.lng != null
+      ? `${event.lat},${event.lng}`
+      : (event.address ?? event.venue);
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
 /**
  * 活動詳情：全螢幕推入視圖。
  * 類型色頁頭（emoji 佔位／來源圖）＋返回鈕、徽章列、資訊格、適合度提醒、
@@ -67,11 +76,23 @@ export function EventDetail({ event }: EventDetailProps) {
           <dl className="my-4 grid gap-2.5 text-sm text-[var(--color-text)]">
             <div className="flex gap-2.5">
               <span aria-hidden>📍</span>
-              <dd>
-                <span className="font-bold">{event.venue}</span>
+              <dd className="min-w-0">
+                <a
+                  href={mapsUrl(event)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold underline-offset-2 transition-colors hover:text-[var(--color-primary)] hover:underline"
+                >
+                  {event.venue}
+                </a>
                 {event.area && (
                   <span className="ml-1.5 text-[var(--color-text-secondary)]">
                     {event.area}
+                  </span>
+                )}
+                {event.address && (
+                  <span className="mt-0.5 block text-[13px] font-normal text-[var(--color-text-secondary)]">
+                    {event.address}
                   </span>
                 )}
               </dd>
