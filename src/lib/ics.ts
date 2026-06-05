@@ -156,38 +156,3 @@ export function generateIcs(params: IcsEventParams): string {
 
   return lines.map(foldLine).join("\r\n");
 }
-
-/** 觸發「加入行事曆」；iOS Safari → data URI、Android/桌面 → Blob 下載。 */
-export function downloadIcs(params: IcsEventParams, filename: string): void {
-  const icsContent = generateIcs(params);
-
-  // iOS Safari 會忽略 blob URL 上的 a.download，需改用 data URI。
-  // iPadOS 在「顯示桌面版網站」下 UA 變成 Macintosh，故以 maxTouchPoints 補判。
-  const ua = typeof navigator !== "undefined" ? navigator.userAgent : "";
-  const isIOS =
-    /iPad|iPhone|iPod/.test(ua) ||
-    (typeof navigator !== "undefined" &&
-      navigator.maxTouchPoints > 0 &&
-      /Macintosh/.test(ua));
-
-  if (isIOS) {
-    // data:text/calendar 會被 Safari 攔截並開啟原生「加入行事曆」對話框；
-    // encodeURIComponent 確保中文與特殊字元正確編碼。
-    const dataUri =
-      "data:text/calendar;charset=utf-8," + encodeURIComponent(icsContent);
-    window.open(dataUri);
-  } else {
-    // Android Chrome / 桌面瀏覽器：標準 Blob 下載。
-    const blob = new Blob([icsContent], {
-      type: "text/calendar;charset=utf-8",
-    });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-  }
-}
