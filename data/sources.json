@@ -131,7 +131,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.travel.taipei/zh-tw/event/calendar",
-    "lastScannedAt": "2026-06-05T10:02:01+08:00",
+    "lastScannedAt": "2026-06-05T22:35:46+08:00",
     "lastStatus": "ok"
   },
   {
@@ -158,8 +158,8 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://tpac.org.taipei/festival-tcaf",
-    "lastScannedAt": "2026-06-05T10:02:01+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-06-05T22:35:46+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "ccct-canada",
@@ -176,7 +176,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.taiwan.net.tw/",
-    "lastScannedAt": "2026-06-05T09:28:44+08:00",
+    "lastScannedAt": "2026-06-05T22:35:46+08:00",
     "lastStatus": "ok"
   },
   {
@@ -185,7 +185,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://npac-ntch.org/",
-    "lastScannedAt": "2026-06-05T10:02:01+08:00",
+    "lastScannedAt": "2026-06-05T22:35:46+08:00",
     "lastStatus": "ok"
   },
   {
@@ -222,6 +222,42 @@
     "stream": "cultural",
     "url": "https://tpml.gov.taipei/",
     "lastScannedAt": "2026-06-05T16:50:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "tmc-musiccenter",
+    "name": "臺北流行音樂中心",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://www.musiccenter.taipei/",
+    "lastScannedAt": "2026-06-05T22:35:46+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "clab",
+    "name": "臺灣當代文化實驗場 C-LAB",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://clab.org.tw/",
+    "lastScannedAt": "2026-06-05T22:35:46+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "ntpc-river-ocean-fest",
+    "name": "河海音樂季（新北市政府）",
+    "type": "gov-calendar",
+    "stream": "outdoor",
+    "url": "https://www.facebook.com/r.o.music.fest/",
+    "lastScannedAt": "2026-06-05T22:35:46+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "klcg-news",
+    "name": "基隆市政府",
+    "type": "gov-calendar",
+    "stream": "both",
+    "url": "https://www.klcg.gov.tw/tw/klcg1/3168.html",
+    "lastScannedAt": "2026-06-05T22:35:46+08:00",
     "lastStatus": "ok"
   }
 ]

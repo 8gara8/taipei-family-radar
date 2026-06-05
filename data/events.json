@@ -1,5 +1,34 @@
 [
   {
+    "id": "musiccenter-nonstop-semifinal-2026-06-06",
+    "title": "2026台北音樂不斷電 複賽（信義香堤大道）",
+    "stream": "outdoor",
+    "category": "music",
+    "organizer": "臺北市政府文化局、臺北流行音樂中心",
+    "venue": "信義香堤大道廣場",
+    "address": "台北市信義區松壽路（新光三越信義新天地旁）",
+    "area": "台北市信義區",
+    "startDate": "2026-06-06",
+    "endDate": "2026-06-07",
+    "isFree": true,
+    "priceNote": "免費入場",
+    "ageFit": "ok",
+    "ageFitReason": "露天廣場自由進出，樂團輪番上陣較熱鬧，幼兒聽一兩組就能轉戰旁邊百貨休息。",
+    "summary": "台北市原創音樂大賽「台北音樂不斷電」複賽，6/6、6/7兩天在信義香堤大道廣場接力開唱，20組新生代樂團輪番演出。露天廣場免費入場、自由走動，逛街途中就能帶孩子近距離感受live band的鼓聲與吉他。",
+    "sourceName": "臺北流行音樂中心",
+    "sourceUrl": "https://city.gvm.com.tw/article/130625",
+    "tags": [
+      "戶外",
+      "音樂",
+      "樂團",
+      "免費",
+      "信義區"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-05T22:35:46+08:00",
+    "weekFound": "2026-W23"
+  },
+  {
     "id": "chaojingbay-keelung-sailing-2026-06-07",
     "title": "台琉國際帆船賽首站「基隆國際帆船賽」岸上觀賽",
     "stream": "outdoor",
@@ -28,6 +57,35 @@
     "weekFound": "2026-W23"
   },
   {
+    "id": "rivocean-indie-award-30-2026-06-12",
+    "title": "新北河海音樂季「海洋獨立音樂大賞」30強賽（永和仁愛公園）",
+    "stream": "outdoor",
+    "category": "competition",
+    "organizer": "新北市政府（2026新北市河海音樂季）",
+    "venue": "永和仁愛公園",
+    "address": "新北市永和區仁愛路244巷",
+    "area": "新北市永和區",
+    "startDate": "2026-06-12",
+    "endDate": "2026-06-14",
+    "isFree": true,
+    "priceNote": "免費入場",
+    "ageFit": "ok",
+    "ageFitReason": "公園綠地聽團自由進出，旁邊就有遊戲場；樂團賽事音量較大，幼兒坐外圍即可。",
+    "summary": "2026新北市河海音樂季揭幕戰：30組獨立樂團連續三天在永和仁愛公園競演，爭奪登上貢寮決賽舞台的門票。免費入場，公園綠地鋪墊就坐，聽累了帶孩子去旁邊遊戲場玩。",
+    "sourceName": "河海音樂季（新北市政府）",
+    "sourceUrl": "https://city.gvm.com.tw/article/130625",
+    "tags": [
+      "戶外",
+      "音樂",
+      "競賽",
+      "免費",
+      "公園"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-05T22:35:46+08:00",
+    "weekFound": "2026-W23"
+  },
+  {
     "id": "klpas-dongxin-concert-2026-06-12",
     "title": "東信藝起飛──孩子的舞台夢 聯合音樂會",
     "stream": "cultural",
@@ -52,6 +110,35 @@
     ],
     "status": "upcoming",
     "discoveredAt": "2026-06-05T13:30:00+08:00",
+    "weekFound": "2026-W23"
+  },
+  {
+    "id": "clab-music-oasis-bubble-2026-06-13",
+    "title": "音樂綠洲：這夏在冒泡（泡泡互動×音樂×市集）",
+    "stream": "outdoor",
+    "category": "festival",
+    "organizer": "臺灣當代文化實驗場 C-LAB",
+    "venue": "臺灣當代文化實驗場（C-LAB）戶外草地",
+    "address": "台北市大安區建國南路一段177號",
+    "area": "台北市大安區",
+    "startDate": "2026-06-13",
+    "startTime": "13:00",
+    "isFree": true,
+    "priceNote": "免費入場",
+    "ageFit": "great",
+    "ageFitReason": "知名泡泡大師現場互動，滿天泡泡對2歲、4歲就是魔法，草地追泡泡放電剛好。",
+    "summary": "C-LAB草地上的夏日午後派對，13:00到18:30有樂團演出與手作市集，更請來知名泡泡品牌Uncle Bubble與泡泡社團帶互動體驗。孩子追著滿場飛的泡泡跑，爸媽在旁聽音樂逛市集，一場活動全家都顧到。",
+    "sourceName": "臺灣當代文化實驗場 C-LAB",
+    "sourceUrl": "https://city.gvm.com.tw/article/130625",
+    "tags": [
+      "戶外",
+      "音樂",
+      "泡泡",
+      "市集",
+      "免費"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-05T22:35:46+08:00",
     "weekFound": "2026-W23"
   },
   {
@@ -136,6 +223,34 @@
     ],
     "status": "upcoming",
     "discoveredAt": "2026-06-04T12:00:00+08:00",
+    "weekFound": "2026-W23"
+  },
+  {
+    "id": "klcg-capoo-chaojing-expo-2026-06-15",
+    "title": "潮生態暨潮漁村互動展（咖波充氣裝置×AR任務）",
+    "stream": "outdoor",
+    "category": "exhibition",
+    "organizer": "基隆市政府產業發展處（2026基隆潮境海灣節暖身）",
+    "venue": "潮境公園",
+    "address": "基隆市中正區北寧路369巷",
+    "area": "基隆市中正區",
+    "startDate": "2026-06-15",
+    "isFree": true,
+    "priceNote": "免費參觀（完成任務可兌換限量禮品）",
+    "ageFit": "great",
+    "ageFitReason": "巨大貓貓蟲咖波充氣裝置超萌，AR互動任務簡單，潮境草坪與潮間帶可順遊。",
+    "summary": "潮境海灣節暖身活動6/15起在潮境公園登場：大型人氣IP「貓貓蟲咖波」充氣裝置進駐，結合AR擴增實境互動，完成指定任務可兌換限量禮品。看完咖波再帶孩子逛草坪、看潮間帶小螃蟹，一路玩到8/15潮音樂壓軸。",
+    "sourceName": "基隆市政府",
+    "sourceUrl": "https://www.klcg.gov.tw/tw/klcg1/3168-317126.html",
+    "tags": [
+      "戶外",
+      "展覽",
+      "IP裝置",
+      "免費",
+      "基隆"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-05T22:35:46+08:00",
     "weekFound": "2026-W23"
   },
   {
@@ -290,6 +405,35 @@
     ],
     "status": "upcoming",
     "discoveredAt": "2026-06-04T12:00:00+08:00",
+    "weekFound": "2026-W23"
+  },
+  {
+    "id": "rivocean-bali-2026-06-27",
+    "title": "2026新北市河海音樂季 八里場",
+    "stream": "outdoor",
+    "category": "music",
+    "organizer": "新北市政府",
+    "venue": "新北市永續環境教育中心前草皮（八里左岸）",
+    "address": "新北市八里區博物館路與觀海大道一帶",
+    "area": "新北市八里區",
+    "startDate": "2026-06-27",
+    "endDate": "2026-06-28",
+    "isFree": true,
+    "priceNote": "免費入場",
+    "ageFit": "great",
+    "ageFitReason": "河岸大草皮鋪野餐墊聽音樂，八里左岸有沙坑與自行車道，白天玩沙傍晚聽團。",
+    "summary": "河海音樂季首站正式登場，6/27-28在八里左岸草皮免費開唱。下午先帶孩子玩八里沙雕沙坑、騎親子自行車，傍晚就地野餐聽音樂看淡水河夕陽，動靜皆宜的一日行程。",
+    "sourceName": "河海音樂季（新北市政府）",
+    "sourceUrl": "https://city.gvm.com.tw/article/130625",
+    "tags": [
+      "戶外",
+      "音樂",
+      "免費",
+      "河濱",
+      "野餐"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-05T22:35:46+08:00",
     "weekFound": "2026-W23"
   },
   {
@@ -468,6 +612,35 @@
     "weekFound": "2026-W23"
   },
   {
+    "id": "musiccenter-nonstop-final-2026-07-04",
+    "title": "2026台北音樂不斷電 決賽（北流戶外廣場）",
+    "stream": "outdoor",
+    "category": "music",
+    "organizer": "臺北市政府文化局、臺北流行音樂中心",
+    "venue": "台北流行音樂中心戶外表演空間、文化館前廣場",
+    "address": "台北市南港區市民大道八段99號",
+    "area": "台北市南港區",
+    "startDate": "2026-07-04",
+    "endDate": "2026-07-05",
+    "isFree": true,
+    "priceNote": "免費入場",
+    "ageFit": "ok",
+    "ageFitReason": "北流戶外廣場寬敞好跑動，音量較大，建議坐外圍邊聽邊玩。",
+    "summary": "「台北音樂不斷電」十強決賽7/4、7/5登上台北流行音樂中心戶外表演空間，免費入場。廣場空間大，孩子可以在外圍自由活動，感受年輕樂團拚戰大獎的現場熱力。",
+    "sourceName": "臺北流行音樂中心",
+    "sourceUrl": "https://city.gvm.com.tw/article/130625",
+    "tags": [
+      "戶外",
+      "音樂",
+      "樂團",
+      "免費",
+      "南港"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-05T22:35:46+08:00",
+    "weekFound": "2026-W23"
+  },
+  {
     "id": "ntpc-civic-plaza-2026-07-04",
     "title": "新北市民廣場｜親子夏日音樂會",
     "stream": "outdoor",
@@ -643,6 +816,35 @@
     "weekFound": "2026-W23"
   },
   {
+    "id": "rivocean-gongliao-fulong-2026-07-25",
+    "title": "2026新北市河海音樂季 貢寮場（福隆海灘）",
+    "stream": "outdoor",
+    "category": "music",
+    "organizer": "新北市政府",
+    "venue": "福隆大草坪、福隆海水浴場",
+    "address": "新北市貢寮區福隆街40號一帶",
+    "area": "新北市貢寮區",
+    "startDate": "2026-07-25",
+    "endDate": "2026-07-26",
+    "isFree": true,
+    "priceNote": "免費入場",
+    "ageFit": "ok",
+    "ageFitReason": "車程較遠且盛夏炎熱，但沙灘玩沙加海邊音樂節體驗難忘；備齊防曬遮陽再出發。",
+    "summary": "貢寮海洋音樂祭精神延續，7/25-26在福隆大草坪與海水浴場免費開唱，7/25同場舉行「海洋獨立音樂大賞」決賽。搭火車到福隆站走路就到，孩子玩沙踏浪、爸媽聽團看海，夏天的儀式感一次滿足。",
+    "sourceName": "河海音樂季（新北市政府）",
+    "sourceUrl": "https://city.gvm.com.tw/article/130625",
+    "tags": [
+      "戶外",
+      "音樂",
+      "海邊",
+      "免費",
+      "沙灘"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-05T22:35:46+08:00",
+    "weekFound": "2026-W23"
+  },
+  {
     "id": "traveltaipei-taloma-music-fest-2026-07-28",
     "title": "TALOMA’ 台北原住民族音樂節",
     "titleOriginal": "2026 TALOMA’ Taipei Indigenous Music Festival",
@@ -735,6 +937,35 @@
     "weekFound": "2026-W23"
   },
   {
+    "id": "rivocean-tamsui-2026-08-15",
+    "title": "2026新北市河海音樂季 淡水場（漁人舞台）",
+    "stream": "outdoor",
+    "category": "music",
+    "organizer": "新北市政府",
+    "venue": "淡水漁人舞台",
+    "address": "新北市淡水區觀海路91號",
+    "area": "新北市淡水區",
+    "startDate": "2026-08-15",
+    "endDate": "2026-08-16",
+    "isFree": true,
+    "priceNote": "免費入場",
+    "ageFit": "great",
+    "ageFitReason": "漁人碼頭看夕陽聽音樂，腹地大、自由走動，幼兒看船看海不無聊。",
+    "summary": "河海音樂季8/15-16移師淡水漁人舞台，免費入場。傍晚先看漁人碼頭夕陽、吹海風看船，入夜在舞台前聽音樂，搭渡輪或輕軌前往本身就是孩子的小冒險。",
+    "sourceName": "河海音樂季（新北市政府）",
+    "sourceUrl": "https://city.gvm.com.tw/article/130625",
+    "tags": [
+      "戶外",
+      "音樂",
+      "免費",
+      "夕陽",
+      "碼頭"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-05T22:35:46+08:00",
+    "weekFound": "2026-W23"
+  },
+  {
     "id": "npac-summer-jazz-party-2026-08-15",
     "title": "2026兩廳院夏日爵士戶外派對",
     "titleOriginal": "NTCH Summer Jazz Outdoor Party",
@@ -764,6 +995,35 @@
     ],
     "status": "upcoming",
     "discoveredAt": "2026-06-05T03:27:00+08:00",
+    "weekFound": "2026-W23"
+  },
+  {
+    "id": "rivocean-metropark-2026-09-05",
+    "title": "2026新北市河海音樂季 新北大都會公園場",
+    "stream": "outdoor",
+    "category": "music",
+    "organizer": "新北市政府",
+    "venue": "新北大都會公園",
+    "address": "新北市三重區疏洪東路一段（二重疏洪道）",
+    "area": "新北市三重區",
+    "startDate": "2026-09-05",
+    "endDate": "2026-09-06",
+    "isFree": true,
+    "priceNote": "免費入場",
+    "ageFit": "great",
+    "ageFitReason": "音樂季就辦在熊猴森樂園旁，白天玩全台最大共融遊戲場，傍晚聽音樂收尾。",
+    "summary": "河海音樂季壓軸場9/5-6在新北大都會公園登場，免費入場。這裡就是熊猴森樂園所在地，白天溜滑梯玩水放電，傍晚草地上聽音樂，捷運三重站出站即達，親子動線最友善的一場。",
+    "sourceName": "河海音樂季（新北市政府）",
+    "sourceUrl": "https://city.gvm.com.tw/article/130625",
+    "tags": [
+      "戶外",
+      "音樂",
+      "免費",
+      "公園",
+      "遊戲場"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-05T22:35:46+08:00",
     "weekFound": "2026-W23"
   }
 ]
