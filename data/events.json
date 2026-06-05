@@ -1,5 +1,33 @@
 [
   {
+    "id": "chaojingbay-keelung-sailing-2026-06-07",
+    "title": "台琉國際帆船賽首站「基隆國際帆船賽」岸上觀賽",
+    "stream": "outdoor",
+    "category": "competition",
+    "organizer": "基隆市政府（2026基隆潮境海灣節）",
+    "venue": "潮境公園、101高地（最佳觀賽點）",
+    "address": "基隆市中正區北寧路369巷",
+    "area": "基隆市中正區",
+    "startDate": "2026-06-07",
+    "isFree": true,
+    "priceNote": "岸上觀賽免費（觀賽船需另行報名付費）",
+    "ageFit": "ok",
+    "ageFitReason": "遠眺帆船較靜態，幼兒專注有限；潮境公園大草坪與飛天掃帚地標可搭配放電。",
+    "summary": "第22屆潮境海灣節打頭陣的台琉國際帆船賽首站，12國、36艘重型帆船在基隆嶼周邊海域競速，是歷年賽程最長的一屆。到潮境公園或101高地就能免費看帆船群出海，看完還能在公園草坪野餐、看潮間帶。",
+    "sourceName": "基隆潮境海灣節",
+    "sourceUrl": "https://www.klcg.gov.tw/tw/klcg1/3168-317126.html",
+    "tags": [
+      "戶外",
+      "競賽",
+      "帆船",
+      "海洋",
+      "免費"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-05T10:01:19+08:00",
+    "weekFound": "2026-W23"
+  },
+  {
     "id": "klpas-dongxin-concert-2026-06-12",
     "title": "東信藝起飛──孩子的舞台夢 聯合音樂會",
     "stream": "cultural",
@@ -108,6 +136,36 @@
     ],
     "status": "upcoming",
     "discoveredAt": "2026-06-04T12:00:00+08:00",
+    "weekFound": "2026-W23"
+  },
+  {
+    "id": "ntpcdragonboat-yizhangbei-2026-06-19",
+    "title": "新北市議長盃第十六屆龍舟錦標賽",
+    "stream": "outdoor",
+    "category": "competition",
+    "organizer": "新北市議會",
+    "venue": "蘆洲微風運河",
+    "address": "新北市蘆洲區環堤大道（微風運河）",
+    "area": "新北市蘆洲區",
+    "startDate": "2026-06-19",
+    "endDate": "2026-06-20",
+    "isFree": true,
+    "priceNote": "免費觀賽",
+    "ageFit": "great",
+    "ageFitReason": "河岸開放空間隨進隨出，鼓聲與加油聲熱鬧，幼兒看龍舟超有感。",
+    "summary": "端午連假在蘆洲微風運河登場的議長盃龍舟賽，第十六屆共108支隊伍競速、總獎金近250萬創新高。河岸視野開闊、免費觀賽，往年現場還有發粽子香包等應景小活動。與大佳河濱的臺北國際龍舟錦標賽同週末，雙北看龍舟任你選。",
+    "sourceName": "新北市議長盃龍舟錦標賽",
+    "sourceUrl": "https://www.ntpc-dragonboat.com.tw/",
+    "tags": [
+      "戶外",
+      "競賽",
+      "龍舟",
+      "端午",
+      "河濱",
+      "免費"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-05T10:01:19+08:00",
     "weekFound": "2026-W23"
   },
   {
@@ -591,6 +649,34 @@
     "weekFound": "2026-W23"
   },
   {
+    "id": "chaojingbay-tide-music-2026-08-15",
+    "title": "2026基隆潮境海灣節「潮音樂」星光音樂會",
+    "stream": "outdoor",
+    "category": "music",
+    "organizer": "基隆市政府產業發展處",
+    "venue": "潮境公園",
+    "address": "基隆市中正區北寧路369巷61號",
+    "area": "基隆市中正區",
+    "startDate": "2026-08-15",
+    "isFree": true,
+    "priceNote": "免費入場（公園開放空間，依歷年慣例免費）",
+    "ageFit": "great",
+    "ageFitReason": "背山面海大草坪隨進隨出，音樂加市集，幼兒跑跳自在；備防曬與薄外套。",
+    "summary": "潮境海灣節壓軸「潮音樂」睽違兩年回到潮境公園，星光舞台結合山海意象，小宇宋念宇、陳華、琟娜Verna等歌手接力開唱，並有山、海、世界三大主題市集。大草坪聽歌看夕陽，野餐放電一次滿足。注意與兩廳院夏日爵士戶外派對同日（8/15），南北擇一。",
+    "sourceName": "基隆潮境海灣節",
+    "sourceUrl": "https://www.klcg.gov.tw/tw/klcg1/3168-317126.html",
+    "tags": [
+      "戶外",
+      "音樂",
+      "市集",
+      "海洋",
+      "免費"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-05T10:01:19+08:00",
+    "weekFound": "2026-W23"
+  },
+  {
     "id": "npac-summer-jazz-party-2026-08-15",
     "title": "2026兩廳院夏日爵士戶外派對",
     "titleOriginal": "NTCH Summer Jazz Outdoor Party",
@@ -605,10 +691,10 @@
     "startDate": "2026-08-15",
     "startTime": "18:30",
     "isFree": true,
-    "priceNote": "免費入場（2026夏日爵士8/7–8/29其他室內場次為售票節目）",
+    "priceNote": "免費入場",
     "ageFit": "great",
     "ageFitReason": "台北最大免費露天音樂會，鋪野餐墊隨進隨出，幼兒走動吵鬧都自在。",
-    "summary": "每年8月最受期待的免費戶外音樂盛會，8/15傍晚6點半在兩廳院藝文廣場登場。今年由彭郁雯五重奏、台灣拉丁重擊與台語金曲歌后李竺芯輪番演出，融合客家山歌、拉丁節奏與當代台語爵士。帶野餐墊提早卡位，孩子可以在廣場上邊聽邊玩；捷運中正紀念堂站出站即達。",
+    "summary": "台北夏天最大的免費露天音樂會，8/15傍晚在兩廳院藝文廣場登場。2026卡司已公布：彭郁雯五重奏、台灣拉丁重擊與台語歌后李竺芯接力演出，民謠、拉丁節奏與台語爵士輪番上陣，現場另有永續市集。鋪野餐墊席地而坐，幼兒自由走動，傍晚廣場涼爽，捷運中正紀念堂站出站即達。",
     "sourceName": "國家兩廳院（夏日爵士/藝文廣場）",
     "sourceUrl": "https://npac-ntch.org/programs/series/jazzParty",
     "tags": [
