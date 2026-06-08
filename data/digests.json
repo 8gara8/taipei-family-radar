@@ -1,12 +1,12 @@
 [
   {
-    "weekOf": "2026-W23",
-    "intro": "這週末（6/6-7）信義香堤大道免費樂團開唱，週日基隆潮境看帆船賽。下週六（6/13）C-LAB泡泡音樂派對最適合小小孩，6/15起潮境公園有巨大咖波。端午連假（6/19-21）龍舟賽登場。",
+    "weekOf": "2026-W24",
+    "intro": "這週六（6/13）基隆有掌中戲《海精靈的報恩》，超適合2-4歲；同天C-LAB泡泡音樂派對玩到瘋。下週六（6/20）歌德學院德語親子故事，6/19-21端午龍舟嘉年華壓軸。",
     "highlightEventIds": [
-      "chaojingbay-keelung-sailing-2026-06-07",
-      "musiccenter-nonstop-semifinal-2026-06-06",
+      "klpas-sea-spirit-puppet-2026-06-13",
       "clab-music-oasis-bubble-2026-06-13",
-      "klcg-capoo-chaojing-expo-2026-06-15",
+      "goethe-kids-story-2026-06-20",
+      "fete-musique-2026-06-21",
       "traveltaipei-dragonboat-champ-2026-06-19"
     ]
   }
