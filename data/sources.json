@@ -50,7 +50,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://www.cksmh.gov.tw/",
-    "lastScannedAt": "2026-06-05T03:27:00+08:00",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
     "lastStatus": "ok"
   },
   {
@@ -68,7 +68,7 @@
     "type": "aggregator",
     "stream": "outdoor",
     "url": "https://yii.tw/taipei/calendar?place=cksmh",
-    "lastScannedAt": "2026-06-05T03:27:00+08:00",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
     "lastStatus": "ok"
   },
   {
@@ -77,7 +77,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://www.daanforestpark.org.tw/",
-    "lastScannedAt": "2026-06-05T03:27:00+08:00",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
     "lastStatus": "ok"
   },
   {
@@ -86,7 +86,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://tpbusker.gov.taipei/",
-    "lastScannedAt": "2026-06-05T03:27:00+08:00",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
     "lastStatus": "partial"
   },
   {
@@ -95,7 +95,7 @@
     "type": "aggregator",
     "stream": "outdoor",
     "url": "https://www.opentix.life/",
-    "lastScannedAt": "2026-06-05T03:27:00+08:00",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
     "lastStatus": "ok"
   },
   {
@@ -104,7 +104,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://www.huashan1914.com/",
-    "lastScannedAt": "2026-06-05T03:27:00+08:00",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
     "lastStatus": "ok"
   },
   {
@@ -113,7 +113,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://www.songshanculturalpark.org/",
-    "lastScannedAt": "2026-06-05T03:27:00+08:00",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
     "lastStatus": "partial"
   },
   {
@@ -122,7 +122,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://majorevent.gov.taipei/",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
     "lastStatus": "ok"
   },
   {
@@ -131,7 +131,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.travel.taipei/zh-tw/event/calendar",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
     "lastStatus": "ok"
   },
   {
@@ -158,8 +158,8 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://tpac.org.taipei/festival-tcaf",
-    "lastScannedAt": "2026-06-05T22:35:46+08:00",
-    "lastStatus": "partial"
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
+    "lastStatus": "ok"
   },
   {
     "id": "ccct-canada",
@@ -185,7 +185,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://npac-ntch.org/",
-    "lastScannedAt": "2026-06-05T22:35:46+08:00",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
     "lastStatus": "ok"
   },
   {
@@ -203,7 +203,7 @@
     "type": "gov-calendar",
     "stream": "outdoor",
     "url": "https://www.youth.ntpc.gov.tw/",
-    "lastScannedAt": "2026-06-05T09:28:44+08:00",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
     "lastStatus": "ok"
   },
   {
@@ -230,7 +230,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://www.musiccenter.taipei/",
-    "lastScannedAt": "2026-06-05T22:35:46+08:00",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
     "lastStatus": "ok"
   },
   {
@@ -239,7 +239,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://clab.org.tw/",
-    "lastScannedAt": "2026-06-05T22:35:46+08:00",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
     "lastStatus": "ok"
   },
   {
@@ -248,7 +248,7 @@
     "type": "gov-calendar",
     "stream": "outdoor",
     "url": "https://www.facebook.com/r.o.music.fest/",
-    "lastScannedAt": "2026-06-05T22:35:46+08:00",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
     "lastStatus": "ok"
   },
   {
@@ -259,5 +259,14 @@
     "url": "https://www.klcg.gov.tw/tw/klcg1/3168.html",
     "lastScannedAt": "2026-06-09T00:02:00+08:00",
     "lastStatus": "ok"
+  },
+  {
+    "id": "dadaocheng-summer",
+    "name": "大稻埕夏日節（台北旅遊網）",
+    "type": "gov-calendar",
+    "stream": "outdoor",
+    "url": "https://taipeisummer.travel.taipei/",
+    "lastScannedAt": "2026-06-09T02:11:17+08:00",
+    "lastStatus": "partial"
   }
 ]

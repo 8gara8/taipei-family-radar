@@ -1,13 +1,13 @@
 [
   {
     "weekOf": "2026-W24",
-    "intro": "這週六（6/13）基隆有掌中戲《海精靈的報恩》，超適合2-4歲；同天C-LAB泡泡音樂派對玩到瘋。下週六（6/20）歌德學院德語親子故事，6/19-21端午龍舟嘉年華壓軸。",
+    "intro": "這週六（6/13）C-LAB草地泡泡音樂派對，泡泡配音樂超適合2-4歲；週日（6/14）大安森林公園有街頭藝人。下週端午（6/19-21）大佳河濱龍舟賽超熱鬧，6/21兩廳院廣場有夏夜露天音樂會。",
     "highlightEventIds": [
-      "klpas-sea-spirit-puppet-2026-06-13",
       "clab-music-oasis-bubble-2026-06-13",
-      "goethe-kids-story-2026-06-20",
-      "fete-musique-2026-06-21",
-      "traveltaipei-dragonboat-champ-2026-06-19"
+      "daan-busker-2026-06-14",
+      "traveltaipei-dragonboat-champ-2026-06-19",
+      "npac-plaza-summer-2026-06-21",
+      "fete-musique-2026-06-21"
     ]
   }
 ]
