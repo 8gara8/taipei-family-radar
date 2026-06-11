@@ -1,8 +1,10 @@
 name: Weekly Scan
 
+# Backup automation (方式 B). The primary weekly scan runs via Claude Cowork
+# (方式 A), so this no longer runs on a schedule — it would otherwise fire on
+# its own cron independently of the Cowork schedule and fail without the
+# required secrets. Kept as a manual fallback only (Run workflow / API).
 on:
-  schedule:
-    - cron: '0 12 * * 3'   # 每週三 12:00 UTC = 台北 20:00
   workflow_dispatch:
 
 jobs:
