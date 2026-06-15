@@ -5,7 +5,7 @@
     "type": "gov-calendar",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC.aspx",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -14,7 +14,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.goethe.de/ins/tw/",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -23,7 +23,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://france-taipei.org/",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -32,7 +32,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.ait.org.tw/",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -41,7 +41,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.koryu.or.jp/taipei/",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -59,7 +59,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://event.culture.tw/",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -122,8 +122,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://majorevent.gov.taipei/",
-    "lastScannedAt": "2026-06-09T02:11:17+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "travel-taipei",
@@ -131,8 +131,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.travel.taipei/zh-tw/event/calendar",
-    "lastScannedAt": "2026-06-09T02:11:17+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "ntpc-culture",
@@ -140,7 +140,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.tourism.ntpc.gov.tw/",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -149,7 +149,7 @@
     "type": "aggregator",
     "stream": "both",
     "url": "https://www.accupass.com/",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -167,7 +167,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.canchamtw.com/",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -176,8 +176,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.taiwan.net.tw/",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "npac-ntch",
@@ -194,7 +194,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://cultureexpress.taipei/",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -212,7 +212,7 @@
     "type": "gov-calendar",
     "stream": "cultural",
     "url": "https://klpas.klcg.gov.tw/",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -221,7 +221,7 @@
     "type": "venue",
     "stream": "cultural",
     "url": "https://tpml.gov.taipei/",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -257,8 +257,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.klcg.gov.tw/tw/klcg1/3168.html",
-    "lastScannedAt": "2026-06-09T00:02:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-06-15T11:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "dadaocheng-summer",
