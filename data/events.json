@@ -279,7 +279,7 @@
       "河濱",
       "免費"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-05T10:01:19+08:00",
     "weekFound": "2026-W23"
   },
@@ -312,7 +312,7 @@
       "河濱",
       "免費"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-05T08:20:15+08:00",
     "weekFound": "2026-W23"
   },
@@ -341,7 +341,7 @@
       "需報名",
       "親子限定"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-04T12:00:00+08:00",
     "weekFound": "2026-W23"
   },
@@ -374,7 +374,7 @@
       "法國",
       "推車友善"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-04T12:00:00+08:00",
     "weekFound": "2026-W23"
   },
@@ -403,7 +403,7 @@
       "免費",
       "傍晚"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-04T12:00:00+08:00",
     "weekFound": "2026-W23"
   },
@@ -878,6 +878,35 @@
     "weekFound": "2026-W23"
   },
   {
+    "id": "tpml-qbaby-bilingual-story-2026-07-31",
+    "title": "北市圖總館 Qbaby雙語故事時間（07/31場）",
+    "stream": "cultural",
+    "category": "workshop",
+    "organizer": "臺北市立圖書館",
+    "venue": "臺北市立圖書館總館 B2小小世界外文圖書館",
+    "address": "台北市大安區建國南路二段125號",
+    "area": "台北市大安區",
+    "startDate": "2026-07-31",
+    "startTime": "10:00",
+    "isFree": true,
+    "priceNote": "免費，自由參加免報名",
+    "ageFit": "great",
+    "ageFitReason": "官方對象就是2-6歲學齡前，中英繪本加手指謠，30分鐘剛好是幼兒專注上限。",
+    "summary": "北市圖總館的雙語故事時間，館員用中英文唸繪本、帶兒歌與手指謠，專為2-6歲學齡前孩子設計。每月第1、3、5週的週五早上在B2小小世界外文圖書館，免報名、提早5分鐘到即可。聽完故事順路逛兒童室借書，雨天備案首選。",
+    "sourceName": "臺北市立圖書館",
+    "sourceUrl": "https://tpml.gov.taipei/News_Content.aspx?n=49F42C0F3A955E81&s=C3AC91B4A5DFEE0D",
+    "tags": [
+      "室內",
+      "免費",
+      "故事時間",
+      "雙語",
+      "平日上午"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-22T08:47:10+08:00",
+    "weekFound": "2026-W26"
+  },
+  {
     "id": "ntpcyouth-streetdance-2026-08-01",
     "title": "2026新北國際街舞大賽",
     "titleOriginal": "2026 New Taipei International Street Dance Competition",
@@ -907,6 +936,35 @@
     "status": "upcoming",
     "discoveredAt": "2026-06-05T09:28:44+08:00",
     "weekFound": "2026-W23"
+  },
+  {
+    "id": "tpml-qbaby-bilingual-story-2026-08-07",
+    "title": "北市圖總館 Qbaby雙語故事時間（08/07場）",
+    "stream": "cultural",
+    "category": "workshop",
+    "organizer": "臺北市立圖書館",
+    "venue": "臺北市立圖書館總館 B2小小世界外文圖書館",
+    "address": "台北市大安區建國南路二段125號",
+    "area": "台北市大安區",
+    "startDate": "2026-08-07",
+    "startTime": "10:00",
+    "isFree": true,
+    "priceNote": "免費，自由參加免報名",
+    "ageFit": "great",
+    "ageFitReason": "官方對象就是2-6歲學齡前，中英繪本加手指謠，30分鐘剛好是幼兒專注上限。",
+    "summary": "北市圖總館的雙語故事時間，館員用中英文唸繪本、帶兒歌與手指謠，專為2-6歲學齡前孩子設計。每月第1、3、5週的週五早上在B2小小世界外文圖書館，免報名、提早5分鐘到即可。聽完故事順路逛兒童室借書，雨天備案首選。",
+    "sourceName": "臺北市立圖書館",
+    "sourceUrl": "https://tpml.gov.taipei/News_Content.aspx?n=49F42C0F3A955E81&s=C3AC91B4A5DFEE0D",
+    "tags": [
+      "室內",
+      "免費",
+      "故事時間",
+      "雙語",
+      "平日上午"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-22T08:47:10+08:00",
+    "weekFound": "2026-W26"
   },
   {
     "id": "chaojingbay-tide-music-2026-08-15",
@@ -996,6 +1054,35 @@
     "status": "upcoming",
     "discoveredAt": "2026-06-05T03:27:00+08:00",
     "weekFound": "2026-W23"
+  },
+  {
+    "id": "tpml-qbaby-bilingual-story-2026-08-21",
+    "title": "北市圖總館 Qbaby雙語故事時間（08/21場）",
+    "stream": "cultural",
+    "category": "workshop",
+    "organizer": "臺北市立圖書館",
+    "venue": "臺北市立圖書館總館 B2小小世界外文圖書館",
+    "address": "台北市大安區建國南路二段125號",
+    "area": "台北市大安區",
+    "startDate": "2026-08-21",
+    "startTime": "10:00",
+    "isFree": true,
+    "priceNote": "免費，自由參加免報名",
+    "ageFit": "great",
+    "ageFitReason": "官方對象就是2-6歲學齡前，中英繪本加手指謠，30分鐘剛好是幼兒專注上限。",
+    "summary": "北市圖總館的雙語故事時間，館員用中英文唸繪本、帶兒歌與手指謠，專為2-6歲學齡前孩子設計。每月第1、3、5週的週五早上在B2小小世界外文圖書館，免報名、提早5分鐘到即可。聽完故事順路逛兒童室借書，雨天備案首選。",
+    "sourceName": "臺北市立圖書館",
+    "sourceUrl": "https://tpml.gov.taipei/News_Content.aspx?n=49F42C0F3A955E81&s=C3AC91B4A5DFEE0D",
+    "tags": [
+      "室內",
+      "免費",
+      "故事時間",
+      "雙語",
+      "平日上午"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-22T08:47:10+08:00",
+    "weekFound": "2026-W26"
   },
   {
     "id": "rivocean-metropark-2026-09-05",

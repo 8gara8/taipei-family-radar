@@ -5,7 +5,7 @@
     "type": "gov-calendar",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC.aspx",
-    "lastScannedAt": "2026-06-15T11:30:00+08:00",
+    "lastScannedAt": "2026-06-22T08:48:39+08:00",
     "lastStatus": "partial"
   },
   {
@@ -14,7 +14,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.goethe.de/ins/tw/",
-    "lastScannedAt": "2026-06-15T11:30:00+08:00",
+    "lastScannedAt": "2026-06-22T08:48:39+08:00",
     "lastStatus": "partial"
   },
   {
@@ -23,7 +23,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://france-taipei.org/",
-    "lastScannedAt": "2026-06-15T11:30:00+08:00",
+    "lastScannedAt": "2026-06-22T08:48:39+08:00",
     "lastStatus": "partial"
   },
   {
@@ -32,8 +32,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.ait.org.tw/",
-    "lastScannedAt": "2026-06-15T11:30:00+08:00",
-    "lastStatus": "partial"
+    "lastScannedAt": "2026-06-22T08:48:39+08:00",
+    "lastStatus": "ok"
   },
   {
     "id": "japan-exchange",
@@ -41,7 +41,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.koryu.or.jp/taipei/",
-    "lastScannedAt": "2026-06-15T11:30:00+08:00",
+    "lastScannedAt": "2026-06-22T08:48:39+08:00",
     "lastStatus": "partial"
   },
   {
@@ -131,7 +131,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.travel.taipei/zh-tw/event/calendar",
-    "lastScannedAt": "2026-06-16T02:07:13+08:00",
+    "lastScannedAt": "2026-06-22T08:48:39+08:00",
     "lastStatus": "ok"
   },
   {
@@ -140,7 +140,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.tourism.ntpc.gov.tw/",
-    "lastScannedAt": "2026-06-16T02:07:13+08:00",
+    "lastScannedAt": "2026-06-22T08:48:39+08:00",
     "lastStatus": "ok"
   },
   {
@@ -167,8 +167,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.canchamtw.com/",
-    "lastScannedAt": "2026-06-15T11:30:00+08:00",
-    "lastStatus": "partial"
+    "lastScannedAt": "2026-06-22T08:48:39+08:00",
+    "lastStatus": "ok"
   },
   {
     "id": "taiwan-net",
@@ -194,8 +194,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://cultureexpress.taipei/",
-    "lastScannedAt": "2026-06-16T02:07:13+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-06-22T08:48:39+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "ntpc-youth",
@@ -221,8 +221,8 @@
     "type": "venue",
     "stream": "cultural",
     "url": "https://tpml.gov.taipei/",
-    "lastScannedAt": "2026-06-15T11:30:00+08:00",
-    "lastStatus": "partial"
+    "lastScannedAt": "2026-06-22T08:48:39+08:00",
+    "lastStatus": "ok"
   },
   {
     "id": "tmc-musiccenter",
