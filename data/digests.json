@@ -31,5 +31,16 @@
       "tpac-tcaf-outdoor-hands-2026-07-02",
       "tpac-tcaf-outdoor-beepbop-2026-07-05"
     ]
+  },
+  {
+    "weekOf": "2026-W27",
+    "intro": "這週末（7/4–5）超精彩！兒藝節《明星節度使》、新北市民廣場親子音樂會，週日《嗶啵！外星人來襲！》最適合 2–4 歲，北市圖也新增週日全英語故事時間。下週六起板橋夏日嘉年華接力登場。",
+    "highlightEventIds": [
+      "ntpc-civic-plaza-2026-07-04",
+      "tpac-tcaf-outdoor-mingxing-2026-07-04",
+      "tpac-tcaf-outdoor-beepbop-2026-07-05",
+      "tpml-small-world-english-story-2026-07-05",
+      "ntpc-children-art-festival-2026-07-11"
+    ]
   }
 ]

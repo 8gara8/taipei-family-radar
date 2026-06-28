@@ -5,7 +5,7 @@
     "type": "gov-calendar",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC.aspx",
-    "lastScannedAt": "2026-06-22T08:48:39+08:00",
+    "lastScannedAt": "2026-06-29T02:07:46+08:00",
     "lastStatus": "partial"
   },
   {
@@ -14,7 +14,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.goethe.de/ins/tw/",
-    "lastScannedAt": "2026-06-22T08:48:39+08:00",
+    "lastScannedAt": "2026-06-29T02:07:46+08:00",
     "lastStatus": "partial"
   },
   {
@@ -23,7 +23,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://france-taipei.org/",
-    "lastScannedAt": "2026-06-22T08:48:39+08:00",
+    "lastScannedAt": "2026-06-29T02:07:46+08:00",
     "lastStatus": "partial"
   },
   {
@@ -32,8 +32,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.ait.org.tw/",
-    "lastScannedAt": "2026-06-22T08:48:39+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-06-29T02:07:46+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "japan-exchange",
@@ -41,7 +41,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.koryu.or.jp/taipei/",
-    "lastScannedAt": "2026-06-22T08:48:39+08:00",
+    "lastScannedAt": "2026-06-29T02:07:46+08:00",
     "lastStatus": "partial"
   },
   {
@@ -167,8 +167,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.canchamtw.com/",
-    "lastScannedAt": "2026-06-22T08:48:39+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-06-29T02:07:46+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "taiwan-net",
@@ -212,7 +212,7 @@
     "type": "gov-calendar",
     "stream": "cultural",
     "url": "https://klpas.klcg.gov.tw/",
-    "lastScannedAt": "2026-06-15T11:30:00+08:00",
+    "lastScannedAt": "2026-06-29T02:07:46+08:00",
     "lastStatus": "partial"
   },
   {
@@ -221,7 +221,7 @@
     "type": "venue",
     "stream": "cultural",
     "url": "https://tpml.gov.taipei/",
-    "lastScannedAt": "2026-06-22T08:48:39+08:00",
+    "lastScannedAt": "2026-06-29T02:07:46+08:00",
     "lastStatus": "ok"
   },
   {

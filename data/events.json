@@ -432,7 +432,7 @@
       "河濱",
       "野餐"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-05T22:35:46+08:00",
     "weekFound": "2026-W23"
   },
@@ -462,7 +462,7 @@
       "免費",
       "週末"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-04T12:00:00+08:00",
     "weekFound": "2026-W23"
   },
@@ -490,7 +490,7 @@
       "美食",
       "親子專區"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-05T02:57:00+08:00",
     "weekFound": "2026-W23"
   },
@@ -730,6 +730,36 @@
     "weekFound": "2026-W23"
   },
   {
+    "id": "tpml-small-world-english-story-2026-07-05",
+    "title": "北市圖總館 小小世界兒童英語故事時間（07/05場）",
+    "titleOriginal": "The Small World English Story Time",
+    "stream": "cultural",
+    "category": "workshop",
+    "organizer": "臺北市立圖書館",
+    "venue": "臺北市立圖書館總館 B2小小世界外文圖書館",
+    "address": "台北市大安區建國南路二段125號",
+    "area": "台北市大安區",
+    "startDate": "2026-07-05",
+    "startTime": "10:00",
+    "isFree": true,
+    "priceNote": "免費，自由參加免報名",
+    "ageFit": "great",
+    "ageFitReason": "全英語繪本搭兒歌律動，2-4歲跟著唱跳剛好，不懂英文也能玩。",
+    "summary": "北市圖總館每週日上午的全英語故事時間，外文館員用英文繪本、手指謠和律動帶孩子親近英語，專為學齡前小朋友設計。10:00-11:30在B2小小世界外文圖書館，免報名直接入場。聽完故事可順路逛兒童室借書，是週日早上的室內好去處與雨天備案。",
+    "sourceName": "臺北市立圖書館",
+    "sourceUrl": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&s=AB9394814CE9F801&sms=9D72E82EC16F3E64",
+    "tags": [
+      "室內",
+      "免費",
+      "故事時間",
+      "英語",
+      "週日上午"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-29T02:06:40+08:00",
+    "weekFound": "2026-W27"
+  },
+  {
     "id": "cksmh-busker-2026-07-05",
     "title": "中正紀念堂自由廣場｜假日街頭藝人展演",
     "stream": "outdoor",
@@ -878,6 +908,36 @@
     "weekFound": "2026-W26"
   },
   {
+    "id": "tpml-small-world-english-story-2026-07-12",
+    "title": "北市圖總館 小小世界兒童英語故事時間（07/12場）",
+    "titleOriginal": "The Small World English Story Time",
+    "stream": "cultural",
+    "category": "workshop",
+    "organizer": "臺北市立圖書館",
+    "venue": "臺北市立圖書館總館 B2小小世界外文圖書館",
+    "address": "台北市大安區建國南路二段125號",
+    "area": "台北市大安區",
+    "startDate": "2026-07-12",
+    "startTime": "10:00",
+    "isFree": true,
+    "priceNote": "免費，自由參加免報名",
+    "ageFit": "great",
+    "ageFitReason": "全英語繪本搭兒歌律動，2-4歲跟著唱跳剛好，不懂英文也能玩。",
+    "summary": "北市圖總館每週日上午的全英語故事時間，外文館員用英文繪本、手指謠和律動帶孩子親近英語，專為學齡前小朋友設計。10:00-11:30在B2小小世界外文圖書館，免報名直接入場。聽完故事可順路逛兒童室借書，是週日早上的室內好去處與雨天備案。",
+    "sourceName": "臺北市立圖書館",
+    "sourceUrl": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&s=AB9394814CE9F801&sms=9D72E82EC16F3E64",
+    "tags": [
+      "室內",
+      "免費",
+      "故事時間",
+      "英語",
+      "週日上午"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-29T02:06:40+08:00",
+    "weekFound": "2026-W28"
+  },
+  {
     "id": "tpml-qbaby-bilingual-story-2026-07-17",
     "title": "北市圖總館 Qbaby雙語故事時間（07/17場）",
     "stream": "cultural",
@@ -907,6 +967,36 @@
     "weekFound": "2026-W23"
   },
   {
+    "id": "tpml-small-world-english-story-2026-07-19",
+    "title": "北市圖總館 小小世界兒童英語故事時間（07/19場）",
+    "titleOriginal": "The Small World English Story Time",
+    "stream": "cultural",
+    "category": "workshop",
+    "organizer": "臺北市立圖書館",
+    "venue": "臺北市立圖書館總館 B2小小世界外文圖書館",
+    "address": "台北市大安區建國南路二段125號",
+    "area": "台北市大安區",
+    "startDate": "2026-07-19",
+    "startTime": "10:00",
+    "isFree": true,
+    "priceNote": "免費，自由參加免報名",
+    "ageFit": "great",
+    "ageFitReason": "全英語繪本搭兒歌律動，2-4歲跟著唱跳剛好，不懂英文也能玩。",
+    "summary": "北市圖總館每週日上午的全英語故事時間，外文館員用英文繪本、手指謠和律動帶孩子親近英語，專為學齡前小朋友設計。10:00-11:30在B2小小世界外文圖書館，免報名直接入場。聽完故事可順路逛兒童室借書，是週日早上的室內好去處與雨天備案。",
+    "sourceName": "臺北市立圖書館",
+    "sourceUrl": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&s=AB9394814CE9F801&sms=9D72E82EC16F3E64",
+    "tags": [
+      "室內",
+      "免費",
+      "故事時間",
+      "英語",
+      "週日上午"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-29T02:06:40+08:00",
+    "weekFound": "2026-W29"
+  },
+  {
     "id": "rivocean-gongliao-fulong-2026-07-25",
     "title": "2026新北市河海音樂季 貢寮場（福隆海灘）",
     "stream": "outdoor",
@@ -934,6 +1024,36 @@
     "status": "upcoming",
     "discoveredAt": "2026-06-05T22:35:46+08:00",
     "weekFound": "2026-W23"
+  },
+  {
+    "id": "tpml-small-world-english-story-2026-07-26",
+    "title": "北市圖總館 小小世界兒童英語故事時間（07/26場）",
+    "titleOriginal": "The Small World English Story Time",
+    "stream": "cultural",
+    "category": "workshop",
+    "organizer": "臺北市立圖書館",
+    "venue": "臺北市立圖書館總館 B2小小世界外文圖書館",
+    "address": "台北市大安區建國南路二段125號",
+    "area": "台北市大安區",
+    "startDate": "2026-07-26",
+    "startTime": "10:00",
+    "isFree": true,
+    "priceNote": "免費，自由參加免報名",
+    "ageFit": "great",
+    "ageFitReason": "全英語繪本搭兒歌律動，2-4歲跟著唱跳剛好，不懂英文也能玩。",
+    "summary": "北市圖總館每週日上午的全英語故事時間，外文館員用英文繪本、手指謠和律動帶孩子親近英語，專為學齡前小朋友設計。10:00-11:30在B2小小世界外文圖書館，免報名直接入場。聽完故事可順路逛兒童室借書，是週日早上的室內好去處與雨天備案。",
+    "sourceName": "臺北市立圖書館",
+    "sourceUrl": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&s=AB9394814CE9F801&sms=9D72E82EC16F3E64",
+    "tags": [
+      "室內",
+      "免費",
+      "故事時間",
+      "英語",
+      "週日上午"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-06-29T02:06:40+08:00",
+    "weekFound": "2026-W30"
   },
   {
     "id": "traveltaipei-taloma-music-fest-2026-07-28",
