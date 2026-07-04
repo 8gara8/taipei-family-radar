@@ -1,46 +1,46 @@
 [
-  {
-    "weekOf": "2026-W24",
-    "intro": "這週六（6/13）C-LAB草地泡泡音樂派對，泡泡配音樂超適合2-4歲；週日（6/14）大安森林公園有街頭藝人。下週端午（6/19-21）大佳河濱龍舟賽超熱鬧，6/21兩廳院廣場有夏夜露天音樂會。",
-    "highlightEventIds": [
-      "clab-music-oasis-bubble-2026-06-13",
-      "daan-busker-2026-06-14",
-      "traveltaipei-dragonboat-champ-2026-06-19",
-      "npac-plaza-summer-2026-06-21",
-      "fete-musique-2026-06-21"
-    ]
-  },
-  {
-    "weekOf": "2026-W25",
-    "intro": "這週末（6/20–21）端午連假超熱鬧！大佳河濱龍舟賽鼓聲震天，最適合愛看熱鬧的小小孩；6/21傍晚兩廳院廣場有夏夜露天音樂會，新北市美術館也有法國音樂節可聽團。下週六（6/27）華山有夏日親子市集、客家公園則有加拿大日專區。",
-    "highlightEventIds": [
-      "traveltaipei-dragonboat-champ-2026-06-19",
-      "fete-musique-2026-06-21",
-      "npac-plaza-summer-2026-06-21",
-      "huashan-family-market-2026-06-27",
-      "celebration-canada-2026-06-27"
-    ]
-  },
-  {
-    "weekOf": "2026-W26",
-    "intro": "這週末就出發！6/27–28 八里河海音樂季、華山夏日親子市集，6/27 客家園區還有加拿大日。下週兒藝節在青年公園登場，7/2《大手牽小手》草地音樂、7/5 嗶啵外星人馬戲最適合 2–4 歲，7/4 還有三峽藍染節可看親子劇、逛市集。",
-    "highlightEventIds": [
-      "rivocean-bali-2026-06-27",
-      "huashan-family-market-2026-06-27",
-      "celebration-canada-2026-06-27",
-      "tpac-tcaf-outdoor-hands-2026-07-02",
-      "tpac-tcaf-outdoor-beepbop-2026-07-05"
-    ]
-  },
-  {
-    "weekOf": "2026-W27",
-    "intro": "這週末（7/4–5）超精彩！兒藝節《明星節度使》、新北市民廣場親子音樂會，週日《嗶啵！外星人來襲！》最適合 2–4 歲，北市圖也新增週日全英語故事時間。下週六起板橋夏日嘉年華接力登場。",
-    "highlightEventIds": [
-      "ntpc-civic-plaza-2026-07-04",
-      "tpac-tcaf-outdoor-mingxing-2026-07-04",
-      "tpac-tcaf-outdoor-beepbop-2026-07-05",
-      "tpml-small-world-english-story-2026-07-05",
-      "ntpc-children-art-festival-2026-07-11"
-    ]
-  }
+ {
+  "weekOf": "2026-W24",
+  "intro": "這週六（6/13）C-LAB草地泡泡音樂派對，泡泡配音樂超適合2-4歲；週日（6/14）大安森林公園有街頭藝人。下週端午（6/19-21）大佳河濱龍舟賽超熱鬧，6/21兩廳院廣場有夏夜露天音樂會。",
+  "highlightEventIds": [
+   "clab-music-oasis-bubble-2026-06-13",
+   "daan-busker-2026-06-14",
+   "traveltaipei-dragonboat-champ-2026-06-19",
+   "npac-plaza-summer-2026-06-21",
+   "fete-musique-2026-06-21"
+  ]
+ },
+ {
+  "weekOf": "2026-W25",
+  "intro": "這週末（6/20–21）端午連假超熱鬧！大佳河濱龍舟賽鼓聲震天，最適合愛看熱鬧的小小孩；6/21傍晚兩廳院廣場有夏夜露天音樂會，新北市美術館也有法國音樂節可聽團。下週六（6/27）華山有夏日親子市集、客家公園則有加拿大日專區。",
+  "highlightEventIds": [
+   "traveltaipei-dragonboat-champ-2026-06-19",
+   "fete-musique-2026-06-21",
+   "npac-plaza-summer-2026-06-21",
+   "huashan-family-market-2026-06-27",
+   "celebration-canada-2026-06-27"
+  ]
+ },
+ {
+  "weekOf": "2026-W26",
+  "intro": "這週末就出發！6/27–28 八里河海音樂季、華山夏日親子市集，6/27 客家園區還有加拿大日。下週兒藝節在青年公園登場，7/2《大手牽小手》草地音樂、7/5 嗶啵外星人馬戲最適合 2–4 歲，7/4 還有三峽藍染節可看親子劇、逛市集。",
+  "highlightEventIds": [
+   "rivocean-bali-2026-06-27",
+   "huashan-family-market-2026-06-27",
+   "celebration-canada-2026-06-27",
+   "tpac-tcaf-outdoor-hands-2026-07-02",
+   "tpac-tcaf-outdoor-beepbop-2026-07-05"
+  ]
+ },
+ {
+  "weekOf": "2026-W27",
+  "intro": "這週末（7/4–5）超精彩！兒藝節《明星節度使》、新北市民廣場親子音樂會，週日北市圖有全英語故事時間最適合 2–4 歲。想提早排行事曆的話，10月底新增了臺北客家義民祭（兩廳院廣場、免費），踩街超熱鬧。",
+  "highlightEventIds": [
+   "ntpc-civic-plaza-2026-07-04",
+   "tpac-tcaf-outdoor-mingxing-2026-07-04",
+   "tpac-tcaf-outdoor-beepbop-2026-07-05",
+   "tpml-small-world-english-story-2026-07-05",
+   "ntpc-children-art-festival-2026-07-11"
+  ]
+ }
 ]

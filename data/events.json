@@ -519,7 +519,7 @@
       "需報名",
       "平日上午"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-05T02:57:00+08:00",
     "weekFound": "2026-W23"
   },
@@ -548,7 +548,7 @@
       "傍晚",
       "兒藝節"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-05T09:28:44+08:00",
     "weekFound": "2026-W23"
   },
@@ -577,7 +577,7 @@
       "雙語",
       "平日上午"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-05T16:50:00+08:00",
     "weekFound": "2026-W23"
   },
@@ -607,7 +607,7 @@
       "傍晚",
       "兒藝節"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-05T09:28:44+08:00",
     "weekFound": "2026-W23"
   },
@@ -666,7 +666,7 @@
       "市集",
       "三峽"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-23T02:21:56+08:00",
     "weekFound": "2026-W26"
   },
@@ -695,7 +695,7 @@
       "免費",
       "新北"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-04T12:00:00+08:00",
     "weekFound": "2026-W23"
   },
@@ -725,7 +725,7 @@
       "傍晚",
       "兒藝節"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-05T09:28:44+08:00",
     "weekFound": "2026-W23"
   },
@@ -1413,5 +1413,38 @@
     "status": "upcoming",
     "discoveredAt": "2026-06-05T22:35:46+08:00",
     "weekFound": "2026-W23"
+  },
+  {
+    "id": "traveltaipei-hakka-yimin-2026-10-24",
+    "title": "2026 臺北客家義民祭",
+    "titleOriginal": "2026 Taipei Hakka Yimin Festival",
+    "stream": "cultural",
+    "category": "festival",
+    "organizer": "臺北市政府客家事務委員會",
+    "venue": "兩廳院藝文廣場（自由廣場）",
+    "address": "台北市中正區中山南路21-1號",
+    "area": "台北市中正區",
+    "lat": 25.0361,
+    "lng": 121.5187,
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-26",
+    "isFree": true,
+    "priceNote": "免費（戶外廣場自由參加，歷屆均免費）",
+    "ageFit": "ok",
+    "ageFitReason": "戶外廣場自由進出，踩街隊伍熱鬧、鼓聲鑼聲多，幼兒看踩街、逛客莊小吃攤最開心，人多時留意牽好。",
+    "summary": "台北客家年度盛事，10/24–26在兩廳院藝文廣場登場。各地義民廟代表齊聚、挑擔奉飯創意踩街，配上客家歌舞展演與客莊美食攤位。戶外廣場免費自由進出，帶孩子看熱鬧踩街、嚐客家小吃剛剛好。（三日活動，個別場次時間以主辦公告為準）",
+    "sourceName": "台北旅遊網 活動",
+    "sourceUrl": "https://www.travel.taipei/zh-tw/event-calendar/details/66392",
+    "tags": [
+      "文化",
+      "客家",
+      "踩街",
+      "市集",
+      "免費",
+      "中正區"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-07-04T11:20:00+08:00",
+    "weekFound": "2026-W27"
   }
 ]
