@@ -1,62 +1,5 @@
 [
   {
-    "id": "musiccenter-nonstop-semifinal-2026-06-06",
-    "title": "2026台北音樂不斷電 複賽（信義香堤大道）",
-    "stream": "outdoor",
-    "category": "music",
-    "organizer": "臺北市政府文化局、臺北流行音樂中心",
-    "venue": "信義香堤大道廣場",
-    "address": "台北市信義區松壽路（新光三越信義新天地旁）",
-    "area": "台北市信義區",
-    "startDate": "2026-06-06",
-    "endDate": "2026-06-07",
-    "isFree": true,
-    "priceNote": "免費入場",
-    "ageFit": "ok",
-    "ageFitReason": "露天廣場自由進出，樂團輪番上陣較熱鬧，幼兒聽一兩組就能轉戰旁邊百貨休息。",
-    "summary": "台北市原創音樂大賽「台北音樂不斷電」複賽，6/6、6/7兩天在信義香堤大道廣場接力開唱，20組新生代樂團輪番演出。露天廣場免費入場、自由走動，逛街途中就能帶孩子近距離感受live band的鼓聲與吉他。",
-    "sourceName": "臺北流行音樂中心",
-    "sourceUrl": "https://city.gvm.com.tw/article/130625",
-    "tags": [
-      "戶外",
-      "音樂",
-      "樂團",
-      "免費",
-      "信義區"
-    ],
-    "status": "past",
-    "discoveredAt": "2026-06-05T22:35:46+08:00",
-    "weekFound": "2026-W23"
-  },
-  {
-    "id": "chaojingbay-keelung-sailing-2026-06-07",
-    "title": "台琉國際帆船賽首站「基隆國際帆船賽」岸上觀賽",
-    "stream": "outdoor",
-    "category": "competition",
-    "organizer": "基隆市政府（2026基隆潮境海灣節）",
-    "venue": "潮境公園、101高地（最佳觀賽點）",
-    "address": "基隆市中正區北寧路369巷",
-    "area": "基隆市中正區",
-    "startDate": "2026-06-07",
-    "isFree": true,
-    "priceNote": "岸上觀賽免費（觀賽船需另行報名付費）",
-    "ageFit": "ok",
-    "ageFitReason": "遠眺帆船較靜態，幼兒專注有限；潮境公園大草坪與飛天掃帚地標可搭配放電。",
-    "summary": "第22屆潮境海灣節打頭陣的台琉國際帆船賽首站，12國、36艘重型帆船在基隆嶼周邊海域競速，是歷年賽程最長的一屆。到潮境公園或101高地就能免費看帆船群出海，看完還能在公園草坪野餐、看潮間帶。",
-    "sourceName": "基隆潮境海灣節",
-    "sourceUrl": "https://www.klcg.gov.tw/tw/klcg1/3168-317126.html",
-    "tags": [
-      "戶外",
-      "競賽",
-      "帆船",
-      "海洋",
-      "免費"
-    ],
-    "status": "past",
-    "discoveredAt": "2026-06-05T10:01:19+08:00",
-    "weekFound": "2026-W23"
-  },
-  {
     "id": "rivocean-indie-award-30-2026-06-12",
     "title": "新北河海音樂季「海洋獨立音樂大賞」30強賽（永和仁愛公園）",
     "stream": "outdoor",
@@ -636,7 +579,7 @@
       "免費",
       "南港"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-05T22:35:46+08:00",
     "weekFound": "2026-W23"
   },
@@ -755,7 +698,7 @@
       "英語",
       "週日上午"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-29T02:06:40+08:00",
     "weekFound": "2026-W27"
   },
@@ -783,7 +726,7 @@
       "表演",
       "免費"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-04T12:00:00+08:00",
     "weekFound": "2026-W23"
   },
@@ -813,7 +756,7 @@
       "傍晚",
       "兒藝節"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-05T09:28:44+08:00",
     "weekFound": "2026-W23"
   },
@@ -1446,5 +1389,37 @@
     "status": "upcoming",
     "discoveredAt": "2026-07-04T11:20:00+08:00",
     "weekFound": "2026-W27"
+  },
+  {
+    "id": "tianmu-halloween-2026-10-24",
+    "title": "天母搞什麼鬼萬聖節嘉年華（第17屆）",
+    "titleOriginal": "Tianmu Halloween Festival 2026",
+    "stream": "cultural",
+    "category": "festival",
+    "organizer": "臺北市士林區公所 × 天母商圈發展協會",
+    "venue": "天母商圈（忠誠路、天母廣場一帶）",
+    "address": "台北市士林區忠誠路二段",
+    "area": "台北市士林區",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "startTime": "14:00",
+    "isFree": true,
+    "priceNote": "免費",
+    "ageFit": "great",
+    "ageFitReason": "10/25白天園遊會與討糖遊行最適合2-4歲，戶外開放、可推車、隨進隨出。",
+    "summary": "台北最經典的萬聖節活動，今年邁入第17屆。10/24晚間由「百鬼夜行大遊行」揭幕，10/25白天商圈園遊會有變裝人物、市集與「給糖別搗蛋」討糖遊行，250家店家沿街發糖。戶外免費、氣氛熱鬧，小小孩變裝討糖超開心。",
+    "sourceName": "台北旅遊網 活動",
+    "sourceUrl": "https://www.travel.taipei/zh-tw/event-calendar/details/13458",
+    "tags": [
+      "萬聖節",
+      "戶外",
+      "免費",
+      "變裝",
+      "討糖",
+      "市集"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-07-06T12:00:00+08:00",
+    "weekFound": "2026-W28"
   }
 ]
