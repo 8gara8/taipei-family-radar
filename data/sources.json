@@ -1,281 +1,281 @@
 [
- {
-  "id": "mofa-offices",
-  "name": "外交部 駐台外國機構名錄",
-  "type": "gov-calendar",
-  "stream": "cultural",
-  "url": "https://www.mofa.gov.tw/OfficesInROC.aspx",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "goethe-taipei",
-  "name": "歌德學院（台北）德國文化中心",
-  "type": "cultural-institute",
-  "stream": "cultural",
-  "url": "https://www.goethe.de/ins/tw/",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "france-taipei",
-  "name": "法國在台協會 / Alliance Française",
-  "type": "cultural-institute",
-  "stream": "cultural",
-  "url": "https://france-taipei.org/",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "ait",
-  "name": "美國在台協會 AIT",
-  "type": "cultural-institute",
-  "stream": "cultural",
-  "url": "https://www.ait.org.tw/",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "japan-exchange",
-  "name": "日本台灣交流協會",
-  "type": "cultural-institute",
-  "stream": "cultural",
-  "url": "https://www.koryu.or.jp/taipei/",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "cksmh",
-  "name": "國立中正紀念堂（表演/其他活動）",
-  "type": "venue",
-  "stream": "outdoor",
-  "url": "https://www.cksmh.gov.tw/",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "culture-event",
-  "name": "全國藝文活動資訊系統",
-  "type": "gov-calendar",
-  "stream": "both",
-  "url": "https://event.culture.tw/",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "yii-cksmh",
-  "name": "小藝行事曆（中正紀念堂）",
-  "type": "aggregator",
-  "stream": "outdoor",
-  "url": "https://yii.tw/taipei/calendar?place=cksmh",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "daan-foundation",
-  "name": "大安森林公園之友基金會（公園好活動）",
-  "type": "venue",
-  "stream": "outdoor",
-  "url": "https://www.daanforestpark.org.tw/",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "tpbusker",
-  "name": "臺北市街頭藝人展演申請平台",
-  "type": "venue",
-  "stream": "outdoor",
-  "url": "https://tpbusker.gov.taipei/",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "opentix",
-  "name": "OPENTIX 兩廳院文化生活（藝文廣場）",
-  "type": "aggregator",
-  "stream": "outdoor",
-  "url": "https://www.opentix.life/",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "huashan",
-  "name": "華山 1914 文創園區",
-  "type": "venue",
-  "stream": "outdoor",
-  "url": "https://www.huashan1914.com/",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "songshan",
-  "name": "松山文創園區",
-  "type": "venue",
-  "stream": "outdoor",
-  "url": "https://www.songshanculturalpark.org/",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "majorevent-taipei",
-  "name": "臺北市大型群聚活動行事曆（市民廣場等）",
-  "type": "gov-calendar",
-  "stream": "both",
-  "url": "https://majorevent.gov.taipei/",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "travel-taipei",
-  "name": "台北旅遊網 活動",
-  "type": "gov-calendar",
-  "stream": "both",
-  "url": "https://www.travel.taipei/zh-tw/event/calendar",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "ntpc-culture",
-  "name": "新北市政府文化局 / 新北旅客活動",
-  "type": "gov-calendar",
-  "stream": "both",
-  "url": "https://www.tourism.ntpc.gov.tw/",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "accupass",
-  "name": "Accupass（親子/戶外）",
-  "type": "aggregator",
-  "stream": "both",
-  "url": "https://www.accupass.com/",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "tpac",
-  "name": "臺北表演藝術中心（兒藝節）",
-  "type": "venue",
-  "stream": "outdoor",
-  "url": "https://tpac.org.taipei/festival-tcaf",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "ccct-canada",
-  "name": "加拿大商會 CCCT",
-  "type": "cultural-institute",
-  "stream": "cultural",
-  "url": "https://www.canchamtw.com/",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "taiwan-net",
-  "name": "交通部觀光署 觀光活動",
-  "type": "gov-calendar",
-  "stream": "both",
-  "url": "https://www.taiwan.net.tw/",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "npac-ntch",
-  "name": "國家兩廳院（夏日爵士/藝文廣場）",
-  "type": "venue",
-  "stream": "outdoor",
-  "url": "https://npac-ntch.org/",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "cultureexpress",
-  "name": "臺北市文化快遞",
-  "type": "gov-calendar",
-  "stream": "both",
-  "url": "https://cultureexpress.taipei/",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "ntpc-youth",
-  "name": "新北市政府青年局",
-  "type": "gov-calendar",
-  "stream": "outdoor",
-  "url": "https://www.youth.ntpc.gov.tw/",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "klcg-keelung",
-  "name": "基隆市表演藝術網（文化觀光局）",
-  "type": "gov-calendar",
-  "stream": "cultural",
-  "url": "https://klpas.klcg.gov.tw/",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "tpml",
-  "name": "臺北市立圖書館",
-  "type": "venue",
-  "stream": "cultural",
-  "url": "https://tpml.gov.taipei/",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "tmc-musiccenter",
-  "name": "臺北流行音樂中心",
-  "type": "venue",
-  "stream": "outdoor",
-  "url": "https://www.musiccenter.taipei/",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "clab",
-  "name": "臺灣當代文化實驗場 C-LAB",
-  "type": "venue",
-  "stream": "outdoor",
-  "url": "https://clab.org.tw/",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "ntpc-river-ocean-fest",
-  "name": "河海音樂季（新北市政府）",
-  "type": "gov-calendar",
-  "stream": "outdoor",
-  "url": "https://www.facebook.com/r.o.music.fest/",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "klcg-news",
-  "name": "基隆市政府",
-  "type": "gov-calendar",
-  "stream": "both",
-  "url": "https://www.klcg.gov.tw/tw/klcg1/3168.html",
-  "lastScannedAt": "2026-07-06T12:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "dadaocheng-summer",
-  "name": "大稻埕夏日節（台北旅遊網）",
-  "type": "gov-calendar",
-  "stream": "outdoor",
-  "url": "https://taipeisummer.travel.taipei/",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- },
- {
-  "id": "ntpc-summer",
-  "name": "Fun新北play一夏 夏季系列活動（新北市觀光旅遊網）",
-  "type": "gov-calendar",
-  "stream": "outdoor",
-  "url": "https://newtaipei.travel/zh-tw/calendar/list?year=2026",
-  "lastScannedAt": "2026-07-04T14:30:00+08:00",
-  "lastStatus": "ok"
- }
+  {
+    "id": "mofa-offices",
+    "name": "外交部 駐台外國機構名錄",
+    "type": "gov-calendar",
+    "stream": "cultural",
+    "url": "https://www.mofa.gov.tw/OfficesInROC.aspx",
+    "lastScannedAt": "2026-07-06T12:30:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "goethe-taipei",
+    "name": "歌德學院（台北）德國文化中心",
+    "type": "cultural-institute",
+    "stream": "cultural",
+    "url": "https://www.goethe.de/ins/tw/",
+    "lastScannedAt": "2026-07-06T12:30:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "france-taipei",
+    "name": "法國在台協會 / Alliance Française",
+    "type": "cultural-institute",
+    "stream": "cultural",
+    "url": "https://france-taipei.org/",
+    "lastScannedAt": "2026-07-06T12:30:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "ait",
+    "name": "美國在台協會 AIT",
+    "type": "cultural-institute",
+    "stream": "cultural",
+    "url": "https://www.ait.org.tw/",
+    "lastScannedAt": "2026-07-06T12:30:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "japan-exchange",
+    "name": "日本台灣交流協會",
+    "type": "cultural-institute",
+    "stream": "cultural",
+    "url": "https://www.koryu.or.jp/taipei/",
+    "lastScannedAt": "2026-07-06T12:30:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "cksmh",
+    "name": "國立中正紀念堂（表演/其他活動）",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://www.cksmh.gov.tw/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "culture-event",
+    "name": "全國藝文活動資訊系統",
+    "type": "gov-calendar",
+    "stream": "both",
+    "url": "https://event.culture.tw/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "yii-cksmh",
+    "name": "小藝行事曆（中正紀念堂）",
+    "type": "aggregator",
+    "stream": "outdoor",
+    "url": "https://yii.tw/taipei/calendar?place=cksmh",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "daan-foundation",
+    "name": "大安森林公園之友基金會（公園好活動）",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://www.daanforestpark.org.tw/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "tpbusker",
+    "name": "臺北市街頭藝人展演申請平台",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://tpbusker.gov.taipei/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "opentix",
+    "name": "OPENTIX 兩廳院文化生活（藝文廣場）",
+    "type": "aggregator",
+    "stream": "outdoor",
+    "url": "https://www.opentix.life/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "huashan",
+    "name": "華山 1914 文創園區",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://www.huashan1914.com/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "songshan",
+    "name": "松山文創園區",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://www.songshanculturalpark.org/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "majorevent-taipei",
+    "name": "臺北市大型群聚活動行事曆（市民廣場等）",
+    "type": "gov-calendar",
+    "stream": "both",
+    "url": "https://majorevent.gov.taipei/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "travel-taipei",
+    "name": "台北旅遊網 活動",
+    "type": "gov-calendar",
+    "stream": "both",
+    "url": "https://www.travel.taipei/zh-tw/event/calendar",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "ntpc-culture",
+    "name": "新北市政府文化局 / 新北旅客活動",
+    "type": "gov-calendar",
+    "stream": "both",
+    "url": "https://www.tourism.ntpc.gov.tw/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "accupass",
+    "name": "Accupass（親子/戶外）",
+    "type": "aggregator",
+    "stream": "both",
+    "url": "https://www.accupass.com/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "tpac",
+    "name": "臺北表演藝術中心（兒藝節）",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://tpac.org.taipei/festival-tcaf",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "ccct-canada",
+    "name": "加拿大商會 CCCT",
+    "type": "cultural-institute",
+    "stream": "cultural",
+    "url": "https://www.canchamtw.com/",
+    "lastScannedAt": "2026-07-06T12:30:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "taiwan-net",
+    "name": "交通部觀光署 觀光活動",
+    "type": "gov-calendar",
+    "stream": "both",
+    "url": "https://www.taiwan.net.tw/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "npac-ntch",
+    "name": "國家兩廳院（夏日爵士/藝文廣場）",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://npac-ntch.org/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "cultureexpress",
+    "name": "臺北市文化快遞",
+    "type": "gov-calendar",
+    "stream": "both",
+    "url": "https://cultureexpress.taipei/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "ntpc-youth",
+    "name": "新北市政府青年局",
+    "type": "gov-calendar",
+    "stream": "outdoor",
+    "url": "https://www.youth.ntpc.gov.tw/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "klcg-keelung",
+    "name": "基隆市表演藝術網（文化觀光局）",
+    "type": "gov-calendar",
+    "stream": "cultural",
+    "url": "https://klpas.klcg.gov.tw/",
+    "lastScannedAt": "2026-07-06T12:30:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "tpml",
+    "name": "臺北市立圖書館",
+    "type": "venue",
+    "stream": "cultural",
+    "url": "https://tpml.gov.taipei/",
+    "lastScannedAt": "2026-07-06T12:30:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "tmc-musiccenter",
+    "name": "臺北流行音樂中心",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://www.musiccenter.taipei/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "clab",
+    "name": "臺灣當代文化實驗場 C-LAB",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://clab.org.tw/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "ntpc-river-ocean-fest",
+    "name": "河海音樂季（新北市政府）",
+    "type": "gov-calendar",
+    "stream": "outdoor",
+    "url": "https://www.facebook.com/r.o.music.fest/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "klcg-news",
+    "name": "基隆市政府",
+    "type": "gov-calendar",
+    "stream": "both",
+    "url": "https://www.klcg.gov.tw/tw/klcg1/3168.html",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "dadaocheng-summer",
+    "name": "大稻埕夏日節（台北旅遊網）",
+    "type": "gov-calendar",
+    "stream": "outdoor",
+    "url": "https://taipeisummer.travel.taipei/",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "ntpc-summer",
+    "name": "Fun新北play一夏 夏季系列活動（新北市觀光旅遊網）",
+    "type": "gov-calendar",
+    "stream": "outdoor",
+    "url": "https://newtaipei.travel/zh-tw/calendar/list?year=2026",
+    "lastScannedAt": "2026-07-07T02:07:36+08:00",
+    "lastStatus": "ok"
+  }
 ]
