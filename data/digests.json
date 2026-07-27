@@ -64,5 +64,16 @@
       "rivocean-gongliao-fulong-2026-07-25",
       "traveltaipei-taloma-music-fest-2026-07-28"
     ]
+  },
+  {
+    "weekOf": "2026-W31",
+    "intro": "這週末就出發！本週六日（8/1–2）新北國際街舞大賽開放觀賽，霹靂舞鼓點超吸睛，最適合愛看熱鬧的 2–4 歲；週六大稻埕永樂廣場也有音樂展演與文創市集。8/15 煙火、河海音樂季、兩廳院夏日爵士一次爆發，先記起來！",
+    "highlightEventIds": [
+      "ntpcyouth-streetdance-2026-08-01",
+      "dadaocheng-summer-yongle-market-2026-08-01",
+      "traveltaipei-taloma-music-fest-2026-07-28",
+      "dadaocheng-summer-fireworks-2026-08-05",
+      "ntpc-tamsui-fireworks-2026-08-09"
+    ]
   }
 ]
