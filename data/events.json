@@ -1624,5 +1624,36 @@
     "status": "upcoming",
     "discoveredAt": "2026-07-06T12:00:00+08:00",
     "weekFound": "2026-W28"
+  },
+  {
+    "id": "traveltaipei-nuit-blanche-2026-10-31",
+    "title": "臺北白晝之夜 Nuit Blanche",
+    "titleOriginal": "2026 Nuit Blanche Taipei",
+    "stream": "cultural",
+    "category": "festival",
+    "organizer": "臺北市政府文化局",
+    "venue": "展區地點以主辦單位公告為準（每年輪替）",
+    "address": "臺北市（詳主辦公告）",
+    "area": "台北市",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-01",
+    "startTime": "18:00",
+    "isFree": true,
+    "priceNote": "免費（歷屆均為免費入場）",
+    "ageFit": "ok",
+    "ageFitReason": "大型戶外夜間藝術節，傍晚場最適合幼兒；入夜後人潮多、活動到深夜，建議傍晚早場去。",
+    "summary": "一年一度的免費夜間藝術節，10/31傍晚到隔天清晨在台北登場，戶外裝置藝術、光影與音樂舞蹈免費看到飽。傍晚時段人潮較少、最適合帶2-4歲散步賞裝置；入夜後越晚越擁擠，建議早到早回。今年展區與節目以臺北市文化局公告為準。",
+    "sourceName": "台北旅遊網 活動",
+    "sourceUrl": "https://www.travel.taipei/zh-tw/event-calendar/details/66784",
+    "tags": [
+      "文化",
+      "藝術節",
+      "戶外",
+      "夜間",
+      "免費"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-07-27T22:21:31+08:00",
+    "weekFound": "2026-W31"
   }
 ]
