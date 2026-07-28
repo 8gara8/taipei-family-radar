@@ -67,12 +67,12 @@
   },
   {
     "weekOf": "2026-W31",
-    "intro": "這週末就出發！本週六日（8/1–2）基隆山海藝術節國門廣場開幕，免費看馬戲、布袋戲、原民樂舞，2–4歲最愛；同週末有新北街舞大賽、大稻埕永樂市集。下週六（8/8）藝術節移師要塞古蹟。",
+    "intro": "這週末就出發！（8/1–2）八里城市沙雕展開幕，拉拉熊見面會超療癒；北投割稻趣下田摸稻穗；基隆山海藝術節國門廣場看馬戲、布袋戲，2–4歲都愛。下週六（8/8）藝術節移師要塞古蹟。",
     "highlightEventIds": [
+      "bali-sandsculpture-opening-2026-08-01",
+      "beitou-rice-harvest-2026-08-01",
       "klcg-shanhai-arts-guomen-2026-08-01",
-      "ntpcyouth-streetdance-2026-08-01",
       "dadaocheng-summer-yongle-market-2026-08-01",
-      "tpml-small-world-english-story-2026-08-02",
       "klcg-shanhai-arts-fortress-2026-08-08"
     ]
   }
