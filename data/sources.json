@@ -5,7 +5,7 @@
     "type": "gov-calendar",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC.aspx",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -14,7 +14,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.goethe.de/ins/tw/",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -23,7 +23,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://france-taipei.org/",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -32,7 +32,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.ait.org.tw/",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -41,7 +41,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.koryu.or.jp/taipei/",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -59,7 +59,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://event.culture.tw/",
-    "lastScannedAt": "2026-08-04T02:29:01+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -122,7 +122,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://majorevent.gov.taipei/",
-    "lastScannedAt": "2026-08-04T02:29:01+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -131,7 +131,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.travel.taipei/zh-tw/event/calendar",
-    "lastScannedAt": "2026-08-04T02:29:01+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -140,7 +140,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.tourism.ntpc.gov.tw/",
-    "lastScannedAt": "2026-08-04T02:29:01+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -149,7 +149,7 @@
     "type": "aggregator",
     "stream": "both",
     "url": "https://www.accupass.com/",
-    "lastScannedAt": "2026-08-04T02:29:01+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -167,7 +167,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.canchamtw.com/",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -176,7 +176,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.taiwan.net.tw/",
-    "lastScannedAt": "2026-08-04T02:29:01+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -194,7 +194,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://cultureexpress.taipei/",
-    "lastScannedAt": "2026-08-04T02:29:01+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -212,7 +212,7 @@
     "type": "gov-calendar",
     "stream": "cultural",
     "url": "https://klpas.klcg.gov.tw/",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -221,7 +221,7 @@
     "type": "venue",
     "stream": "cultural",
     "url": "https://tpml.gov.taipei/",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -257,7 +257,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.klcg.gov.tw/tw/klcg1/3168.html",
-    "lastScannedAt": "2026-08-04T02:29:01+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -320,7 +320,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=59&os=4",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -329,7 +329,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=186&os=13",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -338,7 +338,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=128&os=26",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -347,7 +347,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=176&os=59",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -356,7 +356,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=88&os=45",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -365,7 +365,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=8&os=9",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -374,7 +374,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.facebook.com/ITATW/",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -383,7 +383,7 @@
     "type": "venue",
     "stream": "cultural",
     "url": "https://www.ntm.gov.tw/",
-    "lastScannedAt": "2026-08-03T02:15:23+08:00",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   },
   {
@@ -411,6 +411,15 @@
     "stream": "outdoor",
     "url": "https://www.pcsdance.tw/",
     "lastScannedAt": "2026-08-04T02:29:01+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "czech-center-taipei",
+    "name": "捷克中心台北 Czech Centre Taipei",
+    "type": "cultural-institute",
+    "stream": "cultural",
+    "url": "https://taipei.czechcentres.gov.cz/zh/program",
+    "lastScannedAt": "2026-08-10T02:12:21+08:00",
     "lastStatus": "ok"
   }
 ]
