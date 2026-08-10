@@ -77,7 +77,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://www.daanforestpark.org.tw/",
-    "lastScannedAt": "2026-08-04T02:29:01+08:00",
+    "lastScannedAt": "2026-08-11T02:12:18+08:00",
     "lastStatus": "ok"
   },
   {
@@ -122,7 +122,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://majorevent.gov.taipei/",
-    "lastScannedAt": "2026-08-10T02:12:21+08:00",
+    "lastScannedAt": "2026-08-11T02:12:18+08:00",
     "lastStatus": "ok"
   },
   {
@@ -194,7 +194,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://cultureexpress.taipei/",
-    "lastScannedAt": "2026-08-10T02:12:21+08:00",
+    "lastScannedAt": "2026-08-11T02:12:18+08:00",
     "lastStatus": "ok"
   },
   {
@@ -420,6 +420,33 @@
     "stream": "cultural",
     "url": "https://taipei.czechcentres.gov.cz/zh/program",
     "lastScannedAt": "2026-08-10T02:12:21+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "ntsec",
+    "name": "國立臺灣科學教育館（科學嘉年華）",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://www.ntsec.gov.tw/article/list.aspx?a=96",
+    "lastScannedAt": "2026-08-11T02:12:18+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "kidsdafun",
+    "name": "大FUN凱道－兒童未來市",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://www.kidsdafun.com/",
+    "lastScannedAt": "2026-08-11T02:12:18+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "huanmin-village",
+    "name": "蟾蜍山煥民新村",
+    "type": "venue",
+    "stream": "outdoor",
+    "url": "https://huanminvillage.taipei/",
+    "lastScannedAt": "2026-08-11T02:12:18+08:00",
     "lastStatus": "ok"
   }
 ]
