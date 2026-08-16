@@ -1,95 +1,5 @@
 [
   {
-    "id": "ntpc-children-art-festival-2026-07-11",
-    "title": "新北市兒童藝術節（新北市民廣場）",
-    "titleOriginal": "2026新北市兒童藝術節",
-    "stream": "outdoor",
-    "category": "festival",
-    "organizer": "新北市政府文化局",
-    "venue": "新北市民廣場",
-    "address": "新北市板橋區中山路一段161號",
-    "area": "新北市板橋區",
-    "startDate": "2026-07-11",
-    "endDate": "2026-07-19",
-    "startTime": "16:00",
-    "isFree": true,
-    "priceNote": "免費入場",
-    "ageFit": "great",
-    "ageFitReason": "表演藝術、大型互動藝術裝置、體驗與市集，傍晚4點到晚上9點，親子同樂剛剛好。",
-    "summary": "新北市兒童藝術節在市民廣場連續9天登場（7/11–7/19，每日下午4點至晚上9點），結合表演藝術、可玩可拍的大型互動藝術裝置、體驗活動與市集，國內外團隊輪番演出，是暑假帶孩子一玩再玩的免費好去處。",
-    "sourceName": "Fun新北play一夏 夏季系列活動（新北市觀光旅遊網）",
-    "sourceUrl": "https://newtaipei.travel/file/3981/",
-    "tags": [
-      "戶外",
-      "兒童藝術節",
-      "裝置",
-      "市集",
-      "板橋"
-    ],
-    "status": "past",
-    "discoveredAt": "2026-06-23T02:21:56+08:00",
-    "weekFound": "2026-W26"
-  },
-  {
-    "id": "tpml-qbaby-bilingual-story-2026-07-17",
-    "title": "北市圖總館 Qbaby雙語故事時間（07/17場）",
-    "stream": "cultural",
-    "category": "workshop",
-    "organizer": "臺北市立圖書館",
-    "venue": "臺北市立圖書館總館 B2小小世界外文圖書館",
-    "address": "台北市大安區建國南路二段125號",
-    "area": "台北市大安區",
-    "startDate": "2026-07-17",
-    "startTime": "10:00",
-    "isFree": true,
-    "priceNote": "免費，自由參加免報名",
-    "ageFit": "great",
-    "ageFitReason": "官方對象就是2-6歲學齡前，中英繪本加手指謠，30分鐘剛好是幼兒專注上限。",
-    "summary": "北市圖總館的雙語故事時間，館員用中英文唸繪本、帶兒歌與手指謠，專為2-6歲學齡前孩子設計。每月第1、3、5週的週五早上10:00-10:30在B2小小世界外文圖書館，免報名、提早5分鐘到即可。聽完故事還能順路逛兒童室借書，雨天備案首選。",
-    "sourceName": "臺北市立圖書館",
-    "sourceUrl": "https://tpml.gov.taipei/News_Content.aspx?n=49F42C0F3A955E81&s=C3AC91B4A5DFEE0D",
-    "tags": [
-      "室內",
-      "免費",
-      "故事時間",
-      "雙語",
-      "平日上午"
-    ],
-    "status": "past",
-    "discoveredAt": "2026-06-05T16:50:00+08:00",
-    "weekFound": "2026-W23"
-  },
-  {
-    "id": "tpml-small-world-english-story-2026-07-19",
-    "title": "北市圖總館 小小世界兒童英語故事時間（07/19場）",
-    "titleOriginal": "The Small World English Story Time",
-    "stream": "cultural",
-    "category": "workshop",
-    "organizer": "臺北市立圖書館",
-    "venue": "臺北市立圖書館總館 B2小小世界外文圖書館",
-    "address": "台北市大安區建國南路二段125號",
-    "area": "台北市大安區",
-    "startDate": "2026-07-19",
-    "startTime": "10:00",
-    "isFree": true,
-    "priceNote": "免費，自由參加免報名",
-    "ageFit": "great",
-    "ageFitReason": "全英語繪本搭兒歌律動，2-4歲跟著唱跳剛好，不懂英文也能玩。",
-    "summary": "北市圖總館每週日上午的全英語故事時間，外文館員用英文繪本、手指謠和律動帶孩子親近英語，專為學齡前小朋友設計。10:00-11:30在B2小小世界外文圖書館，免報名直接入場。聽完故事可順路逛兒童室借書，是週日早上的室內好去處與雨天備案。",
-    "sourceName": "臺北市立圖書館",
-    "sourceUrl": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&s=AB9394814CE9F801&sms=9D72E82EC16F3E64",
-    "tags": [
-      "室內",
-      "免費",
-      "故事時間",
-      "英語",
-      "週日上午"
-    ],
-    "status": "past",
-    "discoveredAt": "2026-06-29T02:06:40+08:00",
-    "weekFound": "2026-W29"
-  },
-  {
     "id": "rivocean-gongliao-fulong-2026-07-25",
     "title": "2026新北市河海音樂季 貢寮場（福隆海灘）",
     "stream": "outdoor",
@@ -724,7 +634,7 @@
       "海洋",
       "免費"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-05T10:01:19+08:00",
     "weekFound": "2026-W23"
   },
@@ -753,7 +663,7 @@
       "夕陽",
       "碼頭"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-05T22:35:46+08:00",
     "weekFound": "2026-W23"
   },
@@ -785,7 +695,7 @@
       "免費",
       "大安"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-08-11T02:12:18+08:00",
     "weekFound": "2026-W33"
   },
@@ -818,7 +728,7 @@
       "基隆400",
       "火車"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-07-27T22:12:53+08:00",
     "weekFound": "2026-W31"
   },
@@ -850,7 +760,7 @@
       "傍晚",
       "野餐"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-05T03:27:00+08:00",
     "weekFound": "2026-W23"
   },
@@ -882,7 +792,7 @@
       "河濱",
       "親子"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-07-07T02:07:36+08:00",
     "weekFound": "2026-W28"
   },
@@ -912,7 +822,7 @@
       "士林",
       "週末"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-08-04T02:29:01+08:00",
     "weekFound": "2026-W32"
   },
@@ -943,7 +853,7 @@
       "戶外",
       "免費"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-08-10T02:12:21+08:00",
     "weekFound": "2026-W33"
   },
@@ -973,7 +883,7 @@
       "英語",
       "週日上午"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-07-27T22:12:53+08:00",
     "weekFound": "2026-W31"
   },
@@ -1003,7 +913,7 @@
       "淡水",
       "音樂"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-23T02:21:56+08:00",
     "weekFound": "2026-W26"
   },
@@ -2358,6 +2268,38 @@
     "status": "upcoming",
     "discoveredAt": "2026-07-04T11:20:00+08:00",
     "weekFound": "2026-W27"
+  },
+  {
+    "id": "tcap-halloween-costume-party-2026-10-24",
+    "title": "兒童新樂園萬聖變裝點心趴（寶可夢見面會）",
+    "titleOriginal": "萬聖變裝點心趴",
+    "stream": "cultural",
+    "category": "festival",
+    "organizer": "臺北市政府工務局公園路燈工程管理處／台北市立兒童新樂園",
+    "venue": "台北市立兒童新樂園",
+    "address": "台北市士林區承德路五段55號",
+    "area": "台北市士林區",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-26",
+    "startTime": "09:00",
+    "isFree": true,
+    "priceNote": "裝扮成南瓜、吸血鬼等角色即可免費入園（6歲以下兒童原本就免費）；園內遊具設施仍需另購代幣",
+    "ageFit": "great",
+    "ageFitReason": "換裝入園、寶可夢角色見面會、限量點心包，加上園內本來就適合幼兒的設施，4歲和2歲都能玩得開心。",
+    "summary": "台北兒童新樂園10/24-10/26化身萬聖小鎮，只要簡單裝扮成南瓜、吸血鬼等角色就能免費入園，現場限量發送4,000份點心包，還有寶可夢角色見面會與闖關任務，是帶小小孩體驗萬聖節氣氛、風險又低的好選擇（建議出發前再次確認當日開放時間）。",
+    "sourceName": "臺北市政府全球資訊網",
+    "sourceUrl": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=313B5AE82E40E5A2",
+    "tags": [
+      "萬聖節",
+      "兒童新樂園",
+      "寶可夢",
+      "士林",
+      "變裝",
+      "免費入園"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-08-17T02:10:30+08:00",
+    "weekFound": "2026-W34"
   },
   {
     "id": "tianmu-halloween-2026-10-24",
