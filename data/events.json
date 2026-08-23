@@ -1,96 +1,5 @@
 [
   {
-    "id": "rivocean-gongliao-fulong-2026-07-25",
-    "title": "2026新北市河海音樂季 貢寮場（福隆海灘）",
-    "stream": "outdoor",
-    "category": "music",
-    "organizer": "新北市政府",
-    "venue": "福隆大草坪、福隆海水浴場",
-    "address": "新北市貢寮區福隆街40號一帶",
-    "area": "新北市貢寮區",
-    "startDate": "2026-07-25",
-    "endDate": "2026-07-26",
-    "isFree": true,
-    "priceNote": "免費入場",
-    "ageFit": "ok",
-    "ageFitReason": "車程較遠且盛夏炎熱，但沙灘玩沙加海邊音樂節體驗難忘；備齊防曬遮陽再出發。",
-    "summary": "貢寮海洋音樂祭精神延續，7/25-26在福隆大草坪與海水浴場免費開唱，7/25同場舉行「海洋獨立音樂大賞」決賽。搭火車到福隆站走路就到，孩子玩沙踏浪、爸媽聽團看海，夏天的儀式感一次滿足。",
-    "sourceName": "河海音樂季（新北市政府）",
-    "sourceUrl": "https://city.gvm.com.tw/article/130625",
-    "tags": [
-      "戶外",
-      "音樂",
-      "海邊",
-      "免費",
-      "沙灘"
-    ],
-    "status": "past",
-    "discoveredAt": "2026-06-05T22:35:46+08:00",
-    "weekFound": "2026-W23"
-  },
-  {
-    "id": "dadaocheng-summer-fireworks-drone-2026-07-25",
-    "title": "2026大稻埕夏日節 主題煙火 × 蜘蛛人無人機燈光秀（7/25）",
-    "titleOriginal": "2026大稻埕夏日節",
-    "stream": "outdoor",
-    "category": "festival",
-    "organizer": "臺北市政府觀光傳播局",
-    "venue": "大稻埕碼頭 / 延平河濱公園",
-    "address": "台北市大同區延平河濱公園（5號水門）",
-    "area": "台北市大同區",
-    "startDate": "2026-07-25",
-    "endDate": "2026-07-25",
-    "startTime": "19:00",
-    "isFree": true,
-    "priceNote": "免費",
-    "ageFit": "great",
-    "ageFitReason": "煙火＋無人機聲光超吸睛，2–4歲看得目不轉睛；河濱腹地大好帶推車。",
-    "summary": "大稻埕夏日節開幕場！19:00起有音樂展演，20:00登場長達20分鐘的「主題煙火×蜘蛛人無人機燈光秀」，把蜘蛛人與台北城市意象投上夜空。河濱空間開闊，適合帶小小孩鋪野餐墊遠遠欣賞聲光。",
-    "sourceName": "dadaocheng-summer",
-    "sourceUrl": "https://www.businesstoday.com.tw/article/category/183031/post/202606300020/",
-    "tags": [
-      "戶外",
-      "煙火",
-      "無人機",
-      "音樂",
-      "河濱",
-      "親子"
-    ],
-    "status": "past",
-    "discoveredAt": "2026-07-07T02:07:36+08:00",
-    "weekFound": "2026-W28"
-  },
-  {
-    "id": "tpml-small-world-english-story-2026-07-26",
-    "title": "北市圖總館 小小世界兒童英語故事時間（07/26場）",
-    "titleOriginal": "The Small World English Story Time",
-    "stream": "cultural",
-    "category": "workshop",
-    "organizer": "臺北市立圖書館",
-    "venue": "臺北市立圖書館總館 B2小小世界外文圖書館",
-    "address": "台北市大安區建國南路二段125號",
-    "area": "台北市大安區",
-    "startDate": "2026-07-26",
-    "startTime": "10:00",
-    "isFree": true,
-    "priceNote": "免費，自由參加免報名",
-    "ageFit": "great",
-    "ageFitReason": "全英語繪本搭兒歌律動，2-4歲跟著唱跳剛好，不懂英文也能玩。",
-    "summary": "北市圖總館每週日上午的全英語故事時間，外文館員用英文繪本、手指謠和律動帶孩子親近英語，專為學齡前小朋友設計。10:00-11:30在B2小小世界外文圖書館，免報名直接入場。聽完故事可順路逛兒童室借書，是週日早上的室內好去處與雨天備案。",
-    "sourceName": "臺北市立圖書館",
-    "sourceUrl": "https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&s=AB9394814CE9F801&sms=9D72E82EC16F3E64",
-    "tags": [
-      "室內",
-      "免費",
-      "故事時間",
-      "英語",
-      "週日上午"
-    ],
-    "status": "past",
-    "discoveredAt": "2026-06-29T02:06:40+08:00",
-    "weekFound": "2026-W30"
-  },
-  {
     "id": "traveltaipei-taloma-music-fest-2026-07-28",
     "title": "TALOMA’ 台北原住民族音樂節",
     "titleOriginal": "2026 TALOMA’ Taipei Indigenous Music Festival",
@@ -942,7 +851,7 @@
       "雙語",
       "平日上午"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-22T08:47:10+08:00",
     "weekFound": "2026-W26"
   },
@@ -972,7 +881,7 @@
       "親子",
       "中正區"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-08-04T02:29:01+08:00",
     "weekFound": "2026-W32"
   },
@@ -1002,7 +911,7 @@
       "大安",
       "需報名"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-08-11T02:12:18+08:00",
     "weekFound": "2026-W33"
   },
@@ -1032,7 +941,7 @@
       "大安",
       "需報名"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-08-11T02:12:18+08:00",
     "weekFound": "2026-W33"
   },
@@ -1063,7 +972,7 @@
       "手作",
       "親子"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-08-18T02:17:20+08:00",
     "weekFound": "2026-W34"
   },
@@ -1093,7 +1002,7 @@
       "士林",
       "週末"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-08-04T02:29:01+08:00",
     "weekFound": "2026-W32"
   },
@@ -1123,7 +1032,7 @@
       "中山堂",
       "中正區"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-08-04T02:29:01+08:00",
     "weekFound": "2026-W32"
   },
@@ -1153,7 +1062,7 @@
       "英語",
       "週日上午"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-07-27T22:12:53+08:00",
     "weekFound": "2026-W31"
   },
@@ -1183,7 +1092,7 @@
       "淡水",
       "音樂"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-06-23T02:21:56+08:00",
     "weekFound": "2026-W26"
   },
@@ -2453,24 +2362,23 @@
   },
   {
     "id": "tianmu-halloween-2026-10-24",
-    "title": "天母搞什麼鬼萬聖節嘉年華（第17屆）",
+    "title": "天母搞什麼鬼萬聖節嘉年華（第18屆）",
     "titleOriginal": "Tianmu Halloween Festival 2026",
     "stream": "cultural",
     "category": "festival",
     "organizer": "臺北市士林區公所 × 天母商圈發展協會",
-    "venue": "天母商圈（忠誠路、天母廣場一帶）",
-    "address": "台北市士林區忠誠路二段",
+    "venue": "天母運動公園",
+    "address": "台北市士林區忠誠路二段55號",
     "area": "台北市士林區",
     "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "startTime": "14:00",
+    "startTime": "13:00",
     "isFree": true,
     "priceNote": "免費",
     "ageFit": "great",
     "ageFitReason": "10/25白天園遊會與討糖遊行最適合2-4歲，戶外開放、可推車、隨進隨出。",
-    "summary": "台北最經典的萬聖節活動，今年邁入第17屆。10/24晚間由「百鬼夜行大遊行」揭幕，10/25白天商圈園遊會有變裝人物、市集與「給糖別搗蛋」討糖遊行，250家店家沿街發糖。戶外免費、氣氛熱鬧，小小孩變裝討糖超開心。",
+    "summary": "天母商圈年度萬聖節嘉年華邁入第18屆，2026/10/24（六）13:00-20:00在天母運動公園登場，有變裝踩街、園遊會市集與討糖活動，戶外開放空間、免費入場，很適合推車帶小小孩參加。",
     "sourceName": "台北旅遊網 活動",
-    "sourceUrl": "https://www.travel.taipei/zh-tw/event-calendar/details/13458",
+    "sourceUrl": "https://www.beclass.com/rid=30527706a5e42028605e",
     "tags": [
       "萬聖節",
       "戶外",
@@ -2480,8 +2388,8 @@
       "市集"
     ],
     "status": "upcoming",
-    "discoveredAt": "2026-07-06T12:00:00+08:00",
-    "weekFound": "2026-W28"
+    "discoveredAt": "2026-08-24T10:00:00+08:00",
+    "weekFound": "2026-W35"
   },
   {
     "id": "tpac-weekend-stage-sizhukong-2026-10-24",
@@ -2573,6 +2481,38 @@
     "status": "upcoming",
     "discoveredAt": "2026-08-10T02:12:21+08:00",
     "weekFound": "2026-W33"
+  },
+  {
+    "id": "xinzhongshan-halloween-trickortreat-2026-10-26",
+    "title": "心中山萬聖節哈囉鬼派對（壓軸場：Trick or Treat討糖）",
+    "titleOriginal": "Xin Zhongshan Halloween Hello Ghost Party",
+    "stream": "cultural",
+    "category": "festival",
+    "organizer": "臺北市中山區公所",
+    "venue": "心中山線形公園（捷運中山站至雙連站）",
+    "address": "台北市中山區中山北路二段45巷一帶",
+    "area": "台北市中山區",
+    "startDate": "2026-10-26",
+    "endDate": "2026-10-27",
+    "startTime": "14:00",
+    "isFree": true,
+    "priceNote": "免費、免報名",
+    "ageFit": "great",
+    "ageFitReason": "戶外線形公園、免票免報名，可推車自由進出，向工作人員喊Trick or Treat討糖很適合2-4歲小小孩。",
+    "summary": "整個10月週末，心中山線形公園都有萬聖市集，10/26-27是壓軸場，小朋友對現場鬼怪工作人員喊「Trick or Treat！」就能討到糖果，還有應景市集、手作小物與美食餐車，完全免費、免報名。",
+    "sourceName": "台北旅遊網 活動",
+    "sourceUrl": "https://www.walkerland.com.tw/subject/view/398861",
+    "tags": [
+      "萬聖節",
+      "戶外",
+      "免費",
+      "討糖",
+      "市集",
+      "免報名"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-08-24T10:00:00+08:00",
+    "weekFound": "2026-W35"
   },
   {
     "id": "tpml-qbaby-bilingual-story-2026-10-30",
