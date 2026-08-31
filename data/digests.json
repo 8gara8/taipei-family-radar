@@ -122,12 +122,12 @@
   },
   {
     "weekOf": "2026-W36",
-    "intro": "這週末（9/5–6）北藝中心《大象來了……》戶外藝術遊行登場，三頭機械鐵象超吸睛，天文館同步有免費觀星場次。下週六（9/12）捷克當代攝影展開幕酒會在中山北路登場，無獨有偶布袋戲《演奏吧！好土樂團》同天上演，適合安排一場藝文半日遊。",
+    "intro": "這週末（9/5–6）北藝中心《大象來了……》戶外藝術遊行登場，同天華山還有免費武動體育嘉年華可以玩滑板、疊杯、無人機足球，天文館也有免費觀星場次。下週六（9/12）無獨有偶布袋戲《演奏吧！好土樂團》登場，適合安排一場藝文半日遊。",
     "highlightEventIds": [
       "tpac-elephant-parade-2026-09-05",
+      "huashan-sports-carnival-2026-09-05",
       "tam-free-stargazing-2026-09-05",
       "tpml-small-world-english-story-2026-09-06",
-      "czechcenter-joie-et-refuge-photo-2026-09-12",
       "ctbc-artsfestival-goodsoil-puppet-2026-09-12"
     ]
   }
