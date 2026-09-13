@@ -141,5 +141,16 @@
       "kaidao-kids-future-city-2026-09-19",
       "daanpark-bird-walk-2026-09-19"
     ]
+  },
+  {
+    "weekOf": "2026-W38",
+    "intro": "這週六（9/19）大FUN凱道兒童未來市、中山堂廣場音樂節都好玩，一早還能到大安森林公園賞鳥。下週五（9/25）大稻埕海沐Moonlight市集賞中秋燈籠，週六（9/26）國際住棚節文化市集熱鬧登場，天文館也有免費觀星場。",
+    "highlightEventIds": [
+      "kaidao-kids-future-city-2026-09-19",
+      "zhongshan-hall-plaza-music-festival-2026-09-19",
+      "daanpark-bird-walk-2026-09-19",
+      "dadaocheng-moonlight-market-2026-09-25",
+      "sccp-sukkot-market-2026-09-26"
+    ]
   }
 ]
