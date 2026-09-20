@@ -152,5 +152,16 @@
       "dadaocheng-moonlight-market-2026-09-25",
       "sccp-sukkot-market-2026-09-26"
     ]
+  },
+  {
+    "weekOf": "2026-W39",
+    "intro": "這週末（9/26–27）國際住棚節文化市集登場，適合帶孩子認識聖經節期；天文館免費觀星、北市圖有英語故事時間。下週六（10/3）基隆海洋老鷹嘉年華、心中山萬聖市集開跑，適合安排萬聖節出遊。",
+    "highlightEventIds": [
+      "sccp-sukkot-market-2026-09-26",
+      "tam-free-stargazing-2026-09-26",
+      "tpml-small-world-english-story-2026-09-27",
+      "zhongshan-linear-park-halloween-market-2026-10-02",
+      "klcg-ocean-eagle-carnival-2026-10-03"
+    ]
   }
 ]
