@@ -2138,6 +2138,35 @@
     "weekFound": "2026-W37"
   },
   {
+    "id": "songshan-richang-riucangxuanwushi-2026-11-21",
+    "title": "日常。日藏選物市",
+    "titleOriginal": "日常。日藏選物市",
+    "stream": "outdoor",
+    "category": "market",
+    "organizer": "好日市集",
+    "venue": "松山文創園區 南向製菸工廠",
+    "address": "台北市信義區光復南路133號",
+    "area": "台北市信義區",
+    "startDate": "2026-11-21",
+    "endDate": "2026-11-22",
+    "startTime": "13:00",
+    "isFree": true,
+    "priceNote": "免費入場",
+    "ageFit": "ok",
+    "ageFitReason": "手作與選物攤位為主，適合帶孩子邊逛邊放電，較無專為幼兒設計的互動內容。",
+    "summary": "松山文創園區秋季選物市集，集結手作、雜貨創作人擺攤，適合全家周末散步、順道野餐的悠閒去處。",
+    "sourceName": "松山文創園區",
+    "sourceUrl": "https://www.twmarket.tw/2026-11-2111-22-%E8%87%BA%E5%8C%97%E5%B8%82-%E6%9D%BE%E5%B1%B1%E6%96%87%E5%89%B5%E5%9C%92%E5%8D%80-%E6%97%A5%E5%B8%B8%E3%80%82%E6%97%A5%E8%97%8F%E9%81%B8%E7%89%A9%E5%B8%82/",
+    "tags": [
+      "戶外",
+      "市集",
+      "手作"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-09-23T00:00:00+08:00",
+    "weekFound": "2026-W39"
+  },
+  {
     "id": "tpml-small-world-english-story-2026-11-22",
     "title": "北市圖總館 小小世界兒童英語故事時間（11/22場）",
     "titleOriginal": "The Small World English Story Time",
