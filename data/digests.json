@@ -163,5 +163,16 @@
       "zhongshan-linear-park-halloween-market-2026-10-02",
       "klcg-ocean-eagle-carnival-2026-10-03"
     ]
+  },
+  {
+    "weekOf": "2026-W40",
+    "intro": "這週末（10/3–4）心中山萬聖節市集首週末登場，華山秋季書市、基隆海洋老鷹嘉年華都好玩，週日北市圖還有英語故事時間。下週六（10/10）北藝中心有弦樂重奏《弦上的聲音遊樂場》可以聽。",
+    "highlightEventIds": [
+      "zhongshan-linear-park-halloween-market-2026-10-02",
+      "huashan-autumn-book-market-2026-10-03",
+      "klcg-ocean-eagle-carnival-2026-10-03",
+      "tpml-small-world-english-story-2026-10-04",
+      "tpac-weekend-stage-morningside-2026-10-10"
+    ]
   }
 ]
