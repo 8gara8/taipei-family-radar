@@ -777,7 +777,7 @@
       "免費",
       "中正"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-09-08T02:10:00+08:00",
     "weekFound": "2026-W37"
   },
@@ -1171,6 +1171,37 @@
     "status": "upcoming",
     "discoveredAt": "2026-09-08T02:10:00+08:00",
     "weekFound": "2026-W37"
+  },
+  {
+    "id": "pokemongo-pokexciting-taipei-2026-10-10",
+    "title": "PokéXciting! in 台北－寶可夢30週年慶典",
+    "titleOriginal": "PokéXciting! in 台北",
+    "stream": "outdoor",
+    "category": "festival",
+    "organizer": "Pokémon GO（Niantic／The Pokémon Company）",
+    "venue": "香堤大道廣場",
+    "address": "台北市信義區香堤大道廣場一帶",
+    "area": "台北市信義區",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "startTime": "11:00",
+    "isFree": true,
+    "priceNote": "免費入場",
+    "ageFit": "ok",
+    "ageFitReason": "有巨型寶可夢裝置、舞台表演與拍照打卡，4歲若認得皮卡丘會很興奮，2歲可感受節慶氣氛，但假日人潮較多。",
+    "summary": "寶可夢30週年慶典登陸台北信義區香堤大道廣場，國慶連假兩天有舞台表演、超極巨化對戰活動、限定拍照框與周邊攤位，免費入場適合全家白天出遊感受節慶氣氛。",
+    "sourceName": "Pokémon GO 官方公告",
+    "sourceUrl": "https://pokemongo.com/zh-Hant/news/event-taipei-30th-anniversary-2026",
+    "tags": [
+      "戶外",
+      "市集",
+      "節慶",
+      "親子",
+      "寶可夢"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-09-29T02:11:55+08:00",
+    "weekFound": "2026-W40"
   },
   {
     "id": "tpac-weekend-stage-morningside-2026-10-10",
