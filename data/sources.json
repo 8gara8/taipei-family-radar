@@ -104,7 +104,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://www.huashan1914.com/",
-    "lastScannedAt": "2026-09-29T02:11:55+08:00",
+    "lastScannedAt": "2026-10-06T02:08:41+08:00",
     "lastStatus": "ok"
   },
   {
@@ -113,8 +113,8 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://www.songshanculturalpark.org/",
-    "lastScannedAt": "2026-09-29T02:11:55+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-10-06T02:08:41+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "majorevent-taipei",
@@ -122,8 +122,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://majorevent.gov.taipei/",
-    "lastScannedAt": "2026-09-29T02:11:55+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-10-06T02:08:41+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "travel-taipei",
@@ -131,8 +131,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.travel.taipei/zh-tw/event/calendar",
-    "lastScannedAt": "2026-09-29T02:11:55+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-10-06T02:08:41+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "ntpc-culture",
@@ -149,8 +149,8 @@
     "type": "aggregator",
     "stream": "both",
     "url": "https://www.accupass.com/",
-    "lastScannedAt": "2026-09-29T02:11:55+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-10-06T02:08:41+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "tpac",
@@ -194,8 +194,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://cultureexpress.taipei/",
-    "lastScannedAt": "2026-09-29T02:11:55+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-10-06T02:08:41+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "ntpc-youth",
@@ -230,7 +230,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://www.musiccenter.taipei/",
-    "lastScannedAt": "2026-09-29T02:11:55+08:00",
+    "lastScannedAt": "2026-10-06T02:08:41+08:00",
     "lastStatus": "ok"
   },
   {
@@ -483,6 +483,15 @@
     "stream": "outdoor",
     "url": "https://pokemongo.com/zh-Hant/news",
     "lastScannedAt": "2026-09-29T02:11:55+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "nuitblanche-info",
+    "name": "白晝之夜懶人包（Swing Taiwan）",
+    "type": "aggregator",
+    "stream": "outdoor",
+    "url": "https://www.swingtaiwan.com/",
+    "lastScannedAt": "2026-10-06T02:08:41+08:00",
     "lastStatus": "ok"
   }
 ]

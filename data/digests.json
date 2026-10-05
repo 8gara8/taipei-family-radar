@@ -174,5 +174,15 @@
       "pokemongo-pokexciting-taipei-2026-10-10",
       "tpac-weekend-stage-morningside-2026-10-10"
     ]
+  },
+  {
+    "weekOf": "2026-W41",
+    "intro": "這週六日（10/10–11）信義區寶可夢30週年慶典免費開放，北藝中心週末小戲台也有弦樂重奏可以聽。下週六（10/17）松菸有療癒市集。月底10/31白晝之夜移師圓山登場，傍晚前帶孩子逛小火車、旋轉木馬裝置最剛好。",
+    "highlightEventIds": [
+      "pokemongo-pokexciting-taipei-2026-10-10",
+      "tpac-weekend-stage-morningside-2026-10-10",
+      "sccp-huggy-moonlight-healing-market-2026-10-17",
+      "nuitblanche-taipei-yuanshan-2026-10-31"
+    ]
   }
 ]
