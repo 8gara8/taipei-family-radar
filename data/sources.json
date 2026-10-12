@@ -59,8 +59,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://event.culture.tw/",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-10-13T02:41:09+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "yii-cksmh",
@@ -122,8 +122,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://majorevent.gov.taipei/",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-10-13T02:41:09+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "travel-taipei",
@@ -131,8 +131,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.travel.taipei/zh-tw/event/calendar",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-10-13T02:41:09+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "ntpc-culture",
@@ -149,7 +149,7 @@
     "type": "aggregator",
     "stream": "both",
     "url": "https://www.accupass.com/",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
+    "lastScannedAt": "2026-10-13T02:41:09+08:00",
     "lastStatus": "ok"
   },
   {
@@ -194,8 +194,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://cultureexpress.taipei/",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-10-13T02:41:09+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "ntpc-youth",
@@ -502,5 +502,14 @@
     "url": "https://www.parenting.com.tw/article/5098140",
     "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
     "lastStatus": "ok"
+  },
+  {
+    "name": "天母商圈發展協會",
+    "url": "https://www.tianmu.org.tw/",
+    "stream": "outdoor",
+    "lastScannedAt": "2026-10-13T02:41:09+08:00",
+    "lastStatus": "ok",
+    "id": "tianmu-merchants-assoc",
+    "type": "venue"
   }
 ]
