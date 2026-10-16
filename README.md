@@ -45,16 +45,29 @@ data/             # events.json / sources.json / digests.json（事實來源，�
 - **Phase 1**：Next.js + Tailwind v4 基礎、design tokens、型別與資料層、種子資料（來源／摘要／8 筆活動）、TopNav/Tabs、首頁「本週精選」，以及可部署的 Vercel 設定。
 - **Phase 2**：互動月曆（`CalendarMonth` + `DayDrawer`）、活動詳情頁（`EventDetail` + `generateStaticParams`）、`StaleDataBanner`／`EmptyState`／載入骨架等空與過期狀態。
 - **Phase 3**：全部活動篩選（利基／類型／免費／週末／適合度／城市＋行政區）、About 來源頁、`scripts/normalize-data.ts` 與 prebuild 接線、RWD 收尾。
-- **Phase 4（本階段）**：每週自動更新流程 — `prompts/weekly-scan.md` 研究指令、`.github/workflows/weekly-scan.yml`（GitHub Actions cron 備援），詳見下方〈自動化〉。
+- **Phase 4（本階段）**：每週自動更新流程 — `prompts/weekly-scan.md` 研究指令、`.github/workflows/weekly-scan.yml`（GitHub Actions 手動備援），詳見下方〈自動化〉。
 
 ## 自動化（內容每週更新）
 
-內容由一個每週執行的 Claude 代理人產生：研究兩條利基資料線、篩出適合幼兒的活動、寫入 `data/*.json`、commit 後觸發 Vercel 重新部署。研究指令全文見 [`prompts/weekly-scan.md`](./prompts/weekly-scan.md)。
+內容由兩個既有 Claude Cowork 任務分流研究、篩選活動、更新 `data/*.json`，commit 與 push 後觸發 Vercel 重新部署。已發布內容與現行排程一致，時間皆為 **Asia/Taipei**：
 
-兩種執行方式（擇一）：
+| 任務 | 每週開始時間 |
+|------|-------------|
+| Cultural（文化機構活動） | 週一 02:00 |
+| Outdoor（戶外表演與體驗） | 週二 02:00 |
 
-- **方式 A（預設）— Claude Cowork Scheduler**：在 Claude Cowork 建立每週重複任務，指示內容＝`prompts/weekly-scan.md` 全文，並授予該 repo 存取與 web 搜尋能力。建議排程每週三 20:00（台北時間）。任務會 commit 後直接 push。
-- **方式 B（備援）— GitHub Actions cron**：`.github/workflows/weekly-scan.yml`，每週三 12:00 UTC（＝台北 20:00）觸發，亦可由 `workflow_dispatch` 手動執行。需在 GitHub → Settings → Secrets 設定 `ANTHROPIC_API_KEY` 與 `PAT_TOKEN`（讓機器人 push 能觸發 Vercel 部署）。workflow 會先 `pnpm validate` 驗證資料再 push。
+02:00 是掃描開始時間；內容完成後才發布，網站另顯示實際資料更新日期。網站使用 `src/lib/scan-schedule.ts` 統一產生時間標籤與下次掃描日期；它只反映既有排程，不會設定或修改 Claude 的觸發器。
+
+- **主要執行方式 — Claude Cowork Scheduler**：保留既有 Cultural 與 Outdoor 任務及其完整研究／發布指令。`prompts/weekly-scan.md` 是涵蓋兩條資料線的通用研究指令，不代表目前只有一個合併任務。
+- **手動備援 — GitHub Actions**：`.github/workflows/weekly-scan.yml` 僅開放 `workflow_dispatch`，自 2026-06-11 起沒有 cron。需要備援時手動執行，避免與 Cowork 重複發布。所需 `ANTHROPIC_API_KEY` 與 `PAT_TOKEN` 設於 GitHub Secrets；workflow 驗證資料後才 push。
+
+修改這些文件或網站顯示不會改動上述排程。遷移時應先核對帳號中的既有任務，避免建立重複工作。
+
+下次掃描日期的邊界測試（含 UTC 伺服器與台北跨日）：
+
+```bash
+TZ=UTC node --import tsx --test src/lib/scan-schedule.test.ts
+```
 
 資料驗證可隨時本機執行：
 

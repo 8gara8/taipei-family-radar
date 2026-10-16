@@ -10,7 +10,7 @@
 
 ## 1. Project Overview
 
-一個自動更新的「台北親子活動雷達」靜態網站。內容由一個每週執行的 Claude 代理人（Claude Cowork Scheduler）產生：研究兩條利基資料線 —（A）各國駐台文化／代表機構的節慶與文化活動；（B）戶外表演（中正紀念堂、大安森林公園露天音樂台、兩廳院藝文廣場、華山、松菸、市民廣場等）— 篩出適合帶 4 歲與 2 歲幼兒參加的活動，寫入 repo 內的 JSON，push 到 GitHub 後由 Vercel 自動部署。
+一個自動更新的「台北親子活動雷達」靜態網站。內容由兩個每週執行的 Claude Cowork 任務（Cultural／Outdoor）產生：研究兩條利基資料線 —（A）各國駐台文化／代表機構的節慶與文化活動；（B）戶外表演（中正紀念堂、大安森林公園露天音樂台、兩廳院藝文廣場、華山、松菸、市民廣場等）— 篩出適合帶 4 歲與 2 歲幼兒參加的活動，寫入 repo 內的 JSON，push 到 GitHub 後由 Vercel 自動部署。
 
 地理範圍：大台北（台北市為主，含新北市）。UI 純繁體中文，活動保留原文名。網站無後端、無資料庫、無登入；私人先用、設計上可隨時公開。
 
@@ -96,7 +96,7 @@ taipei-family-radar/
 ├── prompts/
 │   └── weekly-scan.md           # Claude Cowork 每週排程任務的研究指令
 ├── .github/workflows/
-│   └── weekly-scan.yml          # （備援）GitHub Actions cron 版自動化
+│   └── weekly-scan.yml          # （備援）GitHub Actions 手動備援
 ├── SPEC.md                      # 本檔
 ├── package.json
 ├── tsconfig.json
@@ -376,50 +376,29 @@ pnpm tsx scripts/normalize-data.ts
 
 | Variable | Description | Where |
 |----------|-------------|-------|
-| `ANTHROPIC_API_KEY` | 僅「GitHub Actions cron 備援」自動化需要 | GitHub → Settings → Secrets |
+| `ANTHROPIC_API_KEY` | 僅「GitHub Actions 手動備援」自動化需要 | GitHub → Settings → Secrets |
 | `PAT_TOKEN` | 僅備援需要：讓機器人 push 能觸發 Vercel 部署 | GitHub PAT（repo 權限） |
 
 `.env.example` 留空殼即可（站點無 runtime env）。
 
-### 自動化（內容每週更新）— 兩種方式
+### 自動化（內容每週更新）— 現行執行方式
 
-**方式 A（預設，依你的需求）：Claude Cowork Scheduler**
-在 Claude Cowork 建立一個**每週重複任務**，指示內容＝`prompts/weekly-scan.md` 全文，並給它：
-- 該 repo 的存取（GitHub 連接器，或本機 working copy）。
-- Web 搜尋/瀏覽能力。
-任務每週執行：研究 → 編輯 `data/*.json` → `git commit && git push`。push 觸發 Vercel 部署。
-建議排程：**每週三 20:00（台北時間）**，讓你週四／五先看到週末規劃。
+**主要方式：Claude Cowork Scheduler**
 
-**方式 B（備援）：GitHub Actions cron**（`.github/workflows/weekly-scan.yml`）
-若想要全託管、不依賴桌面 App：
-```yaml
-name: Weekly Scan
-on:
-  schedule:
-    - cron: '0 12 * * 3'   # 每週三 12:00 UTC = 台北 20:00
-  workflow_dispatch:
-jobs:
-  scan:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with: { token: ${{ secrets.PAT_TOKEN }} }
-      - uses: actions/setup-node@v4
-        with: { node-version: 20 }
-      - run: npm install -g @anthropic-ai/claude-code
-      - name: Run weekly scan
-        env: { ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }} }
-        run: |
-          claude -p "$(cat prompts/weekly-scan.md)" \
-            --allowedTools "Bash(git*),Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
-      - name: Commit & push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --staged --quiet || git commit -m "weekly-scan: $(date +%Y-%m-%d)"
-          git push
-```
+保留兩個既有任務，時間皆為 **Asia/Taipei**：
+
+- Cultural：每週一 02:00 開始掃描文化機構活動。
+- Outdoor：每週二 02:00 開始掃描戶外表演與體驗。
+
+各任務沿用完整的分流研究與發布指令；研究 → 編輯 `data/*.json` → 驗證 → commit／push → Vercel 部署。`prompts/weekly-scan.md` 為涵蓋兩條線的通用研究指令，不應以它取代既有任務全文。02:00 為排定開始時間，完成後才發布。
+
+網站的 `src/lib/scan-schedule.ts` 反映這兩個現有任務，統一 About、頁尾與下次掃描日期。週一 01:59 仍指向當日；週一 02:00 起指向週二；週二 02:00 起指向下週一。日期以台北時區計算，與伺服器時區無關。此模組不會設定 Claude 的觸發器。
+
+**手動備援：GitHub Actions**（`.github/workflows/weekly-scan.yml`）
+
+現行 workflow 自 2026-06-11 起只使用 `workflow_dispatch`，沒有 `schedule`／cron。需要時由人手動啟動；完整實作以該 workflow 檔為準。它先限制變更在 `data/` 並驗證，再 commit／push，所需 secrets 見上表。不可另行啟用週期觸發而造成與 Cowork 重複發布。
+
+本次文件對齊不修改任何 Claude 任務或 GitHub workflow。
 
 ---
 
@@ -458,7 +437,7 @@ jobs:
 **Goal:** 內容每週自動更新並上線。
 **Tasks:**
 1. 寫 `prompts/weekly-scan.md`（§10 全文）。
-2. 設定 Claude Cowork 每週任務（方式 A），或啟用 `.github/workflows/weekly-scan.yml`（方式 B）。
+2. 核對既有 Claude Cowork Cultural／Outdoor 任務與上述時間；GitHub workflow 保持手動備援。
 3. 端到端測試：手動觸發一次 → 確認 `data/*.json` 被更新並 commit → Vercel 重新部署 → 網站出現新活動、`lastScannedAt` 更新。
 **Milestone:** 一次完整自動跑通：研究 → 寫資料 → push → 部署，網站反映本週新內容。
 

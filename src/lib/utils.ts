@@ -5,15 +5,14 @@ import {
   differenceInCalendarDays,
   format,
   getDay,
-  nextThursday,
-  nextTuesday,
   parseISO,
 } from "date-fns";
 import { zhTW } from "date-fns/locale";
+import { nextScanStart, SCAN_TIME_ZONE } from "./scan-schedule";
 
 // 站點與來源時間皆以台灣為準；在 UTC 伺服器（Vercel）上仍以台北時區呈現，
 // 避免凌晨時間戳被顯示成前一天。
-const TAIPEI = "Asia/Taipei";
+const TAIPEI = SCAN_TIME_ZONE;
 const inTaipei = { in: tz(TAIPEI), locale: zhTW } as const;
 
 /** 合併 Tailwind class，後者覆蓋前者衝突的 utility。 */
@@ -50,15 +49,11 @@ export function daysSince(iso: string, now: Date = new Date()): number {
 }
 
 /**
- * 下次內容更新日（每週二、四自動掃描）。
- * 取下個週二與下個週四中較早者；若今天就是週二或週四，各自視為「下一個」，
- * 給空狀態一個明確的回訪日期。以台北時區判定星期，避免 UTC 伺服器在跨日時段誤算。
+ * 下次排定掃描的日期；以台北時區與 02:00 開始時間判定。
+ * 掃描完成後才發布內容，實際更新時間另由資料的 lastUpdated 顯示。
  */
 export function formatNextUpdate(now: Date = new Date()): string {
-  const tuesday = nextTuesday(now, { in: tz(TAIPEI) });
-  const thursday = nextThursday(now, { in: tz(TAIPEI) });
-  const next = tuesday < thursday ? tuesday : thursday;
-  return format(next, "yyyy年M月d日", inTaipei);
+  return format(nextScanStart(now), "yyyy年M月d日", inTaipei);
 }
 
 /** startDate 是否落在週末（週六或週日）。供「只看週末」篩選用。 */

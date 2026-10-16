@@ -4,6 +4,7 @@ import { StaleDataBanner } from "@/components/layout/StaleDataBanner";
 import { STREAM_META } from "@/lib/stream";
 import { getLastUpdated, getSources } from "@/lib/data";
 import { daysSince, formatFullDate } from "@/lib/utils";
+import { SCAN_SCHEDULE, SCAN_TIME_LABEL } from "@/lib/scan-schedule";
 
 export const metadata: Metadata = {
   title: "關於與來源",
@@ -27,7 +28,7 @@ export default function AboutPage() {
           自動更新的免費親子活動指南，為帶幼兒的台北家庭，每週精選台北、新北、基隆適合小小孩的免費活動。
         </p>
         <p className="mt-2.5 text-[13px] leading-[1.8] text-[var(--color-text-secondary)]">
-          AI 每週自動掃描兩次：週二查各國文化機構活動，週四查戶外表演與賽事。
+          AI 每週自動掃描兩次：{SCAN_SCHEDULE[0].label}查各國文化機構活動，{SCAN_SCHEDULE[1].label}查戶外表演與賽事，皆於台北時間 {SCAN_TIME_LABEL} 開始。內容於掃描完成後發布。
         </p>
       </div>
 

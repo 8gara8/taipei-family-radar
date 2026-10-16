@@ -5,7 +5,7 @@ import type { ReactNode } from "react";
 interface EmptyStateProps {
   title: string;
   description?: ReactNode;
-  /** 下次更新日（如有，顯示「下次更新：…」一行）。 */
+  /** 下次排定掃描日（如有，顯示「下次掃描：…」一行）。 */
   nextUpdate?: string;
   /** 行動按鈕（如「看即將到來」連結）。 */
   action?: { href: string; label: string };
@@ -15,7 +15,7 @@ interface EmptyStateProps {
 
 /**
  * 空狀態：本週／當日無適合活動時顯示。
- * 可附下次更新日與一個導引連結（如「即將到來」）。
+ * 可附下次排定掃描日與一個導引連結（如「即將到來」）。
  */
 export function EmptyState({
   title,
@@ -47,7 +47,7 @@ export function EmptyState({
       )}
       {nextUpdate && (
         <p className="mt-1 text-sm text-[var(--color-text-secondary)]">
-          下次更新：{nextUpdate}
+          下次掃描：{nextUpdate}
         </p>
       )}
       {action && (

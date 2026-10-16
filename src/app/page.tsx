@@ -8,6 +8,7 @@ import {
   getUpcomingEvents,
 } from "@/lib/data";
 import { formatNextUpdate } from "@/lib/utils";
+import { SCAN_DAYS_LABEL, SCAN_TIME_LABEL } from "@/lib/scan-schedule";
 
 export default function HomePage() {
   const digest = getLatestDigest();
@@ -67,7 +68,7 @@ export default function HomePage() {
       )}
 
       <p className="mt-8 text-center text-[11.5px] leading-[1.7] text-[var(--color-text-secondary)]">
-        親子活動雷達 · 每週二、四自動更新 · 以主辦單位公告為準
+        親子活動雷達 · 每{SCAN_DAYS_LABEL}台北時間 {SCAN_TIME_LABEL} 開始掃描 · 以主辦單位公告為準
       </p>
     </div>
   );
