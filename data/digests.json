@@ -195,5 +195,16 @@
       "ntpc-fuzhong-fantasy-city-family-night-2026-10-24",
       "ntpc-fuzhong-halloween-trickortreat-2026-10-31"
     ]
+  },
+  {
+    "weekOf": "2026-W43",
+    "intro": "本週五（10/23）天母萬聖遊行先暖場，週六（10/24）天母萬聖嘉年華、府中奇幻城市之夜、北市萬聖變裝派對同天登場，選擇超多！下週六（10/31）白晝之夜移師圓山，傍晚前帶小小孩去最剛好。",
+    "highlightEventIds": [
+      "tianmu-halloween-parade-2026-10-23",
+      "tianmu-halloween-2026-10-24",
+      "ntpc-fuzhong-fantasy-city-family-night-2026-10-24",
+      "tcap-halloween-costume-party-2026-10-24",
+      "nuitblanche-taipei-yuanshan-2026-10-31"
+    ]
   }
 ]

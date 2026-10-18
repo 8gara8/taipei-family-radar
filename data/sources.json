@@ -14,7 +14,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.goethe.de/ins/tw/",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
     "lastStatus": "ok"
   },
   {
@@ -23,7 +23,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://france-taipei.org/",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
     "lastStatus": "ok"
   },
   {
@@ -32,7 +32,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.ait.org.tw/",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
     "lastStatus": "ok"
   },
   {
@@ -59,8 +59,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://event.culture.tw/",
-    "lastScannedAt": "2026-10-13T02:41:09+08:00",
-    "lastStatus": "partial"
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
+    "lastStatus": "ok"
   },
   {
     "id": "yii-cksmh",
@@ -131,7 +131,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.travel.taipei/zh-tw/event/calendar",
-    "lastScannedAt": "2026-10-13T02:41:09+08:00",
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
     "lastStatus": "partial"
   },
   {
@@ -194,8 +194,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://cultureexpress.taipei/",
-    "lastScannedAt": "2026-10-13T02:41:09+08:00",
-    "lastStatus": "partial"
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
+    "lastStatus": "ok"
   },
   {
     "id": "ntpc-youth",
@@ -212,7 +212,7 @@
     "type": "gov-calendar",
     "stream": "cultural",
     "url": "https://klpas.klcg.gov.tw/",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
     "lastStatus": "ok"
   },
   {
@@ -221,7 +221,7 @@
     "type": "venue",
     "stream": "cultural",
     "url": "https://tpml.gov.taipei/",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
     "lastStatus": "ok"
   },
   {
@@ -257,7 +257,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.klcg.gov.tw/tw/klcg1/3168.html",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
     "lastStatus": "ok"
   },
   {
@@ -320,7 +320,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=59&os=4",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
     "lastStatus": "ok"
   },
   {
@@ -338,7 +338,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=128&os=26",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
     "lastStatus": "ok"
   },
   {
@@ -347,7 +347,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=176&os=59",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
     "lastStatus": "ok"
   },
   {
@@ -374,7 +374,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.facebook.com/ITATW/",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
     "lastStatus": "ok"
   },
   {
@@ -383,7 +383,7 @@
     "type": "venue",
     "stream": "cultural",
     "url": "https://www.ntm.gov.tw/",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
     "lastStatus": "ok"
   },
   {
@@ -419,7 +419,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://taipei.czechcentres.gov.cz/zh/program",
-    "lastScannedAt": "2026-10-12T02:09:39.849249+08:00",
+    "lastScannedAt": "2026-10-18T18:14:10.689Z",
     "lastStatus": "ok"
   },
   {
