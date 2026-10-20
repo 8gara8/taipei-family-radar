@@ -1358,6 +1358,37 @@
     "weekFound": "2026-W33"
   },
   {
+    "id": "ntpc-christmasland-opening-2026-11-13",
+    "title": "2026新北歡樂耶誕城 開城點燈",
+    "titleOriginal": "2026新北歡樂耶誕城",
+    "stream": "outdoor",
+    "category": "festival",
+    "organizer": "新北市政府",
+    "venue": "板橋市民廣場",
+    "address": "新北市板橋區中山路一段(新北市政府前)",
+    "area": "新北市板橋區",
+    "startDate": "2026-11-13",
+    "endDate": null,
+    "startTime": "17:30",
+    "isFree": true,
+    "priceNote": "免費入場",
+    "ageFit": "great",
+    "ageFitReason": "燈飾色彩繽紛、主燈秀每半小時一場，2歲和4歲都能邊走邊看，互動拍照點多。",
+    "summary": "邁入第15屆的新北歡樂耶誕城11/13開城點燈，活動至12/27，每天17:30–23:00主燈秀在市民廣場整點、半點各演出一場（約5分鐘），22:30後為無聲版。萬坪公園有萌系IP童話漫遊區，板橋車站前有歐風市集造景，適合帶小小孩散步拍照，全程免費入場。",
+    "sourceName": "ntpc-christmasland",
+    "sourceUrl": "https://christmasland.ntpc.gov.tw/",
+    "tags": [
+      "戶外",
+      "耶誕",
+      "燈節",
+      "市集",
+      "親子"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-10-20T09:40:02+08:00",
+    "weekFound": "2026-W43"
+  },
+  {
     "id": "pcsdance-final-2026-11-14",
     "title": "2026總統盃街舞大賽 決賽（凱達格蘭大道）",
     "titleOriginal": "2026 Presidential Cup Street Dance Competition Final",
