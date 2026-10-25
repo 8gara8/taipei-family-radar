@@ -206,5 +206,16 @@
       "tcap-halloween-costume-party-2026-10-24",
       "nuitblanche-taipei-yuanshan-2026-10-31"
     ]
+  },
+  {
+    "weekOf": "2026-W44",
+    "intro": "今明兩天（10/26-27）心中山還可以討糖。這週末（10/31-11/1）是萬聖節重頭戲：白晝之夜移師圓山整夜不打烊，府中搞什麼鬼加碼萌寵變裝組。11/13新北耶誕城點燈，耶誕季正式開跑！",
+    "highlightEventIds": [
+      "xinzhongshan-halloween-trickortreat-2026-10-26",
+      "nuitblanche-taipei-yuanshan-2026-10-31",
+      "ntpc-fuzhong-halloween-trickortreat-2026-10-31",
+      "tam-free-stargazing-2026-10-31",
+      "ntpc-christmasland-opening-2026-11-13"
+    ]
   }
 ]
