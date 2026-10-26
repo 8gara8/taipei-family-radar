@@ -1,36 +1,5 @@
 [
   {
-    "id": "huashan-worklife-tribe-market-2026-09-25",
-    "title": "職感部落市集（華山場）",
-    "titleOriginal": "職感部落 WORK & LIFE TRIBE",
-    "stream": "outdoor",
-    "category": "market",
-    "organizer": "小小市集",
-    "venue": "華山1914文創園區",
-    "address": "台北市中正區八德路一段1號",
-    "area": "台北市中正區",
-    "startDate": "2026-09-25",
-    "endDate": "2026-09-28",
-    "startTime": "13:00",
-    "isFree": true,
-    "priceNote": "免費入場（商品需付費）",
-    "ageFit": "ok",
-    "ageFitReason": "陶藝、金工、植栽等手作攤位適合大人慢逛，帶幼兒可在戶外廣場走走看看攤位，較適合能安靜逛市集的4歲。",
-    "summary": "集結陶藝、金工、插畫、香氛、植栽等手作職人與風格品牌的市集回到華山，平日13:00-19:00、假日12:00-19:00開放，免費入場，適合親子假日午後散步逛市集。",
-    "sourceName": "華山1914文創園區",
-    "sourceUrl": "https://www.huashan1914.com/w/huashan1914/exhibition_26090217051530502",
-    "tags": [
-      "戶外",
-      "市集",
-      "手作",
-      "免費",
-      "中正"
-    ],
-    "status": "past",
-    "discoveredAt": "2026-09-08T02:10:00+08:00",
-    "weekFound": "2026-W37"
-  },
-  {
     "id": "daanpark-eco-walk-2026-10-01",
     "title": "大安森林公園生態解說 10月平日場（10/1）",
     "titleOriginal": "大安森林公園生態解說活動2026年10月份平日場01",
@@ -627,7 +596,7 @@
       "免費",
       "中正區"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-07-04T11:20:00+08:00",
     "weekFound": "2026-W27"
   },
@@ -686,7 +655,7 @@
       "變裝",
       "免費入園"
     ],
-    "status": "upcoming",
+    "status": "past",
     "discoveredAt": "2026-08-17T02:10:30+08:00",
     "weekFound": "2026-W34"
   },
@@ -1415,5 +1384,37 @@
     "status": "upcoming",
     "discoveredAt": "2026-09-07T02:08:13+08:00",
     "weekFound": "2026-W37"
+  },
+  {
+    "id": "ncl-taiwan-reading-festival-2026-12-05",
+    "title": "臺灣閱讀節（中正紀念堂園區）",
+    "titleOriginal": "2026 臺灣閱讀節",
+    "stream": "outdoor",
+    "category": "festival",
+    "organizer": "國家圖書館",
+    "venue": "國立中正紀念堂（自由廣場／中正紀念堂園區）",
+    "address": "台北市中正區中山南路21號",
+    "area": "台北市中正區",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-06",
+    "startTime": "10:00",
+    "isFree": true,
+    "priceNote": "免費參加（戶外廣場開放空間，無需購票）",
+    "ageFit": "great",
+    "ageFitReason": "歡樂故事村、小小愛書人等繪本故事活動專為兒童設計，戶外廣場好推車，2-4歲都能邊曬太陽邊聽故事。",
+    "summary": "國家圖書館主辦的年度閱讀嘉年華移師中正紀念堂園區戶外廣場，歷屆都有歡樂故事村、小小愛書人等繪本故事時間，還有書香市集、行動書車與手作體驗攤位。戶外開放空間免費參加，很適合帶2-4歲孩子邊散步邊聽故事、逛市集。",
+    "sourceName": "臺北市大型群聚活動行事曆（市民廣場等）",
+    "sourceUrl": "https://majorevent.gov.taipei/News.aspx?n=3D3E2948CDA72DD8&sms=E2A80B3BD6378AB0",
+    "tags": [
+      "戶外",
+      "市集",
+      "免費",
+      "閱讀",
+      "中正區",
+      "親子"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-10-27T02:18:51+08:00",
+    "weekFound": "2026-W44"
   }
 ]
