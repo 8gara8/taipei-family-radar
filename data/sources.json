@@ -5,8 +5,8 @@
     "type": "gov-calendar",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC.aspx",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "goethe-taipei",
@@ -14,8 +14,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.goethe.de/ins/tw/",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "france-taipei",
@@ -23,8 +23,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://france-taipei.org/",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "ait",
@@ -41,8 +41,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.koryu.or.jp/taipei/",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "cksmh",
@@ -131,7 +131,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.travel.taipei/zh-tw/event/calendar",
-    "lastScannedAt": "2026-10-27T02:18:51+08:00",
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -212,8 +212,8 @@
     "type": "gov-calendar",
     "stream": "cultural",
     "url": "https://klpas.klcg.gov.tw/",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "tpml",
@@ -221,7 +221,7 @@
     "type": "venue",
     "stream": "cultural",
     "url": "https://tpml.gov.taipei/",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
     "lastStatus": "ok"
   },
   {
@@ -320,8 +320,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=59&os=4",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "thailand-tteo",
@@ -329,8 +329,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=186&os=13",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "vietnam-office",
@@ -338,8 +338,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=128&os=26",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "indonesia-kdei",
@@ -347,8 +347,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=176&os=59",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "british-office-taipei",
@@ -374,8 +374,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.facebook.com/ITATW/",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "national-taiwan-museum",
@@ -383,8 +383,8 @@
     "type": "venue",
     "stream": "cultural",
     "url": "https://www.ntm.gov.tw/",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "mrt-taipei",
@@ -419,8 +419,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://taipei.czechcentres.gov.cz/zh/program",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "ntsec",
@@ -473,8 +473,8 @@
     "type": "gov-calendar",
     "stream": "outdoor",
     "url": "https://klctb.klcg.gov.tw/",
-    "lastScannedAt": "2026-09-29T02:11:55+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "pokemongo-official",
@@ -518,7 +518,25 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://christmasland.ntpc.gov.tw/",
-    "lastScannedAt": "2026-10-20T09:40:02+08:00",
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "ahk-taipei",
+    "name": "德國貿易辦事處 AHK Taipei（德國聖誕市集）",
+    "type": "cultural-institute",
+    "stream": "cultural",
+    "url": "https://taiwan.ahk.de/tw/event-2026/2026-german-christmas-market-new-taipei-taipei-taoyuan",
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "swingtaiwan-xmas",
+    "name": "台北聖誕節活動懶人包（Swing Taiwan）",
+    "type": "aggregator",
+    "stream": "both",
+    "url": "https://www.swingtaiwan.com/xmas-events/",
+    "lastScannedAt": "2026-11-01T18:30:00+08:00",
     "lastStatus": "ok"
   }
 ]

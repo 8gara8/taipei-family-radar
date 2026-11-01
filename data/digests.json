@@ -209,13 +209,13 @@
   },
   {
     "weekOf": "2026-W44",
-    "intro": "今天（10/27）心中山萬聖市集最後一天，下班還能討糖。這週末（10/31-11/1）才是重頭戲：白晝之夜移師圓山整夜不打烊，府中搞什麼鬼加碼萌寵組。11/13新北耶誕城點燈，耶誕季開跑！",
+    "intro": "白晝之夜圓山展區、府中萬聖討糖今天都是最後一天，傍晚前去剛好。下週六（11/7）天文館免費觀星，週日有英語故事時間。11/13新北耶誕城點燈，耶誕季要開跑了！",
     "highlightEventIds": [
-      "nuitblanche-taipei-yuanshan-2026-10-31",
-      "ntpc-fuzhong-halloween-trickortreat-2026-10-31",
-      "tam-free-stargazing-2026-10-31",
-      "ntpc-christmasland-opening-2026-11-13",
-      "ncl-taiwan-reading-festival-2026-12-05"
+      "ntpc-fuzhong-halloween-trickortreat-2026-11-01",
+      "tpml-small-world-english-story-2026-11-01",
+      "tam-free-stargazing-2026-11-07",
+      "tpml-small-world-english-story-2026-11-08",
+      "ntpc-christmasland-opening-2026-11-13"
     ]
   }
 ]
