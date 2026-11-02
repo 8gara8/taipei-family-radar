@@ -217,5 +217,16 @@
       "tpml-small-world-english-story-2026-11-08",
       "ntpc-christmasland-opening-2026-11-13"
     ]
+  },
+  {
+    "weekOf": "2026-W45",
+    "intro": "這週六（11/7）天文館晚間免費觀星，帶孩子看月亮；11/8 北市圖有英語故事時間。下週末（11/13–15）科學嘉年華、新北耶誕城點燈，11/14 凱道還有街舞決賽。",
+    "highlightEventIds": [
+      "tam-free-stargazing-2026-11-07",
+      "tpml-small-world-english-story-2026-11-08",
+      "ntsec-science-festival-carnival-2026-11-13",
+      "ntpc-christmasland-opening-2026-11-13",
+      "pcsdance-final-2026-11-14"
+    ]
   }
 ]
