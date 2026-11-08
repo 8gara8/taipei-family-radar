@@ -14,7 +14,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.goethe.de/ins/tw/",
-    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastScannedAt": "2026-11-09T02:15:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -23,7 +23,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://france-taipei.org/",
-    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastScannedAt": "2026-11-09T02:15:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -32,8 +32,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.ait.org.tw/",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-09T02:15:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "japan-exchange",
@@ -41,8 +41,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.koryu.or.jp/taipei/",
-    "lastScannedAt": "2026-11-01T18:30:00+08:00",
-    "lastStatus": "partial"
+    "lastScannedAt": "2026-11-09T02:15:00+08:00",
+    "lastStatus": "failed"
   },
   {
     "id": "cksmh",
@@ -320,7 +320,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=59&os=4",
-    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastScannedAt": "2026-11-09T02:15:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -329,7 +329,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=186&os=13",
-    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastScannedAt": "2026-11-09T02:15:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -338,7 +338,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=128&os=26",
-    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastScannedAt": "2026-11-09T02:15:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -347,7 +347,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=176&os=59",
-    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastScannedAt": "2026-11-09T02:15:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -374,7 +374,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.facebook.com/ITATW/",
-    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastScannedAt": "2026-11-09T02:15:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -419,8 +419,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://taipei.czechcentres.gov.cz/zh/program",
-    "lastScannedAt": "2026-11-01T18:30:00+08:00",
-    "lastStatus": "partial"
+    "lastScannedAt": "2026-11-09T02:15:00+08:00",
+    "lastStatus": "ok"
   },
   {
     "id": "ntsec",
@@ -527,7 +527,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://taiwan.ahk.de/tw/event-2026/2026-german-christmas-market-new-taipei-taipei-taoyuan",
-    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastScannedAt": "2026-11-09T02:15:00+08:00",
     "lastStatus": "ok"
   },
   {
@@ -536,7 +536,7 @@
     "type": "aggregator",
     "stream": "both",
     "url": "https://www.swingtaiwan.com/xmas-events/",
-    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastScannedAt": "2026-11-09T02:15:00+08:00",
     "lastStatus": "ok"
   }
 ]

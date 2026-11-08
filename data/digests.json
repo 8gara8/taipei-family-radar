@@ -228,5 +228,16 @@
       "ntpc-christmasland-opening-2026-11-13",
       "pcsdance-final-2026-11-14"
     ]
+  },
+  {
+    "weekOf": "2026-W46",
+    "intro": "這週五（11/13）新北耶誕城點燈，耶誕季開跑！週六（11/14）天文館免費觀星、總統盃街舞決賽同天登場，科學嘉年華也在週末展開。下週六（11/21）松菸有選物市集可以逛逛。",
+    "highlightEventIds": [
+      "ntpc-christmasland-opening-2026-11-13",
+      "ntsec-science-festival-carnival-2026-11-13",
+      "pcsdance-final-2026-11-14",
+      "tam-free-stargazing-2026-11-14",
+      "tpml-small-world-english-story-2026-11-15"
+    ]
   }
 ]
