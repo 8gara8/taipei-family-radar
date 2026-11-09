@@ -122,8 +122,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://majorevent.gov.taipei/",
-    "lastScannedAt": "2026-11-03T02:08:26+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-10T09:00:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "travel-taipei",
@@ -131,7 +131,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.travel.taipei/zh-tw/event/calendar",
-    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastScannedAt": "2026-11-10T09:00:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -158,8 +158,8 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://tpac.org.taipei/festival-tcaf",
-    "lastScannedAt": "2026-11-03T02:08:26+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-10T09:00:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "ccct-canada",
@@ -194,7 +194,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://cultureexpress.taipei/",
-    "lastScannedAt": "2026-10-27T02:18:51+08:00",
+    "lastScannedAt": "2026-11-10T09:00:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -518,8 +518,8 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://christmasland.ntpc.gov.tw/",
-    "lastScannedAt": "2026-11-01T18:30:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-10T09:00:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "ahk-taipei",
