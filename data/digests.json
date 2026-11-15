@@ -239,5 +239,16 @@
       "tam-free-stargazing-2026-11-14",
       "tpml-small-world-english-story-2026-11-15"
     ]
+  },
+  {
+    "weekOf": "2026-W47",
+    "intro": "本週五（11/20）北市圖雙語故事時間，這週末（11/21-22）松菸選物市集、週六天文館免費觀星都能去。12月初歐洲聖誕市集、德國聖誕市集接力登場，耶誕氣氛要來了！",
+    "highlightEventIds": [
+      "tpml-qbaby-bilingual-story-2026-11-20",
+      "tam-free-stargazing-2026-11-21",
+      "songshan-richang-riucangxuanwushi-2026-11-21",
+      "tpml-small-world-english-story-2026-11-22",
+      "aft-european-xmas-carnival-2026-12-03"
+    ]
   }
 ]
