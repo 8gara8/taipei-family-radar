@@ -242,13 +242,13 @@
   },
   {
     "weekOf": "2026-W47",
-    "intro": "本週五（11/20）北市圖雙語故事時間，這週末（11/21-22）松菸選物市集、週六天文館免費觀星都能去。12月初歐洲聖誕市集、德國聖誕市集接力登場，耶誕氣氛要來了！",
+    "intro": "這週末（11/21–22）就去板橋耶誕城：週六環保挖寶市集，週日看雪球搶旗、極限走繩；週六晚上天文館免費觀星。下週六（11/28）還有觀星，12/19耶誕城管樂嘉年華、12/20平安晚會詩班唱詩歌。",
     "highlightEventIds": [
-      "tpml-qbaby-bilingual-story-2026-11-20",
+      "ntpc-christmasland-winter-sports-2026-11-22",
+      "ntpc-christmasland-eco-treasure-2026-11-21",
       "tam-free-stargazing-2026-11-21",
       "songshan-richang-riucangxuanwushi-2026-11-21",
-      "tpml-small-world-english-story-2026-11-22",
-      "aft-european-xmas-carnival-2026-12-03"
+      "tam-free-stargazing-2026-11-28"
     ]
   }
 ]
