@@ -132,7 +132,7 @@
     "stream": "both",
     "url": "https://www.travel.taipei/zh-tw/event/calendar",
     "lastScannedAt": "2026-11-17T09:00:00+08:00",
-    "lastStatus": "error"
+    "lastStatus": "failed"
   },
   {
     "id": "ntpc-culture",
@@ -474,7 +474,7 @@
     "stream": "outdoor",
     "url": "https://klctb.klcg.gov.tw/",
     "lastScannedAt": "2026-11-17T09:00:00+08:00",
-    "lastStatus": "error"
+    "lastStatus": "failed"
   },
   {
     "id": "pokemongo-official",
