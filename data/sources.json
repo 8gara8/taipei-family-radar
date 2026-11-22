@@ -14,7 +14,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.goethe.de/ins/tw/",
-    "lastScannedAt": "2026-11-16T02:30:00+08:00",
+    "lastScannedAt": "2026-11-23T02:11:24+08:00",
     "lastStatus": "partial"
   },
   {
@@ -23,7 +23,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://france-taipei.org/",
-    "lastScannedAt": "2026-11-16T02:30:00+08:00",
+    "lastScannedAt": "2026-11-23T02:11:24+08:00",
     "lastStatus": "partial"
   },
   {
@@ -32,8 +32,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.ait.org.tw/",
-    "lastScannedAt": "2026-11-16T02:30:00+08:00",
-    "lastStatus": "partial"
+    "lastScannedAt": "2026-11-23T02:11:24+08:00",
+    "lastStatus": "failed"
   },
   {
     "id": "japan-exchange",
@@ -122,7 +122,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://majorevent.gov.taipei/",
-    "lastScannedAt": "2026-11-17T09:00:00+08:00",
+    "lastScannedAt": "2026-11-23T02:11:24+08:00",
     "lastStatus": "ok"
   },
   {
@@ -131,8 +131,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.travel.taipei/zh-tw/event/calendar",
-    "lastScannedAt": "2026-11-17T09:00:00+08:00",
-    "lastStatus": "failed"
+    "lastScannedAt": "2026-11-23T02:11:24+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "ntpc-culture",
@@ -212,7 +212,7 @@
     "type": "gov-calendar",
     "stream": "cultural",
     "url": "https://klpas.klcg.gov.tw/",
-    "lastScannedAt": "2026-11-01T18:30:00+08:00",
+    "lastScannedAt": "2026-11-23T02:11:24+08:00",
     "lastStatus": "partial"
   },
   {
@@ -320,7 +320,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.mofa.gov.tw/OfficesInROC_Content.aspx?n=169&sms=86&s=59&os=4",
-    "lastScannedAt": "2026-11-16T02:30:00+08:00",
+    "lastScannedAt": "2026-11-23T02:11:24+08:00",
     "lastStatus": "partial"
   },
   {
@@ -374,7 +374,7 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://www.facebook.com/ITATW/",
-    "lastScannedAt": "2026-11-16T02:30:00+08:00",
+    "lastScannedAt": "2026-11-23T02:11:24+08:00",
     "lastStatus": "partial"
   },
   {
@@ -419,8 +419,8 @@
     "type": "cultural-institute",
     "stream": "cultural",
     "url": "https://taipei.czechcentres.gov.cz/zh/program",
-    "lastScannedAt": "2026-11-16T02:30:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-23T02:11:24+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "ntsec",
