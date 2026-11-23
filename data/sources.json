@@ -122,7 +122,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://majorevent.gov.taipei/",
-    "lastScannedAt": "2026-11-23T02:11:24+08:00",
+    "lastScannedAt": "2026-11-24T10:30:00+08:00",
     "lastStatus": "ok"
   },
   {
@@ -131,7 +131,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.travel.taipei/zh-tw/event/calendar",
-    "lastScannedAt": "2026-11-23T02:11:24+08:00",
+    "lastScannedAt": "2026-11-24T10:30:00+08:00",
     "lastStatus": "partial"
   },
   {
@@ -194,8 +194,8 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://cultureexpress.taipei/",
-    "lastScannedAt": "2026-11-17T09:00:00+08:00",
-    "lastStatus": "ok"
+    "lastScannedAt": "2026-11-24T10:30:00+08:00",
+    "lastStatus": "partial"
   },
   {
     "id": "ntpc-youth",
@@ -257,7 +257,7 @@
     "type": "gov-calendar",
     "stream": "both",
     "url": "https://www.klcg.gov.tw/tw/klcg1/3168.html",
-    "lastScannedAt": "2026-10-26T02:15:00+08:00",
+    "lastScannedAt": "2026-11-24T10:30:00+08:00",
     "lastStatus": "ok"
   },
   {
@@ -401,7 +401,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://tam.gov.taipei/",
-    "lastScannedAt": "2026-11-17T09:00:00+08:00",
+    "lastScannedAt": "2026-11-24T10:30:00+08:00",
     "lastStatus": "ok"
   },
   {
@@ -518,7 +518,7 @@
     "type": "venue",
     "stream": "outdoor",
     "url": "https://christmasland.ntpc.gov.tw/",
-    "lastScannedAt": "2026-11-17T09:00:00+08:00",
+    "lastScannedAt": "2026-11-24T10:30:00+08:00",
     "lastStatus": "ok"
   },
   {
@@ -536,7 +536,7 @@
     "type": "aggregator",
     "stream": "both",
     "url": "https://www.swingtaiwan.com/xmas-events/",
-    "lastScannedAt": "2026-11-17T09:00:00+08:00",
+    "lastScannedAt": "2026-11-24T10:30:00+08:00",
     "lastStatus": "ok"
   }
 ]

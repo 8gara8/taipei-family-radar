@@ -253,11 +253,11 @@
   },
   {
     "weekOf": "2026-W48",
-    "intro": "這週六（11/28）天文館免費觀星、週日（11/29）北市圖英語故事時間。下週（12/3起）信義區歐洲聖誕市集、新北德國聖誕市集接力登場，12/5-6還有臺灣閱讀節可逛書市。",
+    "intro": "這週末（11/28–29）板橋耶誕城有耶誕市集和聖誕老人見面會，週六晚上天文館免費觀星（週六是選舉日，記得先投票）。下週（12/4–6）德國耶誕市集、中正紀念堂臺灣閱讀節接力登場。",
     "highlightEventIds": [
+      "ntpc-christmasland-xmas-market-esports-2026-11-27",
       "tam-free-stargazing-2026-11-28",
       "tpml-small-world-english-story-2026-11-29",
-      "aft-european-xmas-carnival-2026-12-03",
       "ahk-german-xmas-market-ntpc-2026-12-04",
       "ncl-taiwan-reading-festival-2026-12-05"
     ]
