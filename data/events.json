@@ -664,6 +664,38 @@
     "weekFound": "2026-W47"
   },
   {
+    "id": "ntpc-christmasland-xmas-market-esports-2026-11-27",
+    "title": "新北耶誕城｜2026新北耶誕市集（聖誕老人見面會．舞台互動）",
+    "titleOriginal": "2026新北耶誕市集X亞洲電子競技公開賽",
+    "stream": "outdoor",
+    "category": "market",
+    "organizer": "新北市政府經濟發展局",
+    "venue": "新北歡樂耶誕城會場（新北市民廣場周邊）",
+    "address": "新北市板橋區中山路一段161號（新北市政府周邊）",
+    "area": "新北市板橋區",
+    "startDate": "2026-11-27",
+    "endDate": "2026-11-29",
+    "startTime": "11:00",
+    "isFree": true,
+    "priceNote": "戶外自由入場，免費（市集商品需付費）",
+    "ageFit": "great",
+    "ageFitReason": "白天就能逛，有聖誕老人見面會可合照，順便玩耶誕城免費遊樂設施。",
+    "summary": "耶誕城連續三天（11:00–22:00）的耶誕市集，近百家新北特色店家、伴手禮與市場美食，現場有聖誕老人見面會和舞台互動。11/28–29同場舉辦電競總決賽，人潮較多，建議白天帶孩子逛市集、見聖誕老人，傍晚留下來看17:30亮燈與主燈秀。",
+    "sourceName": "2026新北歡樂耶誕城（新北市政府官網）",
+    "sourceUrl": "https://christmasland.ntpc.gov.tw/event-detail.php?i=202",
+    "tags": [
+      "戶外",
+      "耶誕",
+      "市集",
+      "聖誕老人",
+      "板橋",
+      "週末"
+    ],
+    "status": "upcoming",
+    "discoveredAt": "2026-11-24T10:30:00+08:00",
+    "weekFound": "2026-W48"
+  },
+  {
     "id": "tam-free-stargazing-2026-11-28",
     "title": "臺北市立天文科學教育館 免費觀星（週六場．11/28）",
     "stream": "outdoor",
@@ -1300,37 +1332,5 @@
     "status": "upcoming",
     "discoveredAt": "2026-11-01T18:30:00+08:00",
     "weekFound": "2026-W44"
-  },
-  {
-    "id": "ntpc-christmasland-xmas-market-esports-2026-11-27",
-    "title": "新北耶誕城｜2026新北耶誕市集（聖誕老人見面會．舞台互動）",
-    "titleOriginal": "2026新北耶誕市集X亞洲電子競技公開賽",
-    "stream": "outdoor",
-    "category": "market",
-    "organizer": "新北市政府經濟發展局",
-    "venue": "新北歡樂耶誕城會場（新北市民廣場周邊）",
-    "address": "新北市板橋區中山路一段161號（新北市政府周邊）",
-    "area": "新北市板橋區",
-    "startDate": "2026-11-27",
-    "endDate": "2026-11-29",
-    "startTime": "11:00",
-    "isFree": true,
-    "priceNote": "戶外自由入場，免費（市集商品需付費）",
-    "ageFit": "great",
-    "ageFitReason": "白天就能逛，有聖誕老人見面會可合照，順便玩耶誕城免費遊樂設施。",
-    "summary": "耶誕城連續三天（11:00–22:00）的耶誕市集，近百家新北特色店家、伴手禮與市場美食，現場有聖誕老人見面會和舞台互動。11/28–29同場舉辦電競總決賽，人潮較多，建議白天帶孩子逛市集、見聖誕老人，傍晚留下來看17:30亮燈與主燈秀。",
-    "sourceName": "2026新北歡樂耶誕城（新北市政府官網）",
-    "sourceUrl": "https://christmasland.ntpc.gov.tw/event-detail.php?i=202",
-    "tags": [
-      "戶外",
-      "耶誕",
-      "市集",
-      "聖誕老人",
-      "板橋",
-      "週末"
-    ],
-    "status": "upcoming",
-    "discoveredAt": "2026-11-24T10:30:00+08:00",
-    "weekFound": "2026-W48"
   }
 ]
